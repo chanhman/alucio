@@ -1,8 +1,6 @@
 backend:
-  name: bitbucket
+  name: git-gateway
   branch: master
-  repo: chanhlemonlime/netlify-test
-  app_id: AC8A4g6Mc5V35AWQMb
 media_folder: static/img
 slug:
   encoding: 'ascii'
