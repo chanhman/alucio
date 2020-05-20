@@ -17,6 +17,14 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Publish Date', name: 'date', widget: 'datetime' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Hero heading', name: 'heroHeading', widget: 'string' }
+          - { label: 'Hero description', name: 'heroDescription', widget: 'string' }
+          - { label: 'Features heading', name: 'featuresHeading', widget: 'string' }
+          - { label: 'Feature one', name: 'featureOne', widget: 'string' }
+          - { label: 'Feature two', name: 'featureTwo', widget: 'string' }
+          - { label: 'Feature three', name: 'featureThree', widget: 'string' }
+          - { label: 'Beacon heading', name: 'beaconHeading', widget: 'string' }
+          - { label: 'Deacon description', name: 'beaconDescription', widget: 'string' }
       - label: 'About'
         name: 'about'
         file: 'content/about.md'
