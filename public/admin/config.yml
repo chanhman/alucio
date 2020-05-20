@@ -8,6 +8,8 @@ slug:
   sanitize_replacement: '_'
 collections:
   - name: 'pages'
+    editor:
+      preview: false
     label: 'Pages'
     files:
       - label: 'Home'
@@ -32,6 +34,8 @@ collections:
           - { label: 'Test dan test', name: 'dan', widget: 'string' }
   - label: 'Blog'
     name: 'blog'
+    editor:
+      preview: false
     folder: 'content/blogPosts'
     create: true
     slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
