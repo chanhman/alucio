@@ -16,8 +16,13 @@ collections:
         name: 'home'
         file: 'content/home.md'
         fields:
-          - { label: 'Hero heading', name: 'heroHeading', widget: 'string' }
-          - { label: 'Hero description', name: 'heroDescription', widget: 'string' }
+          - label: 'Hero'
+            name: 'hero'
+            widget: 'object'
+            collapsed: false
+            fields:
+              - { label: 'Hero heading', name: 'heroHeading', widget: 'string' }
+              - { label: 'Hero description', name: 'heroDescription', widget: 'string' }
           - { label: 'Features heading', name: 'featuresHeading', widget: 'string' }
           - { label: 'Feature one', name: 'featureOne', widget: 'string' }
           - { label: 'Feature two', name: 'featureTwo', widget: 'string' }
