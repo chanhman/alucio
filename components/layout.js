@@ -1,7 +1,11 @@
+import Head from 'next/head'
 import Link from 'next/link'
 
 const Layout = ({ children }) => (
   <>
+    <Head>
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    </Head>
     <nav>
       <Link href="/">
         <a>home</a>
@@ -14,19 +18,6 @@ const Layout = ({ children }) => (
       </Link>
     </nav>
     <main>{children}</main>
-    <style jsx>{`
-      nav {
-        text-align: center;
-      }
-      nav a {
-        margin-right: 2px;
-        padding: 4px;
-      }
-      main {
-        display: flex;
-        flex-direction: column;
-      }
-    `}</style>
   </>
 )
 
