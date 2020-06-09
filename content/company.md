@@ -1,5 +1,7 @@
 ---
 testimonials:
+  - quote: Everything is awesome!
+    author: Wabbit
 title: Company
 hero__heading: Our Vision
 hero__description: Alucio™ is working to transform scientific exchange in life
