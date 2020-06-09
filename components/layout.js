@@ -8,13 +8,22 @@ const Layout = ({ children }) => (
     </Head>
     <nav>
       <Link href="/">
-        <a>home</a>
+        <a>Home</a>
       </Link>
-      <Link href="/blog">
-        <a>blog</a>
+      <Link href="/company">
+        <a>Company</a>
       </Link>
-      <Link href="/about">
-        <a>about</a>
+      <Link href="/experience">
+        <a>Experience</a>
+      </Link>
+      <Link href="/partners">
+        <a>Partners</a>
+      </Link>
+      <Link href="/perspectives">
+        <a>Perspectives</a>
+      </Link>
+      <Link href="/product">
+        <a>Product</a>
       </Link>
     </nav>
     <main>{children}</main>

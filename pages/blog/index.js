@@ -19,7 +19,7 @@ const importBlogPosts = async () => {
 const Blog = ({ postsList }) => (
   <Layout>
     {postsList.map((post) => (
-      <div key={post.slug} className="post">
+      <div key={post.slug}>
         <Link href="/blog/post/[slug]" as={`/blog/post/${post.slug}`}>
           <a>
             <img src={post.attributes.thumbnail} />
@@ -28,15 +28,6 @@ const Blog = ({ postsList }) => (
         </Link>
       </div>
     ))}
-    <style jsx>{`
-      .post {
-        text-align: center;
-      }
-      img {
-        max-width: 100%;
-        max-height: 300px;
-      }
-    `}</style>
   </Layout>
 )
 

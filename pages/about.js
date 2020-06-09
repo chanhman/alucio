@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import { attributes, html } from '../content/about.md'
 
 const About = () => (
@@ -6,12 +6,6 @@ const About = () => (
     <h1>{attributes.title}</h1>
     <h2>{attributes.dan}</h2>
     <div dangerouslySetInnerHTML={{ __html: html }} />
-    <style jsx>{`
-      h1,
-      div {
-        text-align: center;
-      }
-    `}</style>
   </Layout>
 )
 
