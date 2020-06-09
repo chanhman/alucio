@@ -73,6 +73,12 @@ collections:
         name: 'company'
         file: 'content/company.md'
         fields:
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+              - {label: Author, name: author, widget: string }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Hero heading', name: 'hero__heading', widget: 'string' }
           - { label: 'Hero description', name: 'hero__description', widget: 'string' }
