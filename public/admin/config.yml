@@ -38,28 +38,28 @@ collections:
         fields:
           - { label: 'Hero heading', name: 'heroHeading', widget: 'string' }
           - { label: 'Hero description', name: 'heroDescription', widget: 'string' }
-          - { label: 'productOverviewHeading', name: 'productOverviewHeading', widget: 'string' }
-          - { label: 'keyFeaturesHeading', name: 'keyFeaturesHeading', widget: 'string' }
-          - { label: 'keyFeaturesDescription', name: 'keyFeaturesDescription', widget: 'string' }
-          - { label: 'keyFeatureHeading1', name: 'keyFeatureHeading1', widget: 'string' }
-          - { label: 'keyFeatureDescription1', name: 'keyFeatureDescription1', widget: 'string' }
-          - { label: 'keyFeatureHeading2', name: 'keyFeatureHeading2', widget: 'string' }
-          - { label: 'keyFeatureDescription2', name: 'keyFeatureDescription2', widget: 'string' }
-          - { label: 'keyFeatureHeading3', name: 'keyFeatureHeading3', widget: 'string' }
-          - { label: 'keyFeatureDescription3', name: 'keyFeatureDescription3', widget: 'string' }
-          - { label: 'keyFeatureHeading4', name: 'keyFeatureHeading4', widget: 'string' }
-          - { label: 'keyFeatureDescription4', name: 'keyFeatureDescription4', widget: 'string' }
-          - { label: 'keyFeatureHeading5', name: 'keyFeatureHeading5', widget: 'string' }
-          - { label: 'keyFeatureDescription5', name: 'keyFeatureDescription5', widget: 'string' }
-          - { label: 'keyFeatureHeading6', name: 'keyFeatureHeading6', widget: 'string' }
-          - { label: 'keyFeatureDescription6', name: 'keyFeatureDescription6', widget: 'string' }
-          - { label: 'keyFeatureHeading7', name: 'keyFeatureHeading7', widget: 'string' }
-          - { label: 'keyFeatureDescription7', name: 'keyFeatureDescription7', widget: 'string' }
-          - { label: 'keyFeatureHeading8', name: 'keyFeatureHeading8', widget: 'string' }
-          - { label: 'keyFeatureDescription8', name: 'keyFeatureDescription8', widget: 'string' }
-          - { label: 'integratedVideoConferencingHeading', name: 'integratedVideoConferencingHeading', widget: 'string' }
-          - { label: 'integratedVideoConferencingDescription', name: 'integratedVideoConferencingDescription', widget: 'text' }
-          - { label: 'integratedVideoConferencingCTALabel', name: 'integratedVideoConferencingCTALabel', widget: 'string' }
+          - { label: 'Product overview heading', name: 'productOverviewHeading', widget: 'string' }
+          - { label: 'Key features heading', name: 'keyFeaturesHeading', widget: 'string' }
+          - { label: 'Key features description', name: 'keyFeaturesDescription', widget: 'string' }
+          - { label: 'Key feature heading1', name: 'keyFeatureHeading1', widget: 'string' }
+          - { label: 'Key feature description1', name: 'keyFeatureDescription1', widget: 'string' }
+          - { label: 'Key feature heading2', name: 'keyFeatureHeading2', widget: 'string' }
+          - { label: 'Key feature description2', name: 'keyFeatureDescription2', widget: 'string' }
+          - { label: 'Key feature heading3', name: 'keyFeatureHeading3', widget: 'string' }
+          - { label: 'Key feature description3', name: 'keyFeatureDescription3', widget: 'string' }
+          - { label: 'Key feature heading4', name: 'keyFeatureHeading4', widget: 'string' }
+          - { label: 'Key feature description4', name: 'keyFeatureDescription4', widget: 'string' }
+          - { label: 'Key feature heading5', name: 'keyFeatureHeading5', widget: 'string' }
+          - { label: 'Key feature description5', name: 'keyFeatureDescription5', widget: 'string' }
+          - { label: 'Key feature heading6', name: 'keyFeatureHeading6', widget: 'string' }
+          - { label: 'Key feature description6', name: 'keyFeatureDescription6', widget: 'string' }
+          - { label: 'Key feature heading7', name: 'keyFeatureHeading7', widget: 'string' }
+          - { label: 'Key feature description7', name: 'keyFeatureDescription7', widget: 'string' }
+          - { label: 'Key feature heading8', name: 'keyFeatureHeading8', widget: 'string' }
+          - { label: 'Key feature description8', name: 'keyFeatureDescription8', widget: 'string' }
+          - { label: 'Integrated video conferencing heading', name: 'integratedVideoConferencingHeading', widget: 'string' }
+          - { label: 'Integrated video conferencing description', name: 'integratedVideoConferencingDescription', widget: 'text' }
+          - { label: 'Integrated video conferencing cta label', name: 'integratedVideoConferencingCTALabel', widget: 'string' }
   - label: 'Blog'
     name: 'blog'
     editor:
