@@ -81,6 +81,19 @@ collections:
               - {label: Name, name: name, widget: string}
               - {label: Title, name: title, widget: string}
               - {label: Description, name: description, widget: string}
+          - label: "Product advisory board members"
+            name: "productAdvisoryBoardMembers"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Title, name: title, widget: string}
+              - {label: Company, name: company, widget: string}
+              - {label: LinkedIn, name: linkedIn, widget: string}
+          - label: "Values"
+            name: "values"
+            widget: "list"
+            fields:
+              - {label: Value, name: value, widget: string}
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Hero heading', name: 'hero__heading', widget: 'string' }
           - { label: 'Hero description', name: 'hero__description', widget: 'string' }
