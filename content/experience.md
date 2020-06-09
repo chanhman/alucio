@@ -8,8 +8,8 @@ quotes:
 partners__heading:
 partners__description:
 partners__logo:
-  - logo__file:
-    logo__name:
+  - file:
+    name:
 partnering__heading:
 partnering__description:
 ---
