@@ -119,8 +119,8 @@ collections:
         name: 'experience'
         file: 'content/experience.md'
         fields:
-          - { label: Title'', name: title'', widget: 'string' }
-          - { label: Hero description'', name: hero__description'', widget: 'string' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Hero description', name: 'hero__description', widget: 'string' }
           - { label: 'User feedback heading', name: 'userFeedback__heading', widget: 'string' }
           - { label: 'User feedback description', name: 'userFeedback__description', widget: 'string' }
           - label: "Quotes"
