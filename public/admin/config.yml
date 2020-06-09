@@ -36,30 +36,39 @@ collections:
         name: 'name'
         file: 'content/product.md'
         fields:
-          - { label: 'Hero heading', name: 'heroHeading', widget: 'string' }
-          - { label: 'Hero description', name: 'heroDescription', widget: 'string' }
-          - { label: 'Product overview heading', name: 'productOverviewHeading', widget: 'string' }
-          - { label: 'Key features heading', name: 'keyFeaturesHeading', widget: 'string' }
-          - { label: 'Key features description', name: 'keyFeaturesDescription', widget: 'string' }
-          - { label: 'Key feature heading1', name: 'keyFeatureHeading1', widget: 'string' }
-          - { label: 'Key feature description1', name: 'keyFeatureDescription1', widget: 'string' }
-          - { label: 'Key feature heading2', name: 'keyFeatureHeading2', widget: 'string' }
-          - { label: 'Key feature description2', name: 'keyFeatureDescription2', widget: 'string' }
-          - { label: 'Key feature heading3', name: 'keyFeatureHeading3', widget: 'string' }
-          - { label: 'Key feature description3', name: 'keyFeatureDescription3', widget: 'string' }
-          - { label: 'Key feature heading4', name: 'keyFeatureHeading4', widget: 'string' }
-          - { label: 'Key feature description4', name: 'keyFeatureDescription4', widget: 'string' }
-          - { label: 'Key feature heading5', name: 'keyFeatureHeading5', widget: 'string' }
-          - { label: 'Key feature description5', name: 'keyFeatureDescription5', widget: 'string' }
-          - { label: 'Key feature heading6', name: 'keyFeatureHeading6', widget: 'string' }
-          - { label: 'Key feature description6', name: 'keyFeatureDescription6', widget: 'string' }
-          - { label: 'Key feature heading7', name: 'keyFeatureHeading7', widget: 'string' }
-          - { label: 'Key feature description7', name: 'keyFeatureDescription7', widget: 'string' }
-          - { label: 'Key feature heading8', name: 'keyFeatureHeading8', widget: 'string' }
-          - { label: 'Key feature description8', name: 'keyFeatureDescription8', widget: 'string' }
-          - { label: 'Integrated video conferencing heading', name: 'integratedVideoConferencingHeading', widget: 'string' }
-          - { label: 'Integrated video conferencing description', name: 'integratedVideoConferencingDescription', widget: 'text' }
-          - { label: 'Integrated video conferencing cta label', name: 'integratedVideoConferencingCTALabel', widget: 'string' }
+          - { label: 'Hero heading', name: 'hero__heading', widget: 'string' }
+          - { label: 'Hero description', name: 'hero__description', widget: 'string' }
+          - { label: 'Product overview heading', name: 'productOverview__heading', widget: 'string' }
+          - { label: 'Key features heading', name: 'keyFeatures__heading', widget: 'string' }
+          - { label: 'Key features description', name: 'keyFeatures__description', widget: 'string' }
+          - { label: 'Key feature heading1', name: 'keyFeature__heading1', widget: 'string' }
+          - { label: 'Key feature description1', name: 'keyFeature__description1', widget: 'string' }
+          - { label: 'Key feature heading2', name: 'keyFeature__heading2', widget: 'string' }
+          - { label: 'Key feature description2', name: 'keyFeature__description2', widget: 'string' }
+          - { label: 'Key feature heading3', name: 'keyFeature__heading3', widget: 'string' }
+          - { label: 'Key feature description3', name: 'keyFeature__description3', widget: 'string' }
+          - { label: 'Key feature heading4', name: 'keyFeature__heading4', widget: 'string' }
+          - { label: 'Key feature description4', name: 'keyFeature__description4', widget: 'string' }
+          - { label: 'Key feature heading5', name: 'keyFeature__heading5', widget: 'string' }
+          - { label: 'Key feature description5', name: 'keyFeature__description5', widget: 'string' }
+          - { label: 'Key feature heading6', name: 'keyFeature__heading6', widget: 'string' }
+          - { label: 'Key feature description6', name: 'keyFeature__description6', widget: 'string' }
+          - { label: 'Key feature heading7', name: 'keyFeature__heading7', widget: 'string' }
+          - { label: 'Key feature description7', name: 'keyFeature__description7', widget: 'string' }
+          - { label: 'Key feature heading8', name: 'keyFeature__heading8', widget: 'string' }
+          - { label: 'Key feature description8', name: 'keyFeature__description8', widget: 'string' }
+          - { label: 'Integrated video conferencing heading', name: 'integratedVideoConferencing__heading', widget: 'string' }
+          - { label: 'Integrated video conferencing description', name: 'integratedVideoConferencing__description', widget: 'text' }
+          - { label: 'Integrated video conferencing cta label', name: 'integratedVideoConferencing__ctaLabel', widget: 'string' }
+          - { label: 'platformFlexibility__heading', name: 'Platform flexibility heading', wiget: 'string' }
+          - { label: 'platformFlexibility__description', name: 'Platform flexibility description', wiget: 'text' }
+          - { label: 'logo1', name: 'Logo1', widget: 'string' }
+          - { label: 'logo2', name: 'Logo2', widget: 'string' }
+          - { label: 'logo3', name: 'Logo3', widget: 'string' }
+          - { label: 'logo4', name: 'Logo4', widget: 'string' }
+          - { label: 'logo5', name: 'Logo5', widget: 'string' }
+          - { label: 'logo6', name: 'Logo6', widget: 'string' }
+          - { label: 'logo7', name: 'Logo7', widget: 'string' }
   - label: 'Blog'
     name: 'blog'
     editor:
