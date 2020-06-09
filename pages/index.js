@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import { attributes, html } from '../content/home.md'
 
 const Home = () => (
