@@ -38,7 +38,6 @@ collections:
         fields:
           - { label: 'Hero heading', name: 'heroHeading', widget: 'string' }
           - { label: 'Hero description', name: 'heroDescription', widget: 'string' }
-          - { label: '', name: '', widget: 'string' }
           - { label: 'productOverviewHeading', name: 'productOverviewHeading', widget: 'string' }
           - { label: 'keyFeaturesHeading', name: 'keyFeaturesHeading', widget: 'string' }
           - { label: 'keyFeaturesDescription', name: 'keyFeaturesDescription', widget: 'string' }
