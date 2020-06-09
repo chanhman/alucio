@@ -127,7 +127,7 @@ collections:
             name: "quotes"
             widget: "list"
             fields:
-              - { label: Quote, name: Quote, widget: string }
+              - { label: Quote, name: quote, widget: string }
           - { label: 'Partners heading', name: 'partners__heading', widget: 'string' }
           - { label: 'Partners description', name: 'partners__description', widget: 'string' }
           - label: "partners logo"
