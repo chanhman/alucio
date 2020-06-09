@@ -69,6 +69,81 @@ collections:
           - { label: 'logo5', name: 'Logo5', widget: 'string' }
           - { label: 'logo6', name: 'Logo6', widget: 'string' }
           - { label: 'logo7', name: 'Logo7', widget: 'string' }
+      - label: 'Company'
+        name: 'company'
+        file: 'content/company.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Hero heading', name: 'hero__heading', widget: 'string' }
+          - { label: 'Hero description', name: 'hero__description', widget: 'string' }
+          - { label: 'Team heading', name: 'team__heading', widget: 'string' }
+          - { label: 'Team description', name: 'team__description', widget: 'string' }
+          - { label: 'Team member1 picture', name: 'teamMember1__picture', widget: 'string' }
+          - { label: 'Team member1 name', name: 'teamMember1__name', widget: 'string' }
+          - { label: 'Team member1 title', name: 'teamMember1__title', widget: 'string' }
+          - { label: 'Team member1 description', name: 'teamMember1__description', widget: 'string' }
+          - { label: 'Team member2 picture', name: 'teamMember2__picture', widget: 'string' }
+          - { label: 'Team member2 name', name: 'teamMember2__name', widget: 'string' }
+          - { label: 'Team member2 title', name: 'teamMember2__title', widget: 'string' }
+          - { label: 'Team member2 description', name: 'teamMember2__description', widget: 'string' }
+          - { label: 'Team member3 picture', name: 'teamMember3__picture', widget: 'string' }
+          - { label: 'Team member3 name', name: 'teamMember3__name', widget: 'string' }
+          - { label: 'Team member3 title', name: 'teamMember3__title', widget: 'string' }
+          - { label: 'Team member3 description', name: 'teamMember3__description', widget: 'string' }
+          - { label: 'Team member4 picture', name: 'teamMember4__picture', widget: 'string' }
+          - { label: 'Team member4 name', name: 'teamMember4__name', widget: 'string' }
+          - { label: 'Team member4 title', name: 'teamMember4__title', widget: 'string' }
+          - { label: 'Team member4 description', name: 'teamMember4__description', widget: 'string' }
+          - { label: 'Team member5 picture', name: 'teamMember5__picture', widget: 'string' }
+          - { label: 'Team member5 name', name: 'teamMember5__name', widget: 'string' }
+          - { label: 'Team member5 title', name: 'teamMember5__title', widget: 'string' }
+          - { label: 'Team member5 description', name: 'teamMember5__description', widget: 'string' }
+          - { label: 'Product advisory board heading', name: 'productAdvisoryBoard__heading', widget: 'string' }
+          - { label: 'Product advisory board description', name: 'productAdvisoryBoard__description', widget: 'string' }
+          - { label: 'Product advisory board member1 name', name: 'productAdvisoryBoardMember1__name', widget: 'string' }
+          - { label: 'Product advisory board member1 title', name: 'productAdvisoryBoardMember1__title', widget: 'string' }
+          - { label: 'Product advisory board member1 company', name: 'productAdvisoryBoardMember1__company', widget: 'string' }
+          - { label: 'Product advisory board member1 linkedin', name: 'productAdvisoryBoardMember1__linkedin', widget: 'string' }
+          - { label: 'Product advisory board member2 name', name: 'productAdvisoryBoardMember2__name', widget: 'string' }
+          - { label: 'Product advisory board member2 title', name: 'productAdvisoryBoardMember2__title', widget: 'string' }
+          - { label: 'Product advisory board member2 company', name: 'productAdvisoryBoardMember2__company', widget: 'string' }
+          - { label: 'Product advisory board member2 linkedin', name: 'productAdvisoryBoardMember2__linkedin', widget: 'string' }
+          - { label: 'Product advisory board member3 name', name: 'productAdvisoryBoardMember3__name', widget: 'string' }
+          - { label: 'Product advisory board member3 title', name: 'productAdvisoryBoardMember3__title', widget: 'string' }
+          - { label: 'Product advisory board member3 company', name: 'productAdvisoryBoardMember3__company', widget: 'string' }
+          - { label: 'Product advisory board member3 linkedin', name: 'productAdvisoryBoardMember3__linkedin', widget: 'string' }
+          - { label: 'Product advisory board member4 name', name: 'productAdvisoryBoardMember4__name', widget: 'string' }
+          - { label: 'Product advisory board member4 title', name: 'productAdvisoryBoardMember4__title', widget: 'string' }
+          - { label: 'Product advisory board member4 company', name: 'productAdvisoryBoardMember4__company', widget: 'string' }
+          - { label: 'Product advisory board member4 linkedin', name: 'productAdvisoryBoardMember4__linkedin', widget: 'string' }
+          - { label: 'Product advisory board member5 name', name: 'productAdvisoryBoardMember5__name', widget: 'string' }
+          - { label: 'Product advisory board member5 title', name: 'productAdvisoryBoardMember5__title', widget: 'string' }
+          - { label: 'Product advisory board member5 company', name: 'productAdvisoryBoardMember5__company', widget: 'string' }
+          - { label: 'Product advisory board member5 linkedin', name: 'productAdvisoryBoardMember5__linkedin', widget: 'string' }
+          - { label: 'Product advisory board member6 name', name: 'productAdvisoryBoardMember6__name', widget: 'string' }
+          - { label: 'Product advisory board member6 title', name: 'productAdvisoryBoardMember6__title', widget: 'string' }
+          - { label: 'Product advisory board member6 company', name: 'productAdvisoryBoardMember6__company', widget: 'string' }
+          - { label: 'Product advisory board member6 linkedin', name: 'productAdvisoryBoardMember6__linkedin', widget: 'string' }
+          - { label: 'Working at alucio heading', name: 'workingAtAlucio__heading', widget: 'string' }
+          - { label: 'Working at alucio description', name: 'workingAtAlucio__description', widget: 'string' }
+          - { label: 'What we value heading', name: 'whatWeValue__heading', widget: 'string' }
+          - { label: 'What we value list item1', name: 'whatWeValue__listItem1', widget: 'string' }
+          - { label: 'What we value list item2', name: 'whatWeValue__listItem2', widget: 'string' }
+          - { label: 'What we value list item3', name: 'whatWeValue__listItem3', widget: 'string' }
+          - { label: 'What we value list item4', name: 'whatWeValue__listItem4', widget: 'string' }
+          - { label: 'What we value list item5', name: 'whatWeValue__listItem5', widget: 'string' }
+          - { label: 'What we value list item6', name: 'whatWeValue__listItem6', widget: 'string' }
+          - { label: 'What we value linkedin label', name: 'whatWeValue__linkedinLabel', widget: 'string' }
+          - { label: 'What we value linkedin href', name: 'whatWeValue__linkedinHref', widget: 'string' }
+          - { label: 'What we value glassdoor label', name: 'whatWeValue__glassdoorLabel', widget: 'string' }
+          - { label: 'What we value glassdoor href', name: 'whatWeValue__glassdoorHref', widget: 'string' }
+          - { label: 'Join us heading', name: 'joinUs__heading', widget: 'string' }
+          - { label: 'Join us description', name: 'joinUs__description', widget: 'string' }
+          - { label: 'Press heading', name: 'press__heading', widget: 'string' }
+          - { label: 'Press description', name: 'press__description', widget: 'string' }
+          - { label: 'Pledge one percentage heading', name: 'pledgeOnePercentage__heading', widget: 'string' }
+          - { label: 'Pledge one percentage description', name: 'pledgeOnePercentage__description', widget: 'string' }
+          - { label: 'Pledge one percentage cta label', name: 'pledgeOnePercentage__CtaLabel', widget: 'string' }
   - label: 'Blog'
     name: 'blog'
     editor:
