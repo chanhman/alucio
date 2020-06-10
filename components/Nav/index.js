@@ -28,7 +28,14 @@ const Nav = () => {
       </nav>
 
       <div>
-        <Button label='Request a demo' url='#'/>
+        <div className={styles.cta}>
+          <Button label='Request a demo' url='#'/>
+        </div>
+        <div className={styles.menuToggle}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </header>
   )
