@@ -164,9 +164,9 @@ collections:
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - label: 'Navigation'
-        name: 'navigation'
-        editor:
-          preview: false
-        file: 'content/navigation.md'
-        fields:
-          - { label: 'Link', name: 'link', widget: 'string' }
+    name: 'navigation'
+    editor:
+      preview: false
+    file: 'content/navigation.md'
+    fields:
+      - { label: 'Link', name: 'link', widget: 'string' }
