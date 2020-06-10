@@ -163,10 +163,13 @@ collections:
           widget: 'image'
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - label: 'Navigation'
-    name: 'navigation'
+  - label: 'Settings'
+    name: 'settings'
     editor:
       preview: false
-    file: 'content/navigation.md'
-    fields:
-      - { label: 'Link', name: 'link', widget: 'string' }
+    files:
+      - label: 'Navigation'
+        name: 'navigation'
+        file: 'content/navigation.md'
+        fields:
+          - { label: 'Link', name: 'link', widget: 'string' }
