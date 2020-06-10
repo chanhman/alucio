@@ -53,8 +53,8 @@ collections:
           - { label: 'Integrated video conferencing heading', name: 'integratedVideoConferencing__heading', widget: 'string' }
           - { label: 'Integrated video conferencing description', name: 'integratedVideoConferencing__description', widget: 'text' }
           - { label: 'Integrated video conferencing cta label', name: 'integratedVideoConferencing__ctaLabel', widget: 'string' }
-          - { label: 'Platform flexibility heading', name: 'Platform flexibility heading', widget: 'string' }
-          - { label: 'Platform flexibility description', name: 'Platform flexibility description', widget: 'text' }
+          - { label: 'Platform flexibility heading', name: 'platformFlexibility__heading', widget: 'string' }
+          - { label: 'Platform flexibility description', name: 'platformFlexibility__description', widget: 'text' }
           - label: 'Logo'
             name: 'logo'
             widget: 'list'
