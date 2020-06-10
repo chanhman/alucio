@@ -35,6 +35,9 @@ keyFeature__description7: Provides efficient document publishing and user-friend
 keyFeature__heading8: Robust Analytics and Reporting
 keyFeature__description8: Offers detailed tracking and reporting of key platform
   usage metrics and other data
+keyFeatures:
+  - featureName:
+    featureDescription:
 integratedVideoConferencing__heading: Integrated Video Conferencing
 integratedVideoConferencing__description: >-
   The Beacon platform seamlessly integrates the latest in video conferencing
@@ -57,4 +60,7 @@ logo4: Dropbox
 logo5: Adobe
 logo6: Microsoft
 logo7: Apple
+logo:
+  - file:
+    name:
 ---
