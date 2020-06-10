@@ -51,7 +51,7 @@ collections:
             name: 'logo'
             widget: 'list'
             fields:
-              - { label: file, name: file, widget: string }
+              - { label: file, name: file, widget: image, required: false }
               - { label: name, name: name, widget: string }
       - label: 'Company'
         name: 'company'
@@ -61,7 +61,7 @@ collections:
             name: 'testimonials'
             widget: 'list'
             fields:
-              - { label: Picture, name: picture, widget: string }
+              - { label: Picture, name: picture, widget: image, required: false }
               - { label: Name, name: name, widget: string }
               - { label: Title, name: title, widget: string }
               - { label: Description, name: description, widget: string }
@@ -118,7 +118,7 @@ collections:
             name: 'partners__logo'
             widget: 'list'
             fields:
-              - { label: file, name: file, widget: string }
+              - { label: file, name: file, widget: image, required: false }
               - { label: name, name: name, widget: string }
           - { label: 'Partnering heading', name: 'partnering__heading', widget: 'string' }
           - { label: 'Partnering description', name: 'partnering__description', widget: 'string' }
@@ -151,17 +151,15 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
     fields:
-      - { label: 'Title', name: 'title', widget: 'string', required: true }
+      - { label: 'Title', name: 'title', widget: 'string' }
       - {
           label: 'Publish Date',
           name: 'date',
-          widget: 'datetime',
-          required: true,
+          widget: 'datetime'
         }
       - {
           label: 'Featured Image',
           name: 'thumbnail',
-          widget: 'image',
-          required: true,
+          widget: 'image'
         }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: true }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
