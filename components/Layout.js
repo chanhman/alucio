@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Nav from '../components/Nav'
+import Nav from './Nav'
 import Footer from '../components/Footer'
 
 const Layout = ({ children }) => (

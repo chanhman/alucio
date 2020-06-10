@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 100px;
+  background-color: #fff;
+
+  // CTA Button
+  > div:nth-child(3) {
+    justify-self: end;
+  }
+}
+
+.logo {
+  margin-top: -1rem;
+}
+
+.nav {
+  justify-self: center;
+}
+
+.links {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  list-style-type: none;
+
+  li {
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+  }
+
+  a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}

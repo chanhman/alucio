@@ -9,9 +9,11 @@
     "export": "npm run build && next export"
   },
   "dependencies": {
+    "babel-plugin-inline-react-svg": "^1.1.1",
     "next": "latest",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "sass": "^1.26.8"
   },
   "devDependencies": {
     "frontmatter-markdown-loader": "^2.0.0"
