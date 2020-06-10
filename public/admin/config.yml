@@ -73,25 +73,25 @@ collections:
         name: 'company'
         file: 'content/company.md'
         fields:
-          - label: "Team members"
-            name: "testimonials"
-            widget: "list"
+          - label: 'Team members'
+            name: 'testimonials'
+            widget: 'list'
             fields:
               - { label: Picture, name: picture, widget: string }
               - { label: Name, name: name, widget: string }
               - { label: Title, name: title, widget: string }
               - { label: Description, name: description, widget: string }
-          - label: "Product advisory board members"
-            name: "productAdvisoryBoardMembers"
-            widget: "list"
+          - label: 'Product advisory board members'
+            name: 'productAdvisoryBoardMembers'
+            widget: 'list'
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Title, name: title, widget: string }
               - { label: Company, name: company, widget: string }
               - { label: LinkedIn, name: linkedIn, widget: string }
-          - label: "Values"
-            name: "values"
-            widget: "list"
+          - label: 'Values'
+            name: 'values'
+            widget: 'list'
             fields:
               - { label: Value, name: value, widget: string }
           - { label: 'Title', name: 'title', widget: 'string' }
@@ -123,22 +123,43 @@ collections:
           - { label: 'Hero description', name: 'hero__description', widget: 'string' }
           - { label: 'User feedback heading', name: 'userFeedback__heading', widget: 'string' }
           - { label: 'User feedback description', name: 'userFeedback__description', widget: 'string' }
-          - label: "Quotes"
-            name: "quotes"
-            widget: "list"
+          - label: 'Quotes'
+            name: 'quotes'
+            widget: 'list'
             fields:
               - { label: Quote, name: quote, widget: string }
           - { label: 'Partners heading', name: 'partners__heading', widget: 'string' }
           - { label: 'Partners description', name: 'partners__description', widget: 'string' }
-          - label: "partners logo"
-            name: "partners__logo"
-            widget: "list"
+          - label: 'partners logo'
+            name: 'partners__logo'
+            widget: 'list'
             fields:
               - { label: file, name: file, widget: string }
               - { label: name, name: name, widget: string }
           - { label: 'Partnering heading', name: 'partnering__heading', widget: 'string' }
           - { label: 'Partnering description', name: 'partnering__description', widget: 'string' }
-  - label: 'Blog'
+      - label: 'Perspectives'
+        name: 'perspectives'
+        file: 'content/perspectives.md'
+        fields:
+          - { label: 'Hero heading', name: 'hero__heading', widget: 'string' }
+          - { label: 'Hero description', name: 'hero__description', widget: 'string' }
+          - label: 'Articles'
+            name: 'articles'
+            widget: 'list'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Publication', name: 'publication', widget: 'string'}
+              - { label: 'Date', name: 'date', widget: 'string'}
+          - label: 'research'
+            name: 'research'
+            widget: 'list'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string'}
+              - { label: 'Author', name: 'author', widget: 'string'}
+              - { label: 'Date', name: 'date', widget: 'string'}
+
+- label: 'Blog'
     name: 'blog'
     editor:
       preview: false
