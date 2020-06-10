@@ -57,6 +57,12 @@ collections:
           - { label: 'Key feature description7', name: 'keyFeature__description7', widget: 'string' }
           - { label: 'Key feature heading8', name: 'keyFeature__heading8', widget: 'string' }
           - { label: 'Key feature description8', name: 'keyFeature__description8', widget: 'string' }
+          - label: 'Key features'
+            name: 'keyFeatures'
+            widget: 'list'
+            fields:
+              - { label: Feature name, name: featureName, widget: string }
+              - { label: Feature description, name: featureDescription, widget: string }
           - { label: 'Integrated video conferencing heading', name: 'integratedVideoConferencing__heading', widget: 'string' }
           - { label: 'Integrated video conferencing description', name: 'integratedVideoConferencing__description', widget: 'text' }
           - { label: 'Integrated video conferencing cta label', name: 'integratedVideoConferencing__ctaLabel', widget: 'string' }
@@ -69,6 +75,12 @@ collections:
           - { label: 'logo5', name: 'Logo5', widget: 'string' }
           - { label: 'logo6', name: 'Logo6', widget: 'string' }
           - { label: 'logo7', name: 'Logo7', widget: 'string' }
+          - label: 'Logo'
+            name: 'logo'
+            widget: 'list'
+            fields:
+              - { label: file, name: file, widget: string }
+              - { label: name, name: name, widget: string }
       - label: 'Company'
         name: 'company'
         file: 'content/company.md'
