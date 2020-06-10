@@ -17,31 +17,31 @@ collections:
         file: 'content/home.md'
         fields:
           - { label: 'Hero heading', name: 'heroHeading', widget: 'string' }
-          - { label: 'Hero description', name: 'heroDescription', widget: 'string' }
+          - { label: 'Hero description', name: 'heroDescription', widget: 'text' }
           - { label: 'Features heading', name: 'featuresHeading', widget: 'string' }
           - { label: 'Feature one', name: 'featureOne', widget: 'string' }
           - { label: 'Feature two', name: 'featureTwo', widget: 'string' }
           - { label: 'Feature three', name: 'featureThree', widget: 'string' }
           - { label: 'Beacon heading', name: 'beaconHeading', widget: 'string' }
-          - { label: 'Deacon description', name: 'beaconDescription', widget: 'string' }
+          - { label: 'Beacon description', name: 'beaconDescription', widget: 'text' }
       - label: 'Product'
         name: 'name'
         file: 'content/product.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Hero heading', name: 'hero__heading', widget: 'string' }
-          - { label: 'Hero description', name: 'hero__description', widget: 'string' }
+          - { label: 'Hero description', name: 'hero__description', widget: 'text' }
           - { label: 'Product overview heading', name: 'productOverview__heading', widget: 'string' }
           - { label: 'Product overview CTA', name: 'productOverview__cta', widget: 'string' }
           - { label: 'Key features heading', name: 'keyFeatures__heading', widget: 'string' }
-          - { label: 'Key features description', name: 'keyFeatures__description', widget: 'string' }
+          - { label: 'Key features description', name: 'keyFeatures__description', widget: 'text' }
           - { label: 'Key features subheading', name: 'keyFeatures__subheading', widget: 'string' }
           - label: 'Key features'
             name: 'keyFeatures'
             widget: 'list'
             fields:
               - { label: Feature name, name: featureName, widget: string }
-              - { label: Feature description, name: featureDescription, widget: string }
+              - { label: Feature description, name: featureDescription, widget: text }
           - { label: 'Integrated video conferencing heading', name: 'integratedVideoConferencing__heading', widget: 'string' }
           - { label: 'Integrated video conferencing description', name: 'integratedVideoConferencing__description', widget: 'text' }
           - { label: 'Integrated video conferencing cta label', name: 'integratedVideoConferencing__ctaLabel', widget: 'string' }
@@ -64,7 +64,7 @@ collections:
               - { label: Picture, name: picture, widget: image, required: false }
               - { label: Name, name: name, widget: string }
               - { label: Title, name: title, widget: string }
-              - { label: Description, name: description, widget: string }
+              - { label: Description, name: description, widget: text }
           - label: 'Product advisory board members'
             name: 'productAdvisoryBoardMembers'
             widget: 'list'
@@ -80,40 +80,40 @@ collections:
               - { label: Value, name: value, widget: string }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Hero heading', name: 'hero__heading', widget: 'string' }
-          - { label: 'Hero description', name: 'hero__description', widget: 'string' }
+          - { label: 'Hero description', name: 'hero__description', widget: 'text' }
           - { label: 'Team heading', name: 'team__heading', widget: 'string' }
           - { label: 'Team description', name: 'team__description', widget: 'string' }
           - { label: 'Product advisory board heading', name: 'productAdvisoryBoard__heading', widget: 'string' }
-          - { label: 'Product advisory board description', name: 'productAdvisoryBoard__description', widget: 'string' }
+          - { label: 'Product advisory board description', name: 'productAdvisoryBoard__description', widget: 'text' }
           - { label: 'Working at alucio heading', name: 'workingAtAlucio__heading', widget: 'string' }
-          - { label: 'Working at alucio description', name: 'workingAtAlucio__description', widget: 'string' }
+          - { label: 'Working at alucio description', name: 'workingAtAlucio__description', widget: 'text' }
           - { label: 'What we value heading', name: 'whatWeValue__heading', widget: 'string' }
           - { label: 'What we value linkedin label', name: 'whatWeValue__linkedinLabel', widget: 'string' }
           - { label: 'What we value linkedin href', name: 'whatWeValue__linkedinHref', widget: 'string' }
           - { label: 'What we value glassdoor label', name: 'whatWeValue__glassdoorLabel', widget: 'string' }
           - { label: 'What we value glassdoor href', name: 'whatWeValue__glassdoorHref', widget: 'string' }
           - { label: 'Join us heading', name: 'joinUs__heading', widget: 'string' }
-          - { label: 'Join us description', name: 'joinUs__description', widget: 'string' }
+          - { label: 'Join us description', name: 'joinUs__description', widget: 'text' }
           - { label: 'Press heading', name: 'press__heading', widget: 'string' }
-          - { label: 'Press description', name: 'press__description', widget: 'string' }
+          - { label: 'Press description', name: 'press__description', widget: 'text' }
           - { label: 'Pledge one percentage heading', name: 'pledgeOnePercentage__heading', widget: 'string' }
-          - { label: 'Pledge one percentage description', name: 'pledgeOnePercentage__description', widget: 'string' }
+          - { label: 'Pledge one percentage description', name: 'pledgeOnePercentage__description', widget: 'text' }
           - { label: 'Pledge one percentage cta label', name: 'pledgeOnePercentage__CtaLabel', widget: 'string' }
       - label: 'Experience'
         name: 'experience'
         file: 'content/experience.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Hero description', name: 'hero__description', widget: 'string' }
+          - { label: 'Hero description', name: 'hero__description', widget: 'text' }
           - { label: 'User feedback heading', name: 'userFeedback__heading', widget: 'string' }
-          - { label: 'User feedback description', name: 'userFeedback__description', widget: 'string' }
+          - { label: 'User feedback description', name: 'userFeedback__description', widget: 'text' }
           - label: 'Quotes'
             name: 'quotes'
             widget: 'list'
             fields:
               - { label: Quote, name: quote, widget: string }
           - { label: 'Partners heading', name: 'partners__heading', widget: 'string' }
-          - { label: 'Partners description', name: 'partners__description', widget: 'string' }
+          - { label: 'Partners description', name: 'partners__description', widget: 'text' }
           - label: 'partners logo'
             name: 'partners__logo'
             widget: 'list'
@@ -121,13 +121,13 @@ collections:
               - { label: file, name: file, widget: image, required: false }
               - { label: name, name: name, widget: string }
           - { label: 'Partnering heading', name: 'partnering__heading', widget: 'string' }
-          - { label: 'Partnering description', name: 'partnering__description', widget: 'string' }
+          - { label: 'Partnering description', name: 'partnering__description', widget: 'text' }
       - label: 'Perspectives'
         name: 'perspectives'
         file: 'content/perspectives.md'
         fields:
           - { label: 'Hero heading', name: 'hero__heading', widget: 'string' }
-          - { label: 'Hero description', name: 'hero__description', widget: 'string' }
+          - { label: 'Hero description', name: 'hero__description', widget: 'text' }
           - label: 'Articles'
             name: 'articles'
             widget: 'list'
