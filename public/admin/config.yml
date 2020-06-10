@@ -178,3 +178,26 @@ collections:
             fields:
               - { label: 'Label', name: 'label', widget: 'string'}
               - { label: 'URL', name: 'url', widget: 'string'}
+      - label: 'Footer'
+        name: 'footer'
+        file: 'content/navigation.md'
+        fields:
+          - label: 'Column one links'
+            name: 'columnOne__links'
+            widget: 'list'
+            fields:
+              - { label: 'Label', name: 'label', widget: 'string'}
+              - { label: 'URL', name: 'url', widget: 'string'}
+          - label: 'Column two links'
+            name: 'columnTwo__links'
+            widget: 'list'
+            fields:
+              - { label: 'Label', name: 'label', widget: 'string'}
+              - { label: 'URL', name: 'url', widget: 'string'}
+          - label: 'Social media links'
+            name: 'socialMediaLinks'
+            widget: 'list'
+            fields:
+              - { label: 'Label', name: 'label', widget: 'string'}
+              - { label: 'URL', name: 'url', widget: 'string'}
+          - { label: 'Copyright text', name: 'copyrightText', widget: 'string' }
