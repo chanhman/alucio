@@ -1,18 +1,29 @@
 .footer {
-  padding-top: 3.75rem;
-
   border-top: 0.25rem solid #72c8e0;
+
+  @media (max-width: 64rem) {
+    padding-top: 2.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  @media (min-width: 64rem) {
+    padding-top: 3.75rem;
+  }
 }
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   margin-right: auto;
   margin-left: auto;
-  width: 50rem;
+  max-width: 50rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 2fr;
+  }
 
   ul {
-    margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
 
@@ -26,6 +37,8 @@
 }
 
 .links {
+  margin-top: 0;
+
   a {
     line-height: 2;
   }
@@ -33,7 +46,17 @@
 
 .socialMediaLinks {
   display: flex;
-  justify-content: flex-end;
+  grid-column: 1 / -1;
+  justify-content: center;
+
+  @media (max-width: 64rem) {
+    margin-top: 2.5rem;
+  }
+
+  @media (min-width: 64rem) {
+    grid-column: auto;
+    justify-content: flex-end;
+  }
 }
 
 .socialMediaLink {
@@ -59,7 +82,8 @@
 }
 
 .copyright {
-  margin-top: 3.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 
   font-size: 0.75rem;
   color: #333;
@@ -67,4 +91,9 @@
   text-align: center;
 
   opacity: 0.5;
+
+  @media (min-width: 64rem) {
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+  }
 }
