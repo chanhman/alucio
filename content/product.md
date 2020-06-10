@@ -1,5 +1,4 @@
 ---
-title: Product
 hero__heading: Introducing Beacon…
 hero__description: The innovative cloud-based content delivery and presentation
   platform designed exclusively to meet the unique needs of your MSLs and the
