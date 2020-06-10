@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { attributes } from '../content/navigation.md'
 
 const Layout = ({ children }) => (
   <>
@@ -25,6 +26,7 @@ const Layout = ({ children }) => (
       <Link href="/product">
         <a>Product</a>
       </Link>
+      <div>{ attributes.link }</div>
     </nav>
     <main>{children}</main>
   </>
