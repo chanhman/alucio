@@ -159,7 +159,7 @@ collections:
               - { label: 'Author', name: 'author', widget: 'string'}
               - { label: 'Date', name: 'date', widget: 'string'}
 
-- label: 'Blog'
+  - label: 'Blog'
     name: 'blog'
     editor:
       preview: false
