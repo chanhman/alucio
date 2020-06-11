@@ -9,6 +9,8 @@ featureTwo: Streamlining content discovery, delivery and presentation management
 featureThree: Powering both virtual and in-person engagements
 beaconHeading: Our initial product, Beacon, enhances the scientific exchange between your MSLs and other field-based medical professionals, and key industry stakeholders.
 beaconDescription: Beacon supports MSLs in their efforts to become valued partners to all the various healthcare audiences they engage with to improve patient outcomes.
+beaconCtaLabel: Learn more
+beaconCtaUrl: '#'
 ---
 ## Welcome to the Home Page!
 
