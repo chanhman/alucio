@@ -4,7 +4,7 @@
   display: grid;
   align-items: center;
   grid-gap: 9.467vw;
-  padding: 2rem 9.467vw;
+  padding: 4rem 9.467vw;
   overflow: hidden;
 
   color: #fff;
@@ -14,6 +14,8 @@
   @media (min-width: 48rem) {
     grid-template-columns: repeat(2, 1fr);
     height: 50rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   &::after {
@@ -61,6 +63,10 @@
     font-size: 2.188vw;
   }
 
+  @media (max-width: 48rem) {
+    font-size: 1.25rem;
+  }
+
   @media (min-width: 80rem) {
     font-size: 1.75rem;
   }
@@ -80,8 +86,11 @@
 }
 
 .description {
-  width: 75%;
   margin-bottom: 3rem;
+
+  @media (min-width: 64rem) {
+    width: 75%;
+  }
 }
 
 .cta {

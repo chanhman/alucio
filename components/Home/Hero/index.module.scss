@@ -23,6 +23,10 @@
     font-size: 6.25vw;
   }
 
+  @media (max-width: 48rem) {
+    font-size: 32px;
+  }
+
   @media (min-width: 80rem) {
     font-size: 5rem;
   }
@@ -32,8 +36,15 @@
   margin-top: 0;
   margin-bottom: 0;
   max-width: 40.625rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 
-  font-size: 1.125rem;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.4;
+
+  @media (min-width: 48rem) {
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
 }
