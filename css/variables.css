@@ -1,8 +1,14 @@
 :root {
   --purple: #4f2265;
+  --neon-purple: #7d36a0;
   --blue: #44a2da;
   --light-blue: #6fcfee;
   --black: #333;
 
   --text-color: var(--black);
+
+  --btn-height: 3.125rem;
+  --btn-padding-x: 1.25rem;
+  --btn-font-weight: 700;
+  --btn-border-width: 0.125rem;
 }

@@ -8,7 +8,7 @@
   color: #fff;
   text-align: center;
 
-  background-color: #9d1ce0;
+  background-color: var(--neon-purple);
 }
 
 .heading {
@@ -20,7 +20,7 @@
   text-transform: uppercase;
 
   @media (max-width: 80rem) {
-    font-size: 6.250vw;
+    font-size: 6.25vw;
   }
 
   @media (min-width: 80rem) {
