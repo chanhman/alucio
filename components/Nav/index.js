@@ -6,7 +6,7 @@ import styles from './index.module.scss'
 import { attributes } from '../../content/navigation.md'
 
 const Nav = () => {
-  let { links } = attributes;
+  const { links } = attributes;
 
   return (
     <>

@@ -59,7 +59,9 @@
 }
 
 .cta {
-  @media (max-width: 64rem) {
-    display: none;
+  display: none;
+
+  @media (min-width: 64rem) {
+    display: block;
   }
 }
