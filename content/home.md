@@ -17,6 +17,9 @@ infoGraphicLbl3: KOLs
 infoGraphicLbl4: Payers
 infoGraphicLbl5: Product investigators
 infoGraphicLbl6: Clinical trial managers
+ctaHeading: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+ctaLbl: Request a demo
+ctaUrl: '#'
 ---
 ## Welcome to the Home Page!
 
