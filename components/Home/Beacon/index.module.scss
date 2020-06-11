@@ -5,6 +5,7 @@
   align-items: center;
   grid-gap: 9.467vw;
   padding: 2rem 9.467vw;
+  overflow: hidden;
 
   color: #fff;
 
@@ -32,6 +33,11 @@
     font-size: 18.75vw;
     font-weight: 700;
     text-transform: uppercase;
+
+    @media (max-width: 64rem) {
+      font-size: 10rem;
+      transform: rotate(90deg);
+    }
   }
 
   > div {
@@ -101,8 +107,11 @@
   display: grid;
   grid-template-columns: 1fr 24px 1fr;
   grid-template-rows: 1fr 24px 1fr 24px 1fr;
-  height: 37.5rem;
-  width: 24.5rem;
+  width: 15rem;
+
+  @media (min-width: 64rem) {
+    width: 24.5rem;
+  }
 }
 
 .infoGraphic__cell {
@@ -131,8 +140,13 @@
     padding-right: 1rem;
     padding-left: 1rem;
 
+    font-size: 0.75rem;
     font-weight: 700;
     text-align: center;
+
+    @media (min-width: 64rem) {
+      font-size: 1rem;
+    }
   }
 }
 
