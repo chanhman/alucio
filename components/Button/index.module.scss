@@ -11,4 +11,8 @@
   text-decoration: none;
 
   background-color: var(--purple);
+
+  &:hover {
+    background-color: var(--neon-purple);
+  }
 }

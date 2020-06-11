@@ -9,7 +9,26 @@ const Beacon = () => (
       <a className={styles.cta} href={attributes.beaconCtaUrl}>{attributes.beaconCtaLabel}</a>
     </div>
     <div>
-      Graphic
+      <div className={styles.infoGraphic}>
+        <div className={styles.infoGraphic__cell}>
+          <div className={styles.inner}>Label</div>
+        </div>
+        <div className={styles.infoGraphic__cell}>
+          <div className={styles.inner}>Label</div>
+        </div>
+        <div className={styles.infoGraphic__cell}>
+          <div className={styles.inner}>Label</div>
+        </div>
+        <div className={styles.infoGraphic__cell}>
+          <div className={styles.inner}>Label</div>
+        </div>
+        <div className={styles.infoGraphic__cell}>
+          <div className={styles.inner}>Label</div>
+        </div>
+        <div className={styles.infoGraphic__cell}>
+          <div className={styles.inner}>Label</div>
+        </div>
+      </div>
     </div>
   </section>
 )
