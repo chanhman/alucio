@@ -1,0 +1,32 @@
+.heading {
+  position: relative;
+
+  max-width: 56.25rem;
+  margin: 4.5rem auto;
+  padding-bottom: 1.5rem;
+
+  line-height: 1;
+  text-align: center;
+
+  @media (max-width: 80rem) {
+    font-size: 3.750vw;
+  }
+
+  @media (min-width: 80rem) {
+    font-size: 3rem;
+  }
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    height: 0.25rem;
+    width: 8.875rem;
+    margin-left: calc(-8.875rem / 2);
+
+    background-color: var(--light-blue);
+  }
+}
