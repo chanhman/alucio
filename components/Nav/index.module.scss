@@ -59,33 +59,9 @@
 }
 
 .cta {
-  @media (max-width: 64rem) {
-    display: none;
-  }
-}
+  display: none;
 
-.menuToggle {
   @media (min-width: 64rem) {
-    display: none;
-  }
-
-  > div {
-    height: 4px;
-    border-radius: 2px;
-  }
-
-  > div:nth-child(1),
-  > div:nth-child(3) {
-    width: 1.875rem;
-
-    background-color: #4f2265;
-  }
-
-  > div:nth-child(2) {
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
-    width: 1.5625rem;
-
-    background-color: #6fcfee;
+    display: block;
   }
 }
