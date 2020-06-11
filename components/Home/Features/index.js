@@ -1,4 +1,4 @@
-import styles from './index.module.scss'
+import styles from './Features.module.scss'
 import Feature from '../Feature'
 import { attributes } from '../../../content/home.md'
 

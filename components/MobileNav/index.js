@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Link from 'next/link'
 import Logo from './logo-white.svg'
 import classes from 'classnames';
-import styles from './index.module.scss'
+import styles from './MobileNav.module.scss'
 import { attributes } from '../../content/navigation.md'
 
 const MobileNav = () => {
