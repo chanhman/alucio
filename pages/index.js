@@ -1,10 +1,10 @@
 import Layout from '../components/Layout'
+import Hero from '../components/Home/Hero'
 import { attributes, html } from '../content/home.md'
 
 const Home = () => (
   <Layout>
-    <h1>{attributes.heroHeading}</h1>
-    <h2>{attributes.heroDescription}</h2>
+    <Hero></Hero>
     <h3>{attributes.featuresHeading}</h3>
     <p>{attributes.featureOne}</p>
     <p>{attributes.featureTwo}</p>
