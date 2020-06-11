@@ -1,5 +1,4 @@
-import classes from 'classnames';
-import styles from './index.module.scss'
+import styles from './Beacon.module.scss'
 import Dashes from './dashes.svg'
 import { attributes } from '../../../content/home.md'
 

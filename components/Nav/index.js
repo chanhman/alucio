@@ -2,7 +2,7 @@ import Link from 'next/link'
 import MobileNav from '../MobileNav'
 import Logo from './logo.svg'
 import Button from '../Button'
-import styles from './index.module.scss'
+import styles from './Nav.module.scss'
 import { attributes } from '../../content/navigation.md'
 
 const Nav = () => {

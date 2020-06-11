@@ -1,4 +1,4 @@
-import styles from './index.module.scss'
+import styles from './Feature.module.scss'
 
 const Feature = ({description}) => (
   <div>

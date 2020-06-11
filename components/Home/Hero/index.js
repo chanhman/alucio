@@ -1,4 +1,4 @@
-import styles from './index.module.scss'
+import styles from './Hero.module.scss'
 import { attributes } from '../../../content/home.md'
 
 const Hero = () => (
