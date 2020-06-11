@@ -12,7 +12,7 @@
   > div:nth-child(3) {
     width: 1.875rem;
 
-    background-color: #4f2265;
+    background-color: var(--purple);
   }
 
   > div:nth-child(2) {
@@ -20,7 +20,7 @@
     margin-bottom: 0.25rem;
     width: 1.5625rem;
 
-    background-color: #6fcfee;
+    background-color: var(--light-blue);
   }
 }
 
