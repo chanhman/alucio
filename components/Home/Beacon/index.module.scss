@@ -1,14 +1,51 @@
 .container {
+  position: relative;
+
+  display: grid;
+  align-items: center;
+  grid-gap: 9.467vw;
+  height: 50rem;
+  padding-right: 9.467vw;
+  padding-left: 9.467vw;
+
   color: #fff;
 
   background-color: #222;
+
+  @media (min-width: 48rem) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &::after {
+    content: 'Beacon';
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #2E2E2E;
+    font-size: 18.750vw;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  > div {
+    position: relative;
+    z-index: 1;
+  }
 }
 
 .heading {
   position: relative;
 
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 2.75rem;
   padding-bottom: 3rem;
 
   @media (max-width: 80rem) {
@@ -16,7 +53,7 @@
   }
 
   @media (min-width: 80rem) {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   &::after {
@@ -33,4 +70,26 @@
   }
 }
 
-.description {}
+.description {
+  width: 75%;
+  margin-bottom: 3rem;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--btn-height);
+  padding-right: var(--btn-padding-x);
+  padding-left: var(--btn-padding-x);
+
+  color: #fff;
+  font-weight: var(--btn-font-weight);
+  text-decoration: none;
+
+  border: var(--btn-border-width) solid var(--purple);
+
+  &:hover {
+    background-color: var(--purple);
+  }
+}
