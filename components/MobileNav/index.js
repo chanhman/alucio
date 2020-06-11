@@ -29,17 +29,20 @@ const MobileNav = () => {
             <button className={styles.closeToggle} onClick={toggle}>Close</button>
           </div>
         </header>
-        <nav className={styles.nav}>
-          <ul className={styles.links}>
-            {links.map(link => (
-              <li>
-                <Link href={link.url}>
-                  <a>{link.label}</a>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        <div>
+          <nav className={styles.nav}>
+            <ul className={styles.links}>
+              {links.map(link => (
+                <li>
+                  <Link href={link.url}>
+                    <a>{link.label}</a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+          <a href="#" className={styles.cta}>Request a demo</a>
+        </div>
       </div>
     </>
   );
