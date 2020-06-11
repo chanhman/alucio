@@ -4,9 +4,7 @@
   display: grid;
   align-items: center;
   grid-gap: 9.467vw;
-  height: 50rem;
-  padding-right: 9.467vw;
-  padding-left: 9.467vw;
+  padding: 2rem 9.467vw;
 
   color: #fff;
 
@@ -14,6 +12,7 @@
 
   @media (min-width: 48rem) {
     grid-template-columns: repeat(2, 1fr);
+    height: 50rem;
   }
 
   &::after {
@@ -100,9 +99,8 @@
 
 .infoGraphic {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 1.5rem;
+  grid-template-columns: 1fr 24px 1fr;
+  grid-template-rows: 1fr 24px 1fr 24px 1fr;
   height: 37.5rem;
   width: 24.5rem;
 }
@@ -130,7 +128,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
 
     font-weight: 700;
+    text-align: center;
   }
+}
+
+.dashes {
+  align-self: center;
+  justify-self: center;
+
+  svg {
+    display: block;
+  }
+}
+
+.rotate {
+  transform: rotate(90deg);
 }
