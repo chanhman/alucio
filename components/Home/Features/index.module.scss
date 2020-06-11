@@ -1,8 +1,21 @@
+.container {
+  @media (max-width: 80rem) {
+    padding-top: 5.625vw;
+    padding-bottom: 5.625vw;
+  }
+
+  @media (min-width: 80rem) {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+}
+
 .heading {
   position: relative;
 
   max-width: 56.25rem;
-  margin: 4.5rem auto;
+  margin-right: auto;
+  margin-left: auto;
   padding-bottom: 1.5rem;
 
   line-height: 1;
@@ -28,5 +41,34 @@
     margin-left: calc(-8.875rem / 2);
 
     background-color: var(--light-blue);
+  }
+}
+
+.features {
+  display: grid;
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  @media (max-width: 80rem) {
+    grid-gap: 10vw;
+  }
+
+  @media (max-width: 64rem) {
+    grid-gap: 4vw;
+  }
+
+  @media (max-width: 26.5625rem) {
+    grid-gap: 4rem;
+  }
+
+  @media (min-width: 41.25rem) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (min-width: 80rem) {
+    grid-gap: 8rem;
   }
 }

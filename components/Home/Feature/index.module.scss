@@ -1,8 +1,23 @@
 .iconWrapper {
   position: relative;
 
-  border: 8px solid #bda9c7;
+  border: 0.5rem solid #bda9c7;
   border-radius: 1rem;
+
+  @media (max-width: 80rem) {
+    margin-right: 5.625vw;
+    margin-left: 5.625vw;
+  }
+
+  @media (max-width: 26.5625rem) {
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+  }
+
+  @media (min-width: 80rem) {
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+  }
 
   &::before {
     content: '';
@@ -26,6 +41,9 @@
 }
 
 .description {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+
   font-size: 1rem;
   text-align: center;
 }
