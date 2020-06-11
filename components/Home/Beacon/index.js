@@ -13,31 +13,31 @@ const Beacon = () => (
     <div>
       <div className={styles.infoGraphic}>
         <div className={styles.infoGraphic__cell}>
-          <div className={styles.inner}>{attributes.infoGraphicLbl1}</div>
+          <div className={styles.inner}>{attributes.beaconInfoGraphicLbl1}</div>
         </div>
         <div className={styles.dashes}><Dashes className={styles.rotate}></Dashes></div>
         <div className={styles.infoGraphic__cell}>
-          <div className={styles.inner}>{attributes.infoGraphicLbl2}</div>
+          <div className={styles.inner}>{attributes.beaconInfoGraphicLbl2}</div>
         </div>
         <div className={styles.dashes}><Dashes></Dashes></div>
         <div></div>
         <div className={styles.dashes}><Dashes></Dashes></div>
         <div className={styles.infoGraphic__cell}>
-          <div className={styles.inner}>{attributes.infoGraphicLbl3}</div>
+          <div className={styles.inner}>{attributes.beaconInfoGraphicLbl3}</div>
         </div>
         <div className={styles.dashes}><Dashes className={styles.rotate}></Dashes></div>
         <div className={styles.infoGraphic__cell}>
-          <div className={styles.inner}>{attributes.infoGraphicLbl4}</div>
+          <div className={styles.inner}>{attributes.beaconInfoGraphicLbl4}</div>
         </div>
         <div className={styles.dashes}><Dashes></Dashes></div>
         <div></div>
         <div className={styles.dashes}><Dashes></Dashes></div>
         <div className={styles.infoGraphic__cell}>
-          <div className={styles.inner}>{attributes.infoGraphicLbl5}</div>
+          <div className={styles.inner}>{attributes.beaconInfoGraphicLbl5}</div>
         </div>
         <div className={styles.dashes}><Dashes className={styles.rotate}></Dashes></div>
         <div className={styles.infoGraphic__cell}>
-          <div className={styles.inner}>{attributes.infoGraphicLbl6}</div>
+          <div className={styles.inner}>{attributes.beaconInfoGraphicLbl6}</div>
         </div>
       </div>
     </div>
