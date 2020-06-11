@@ -24,8 +24,17 @@ collections:
           - { label: 'Feature three', name: 'featureThree', widget: 'string' }
           - { label: 'Beacon heading', name: 'beaconHeading', widget: 'string' }
           - { label: 'Beacon description', name: 'beaconDescription', widget: 'text' }
-          - { label: 'Beacon CTA', name: 'beaconCtaLabel', widget: 'string' }
-          - { label: 'Beacon CTA Url', name: 'beaconCtaUrl', widget: 'string' }
+          - { label: 'Beacon CTA label', name: 'beaconCtaLabel', widget: 'string' }
+          - { label: 'Beacon CTA URL', name: 'beaconCtaUrl', widget: 'string' }
+          - { label: 'Beacon info graphic lbl1', name: 'beaconInfoGraphicLbl1', widget: 'string' }
+          - { label: 'Beacon info graphic lbl2', name: 'beaconInfoGraphicLbl2', widget: 'string' }
+          - { label: 'Beacon info graphic lbl3', name: 'beaconInfoGraphicLbl3', widget: 'string' }
+          - { label: 'Beacon info graphic lbl4', name: 'beaconInfoGraphicLbl4', widget: 'string' }
+          - { label: 'Beacon info graphic lbl5', name: 'beaconInfoGraphicLbl5', widget: 'string' }
+          - { label: 'Beacon info graphic lbl6', name: 'beaconInfoGraphicLbl6', widget: 'string' }
+          - { label: 'CTA heading', name: 'ctaHeading', widget: 'string' }
+          - { label: 'CTA label', name: 'ctaLbl', widget: 'string' }
+          - { label: 'CTA URL', name: 'ctaUrl', widget: 'string' }
       - label: 'Product'
         name: 'name'
         file: 'content/product.md'
