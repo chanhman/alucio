@@ -38,8 +38,16 @@
 
   background-color: #412250;
 
+  @media (min-width: 64rem) {
+    display: none;
+  }
+
   &.active {
     display: grid;
+
+    @media (min-width: 64rem) {
+      display: none;
+    }
   }
 }
 
