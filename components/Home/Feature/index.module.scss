@@ -1,0 +1,48 @@
+.iconWrapper {
+  position: relative;
+
+  border: 0.5rem solid #bda9c7;
+  border-radius: 1rem;
+
+  @media (max-width: 80rem) {
+    margin-right: 5.625vw;
+    margin-left: 5.625vw;
+  }
+
+  @media (max-width: 26.5625rem) {
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+  }
+
+  @media (min-width: 80rem) {
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+  }
+
+  &::before {
+    content: '';
+
+    display: block;
+    width: 100%;
+    padding-top: (1 / 1) * 100%;
+  }
+
+  > .inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.description {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+
+  text-align: center;
+}

@@ -24,6 +24,8 @@ collections:
           - { label: 'Feature three', name: 'featureThree', widget: 'string' }
           - { label: 'Beacon heading', name: 'beaconHeading', widget: 'string' }
           - { label: 'Beacon description', name: 'beaconDescription', widget: 'text' }
+          - { label: 'Beacon CTA', name: 'beaconCtaLabel', widget: 'string' }
+          - { label: 'Beacon CTA Url', name: 'beaconCtaUrl', widget: 'string' }
       - label: 'Product'
         name: 'name'
         file: 'content/product.md'
