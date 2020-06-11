@@ -42,8 +42,23 @@
 }
 
 .heading {
+  margin-top: 0;
   margin-right: 4.5rem;
-  font-size: 3rem;
+  margin-bottom: 0;
+
+  @media (max-width: 80rem) {
+    font-size: 6.25vw;
+  }
+
+  @media (max-width: 48rem) {
+    margin-bottom: 1.25rem;
+    margin-right: 0;
+    font-size: 2rem;
+  }
+
+  @media (min-width: 80rem) {
+    font-size: 5rem;
+  }
 }
 
 .cta {
