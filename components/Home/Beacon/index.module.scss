@@ -4,9 +4,8 @@
   display: grid;
   align-items: center;
   grid-gap: 9.467vw;
-  height: 50rem;
-  padding-right: 9.467vw;
-  padding-left: 9.467vw;
+  padding: 4rem 9.467vw;
+  overflow: hidden;
 
   color: #fff;
 
@@ -14,6 +13,9 @@
 
   @media (min-width: 48rem) {
     grid-template-columns: repeat(2, 1fr);
+    height: 50rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   &::after {
@@ -33,6 +35,11 @@
     font-size: 18.75vw;
     font-weight: 700;
     text-transform: uppercase;
+
+    @media (max-width: 64rem) {
+      font-size: 10rem;
+      transform: rotate(90deg);
+    }
   }
 
   > div {
@@ -56,6 +63,10 @@
     font-size: 2.188vw;
   }
 
+  @media (max-width: 48rem) {
+    font-size: 1.25rem;
+  }
+
   @media (min-width: 80rem) {
     font-size: 1.75rem;
   }
@@ -75,8 +86,11 @@
 }
 
 .description {
-  width: 75%;
   margin-bottom: 3rem;
+
+  @media (min-width: 64rem) {
+    width: 75%;
+  }
 }
 
 .cta {
@@ -100,11 +114,13 @@
 
 .infoGraphic {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 1.5rem;
-  height: 37.5rem;
-  width: 24.5rem;
+  grid-template-columns: 1fr 24px 1fr;
+  grid-template-rows: 1fr 24px 1fr 24px 1fr;
+  width: 15rem;
+
+  @media (min-width: 64rem) {
+    width: 24.5rem;
+  }
 }
 
 .infoGraphic__cell {
@@ -130,7 +146,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
 
+    font-size: 0.75rem;
     font-weight: 700;
+    text-align: center;
+
+    @media (min-width: 64rem) {
+      font-size: 1rem;
+    }
   }
+}
+
+.dashes {
+  align-self: center;
+  justify-self: center;
+
+  svg {
+    display: block;
+  }
+}
+
+.rotate {
+  transform: rotate(90deg);
 }

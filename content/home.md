@@ -11,6 +11,15 @@ beaconHeading: Our initial product, Beacon, enhances the scientific exchange bet
 beaconDescription: Beacon supports MSLs in their efforts to become valued partners to all the various healthcare audiences they engage with to improve patient outcomes.
 beaconCtaLabel: Learn more
 beaconCtaUrl: '#'
+infoGraphicLbl1: HCPs
+infoGraphicLbl2: Internal company stakeholders
+infoGraphicLbl3: KOLs
+infoGraphicLbl4: Payers
+infoGraphicLbl5: Product investigators
+infoGraphicLbl6: Clinical trial managers
+ctaHeading: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+ctaLbl: Request a demo
+ctaUrl: '#'
 ---
 ## Welcome to the Home Page!
 

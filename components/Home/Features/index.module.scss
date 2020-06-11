@@ -4,6 +4,11 @@
     padding-bottom: 5.625vw;
   }
 
+  @media (max-width: 48rem) {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
   @media (min-width: 80rem) {
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
@@ -14,15 +19,22 @@
   position: relative;
 
   max-width: 56.25rem;
+  margin-top: 0;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 2rem;
   padding-bottom: 1.5rem;
+  padding-left: 2rem;
 
   line-height: 1;
   text-align: center;
 
   @media (max-width: 80rem) {
     font-size: 3.750vw;
+  }
+
+  @media (max-width: 48rem) {
+    font-size: 1.25rem;
   }
 
   @media (min-width: 80rem) {
