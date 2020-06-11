@@ -1,4 +1,4 @@
-import { attributes, html } from '../../../content/home.md'
+import { attributes } from '../../../content/home.md'
 
 const Hero = () => (
   <>
