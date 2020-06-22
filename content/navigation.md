@@ -8,6 +8,6 @@ links:
     url: /partners
   - label: Perspectives
     url: /perspectives
-  - label: Product
-    url: /product
+  - label: Beacon
+    url: /beacon
 ---
