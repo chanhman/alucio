@@ -1,5 +1,7 @@
 ---
 columnOne__links:
+  - label: Beacon
+    url: /beacon
   - label: Company
     url: /company
   - label: Experience
@@ -8,8 +10,6 @@ columnOne__links:
     url: /partners
   - label: Perspectives
     url: /perspectives
-  - label: Beacon
-    url: /beacon
 columnTwo__links:
   - label: Contact Us
     url: /contact-us
