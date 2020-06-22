@@ -2,7 +2,7 @@
 heroHeading: Supercharging Scientific Exchange
 heroDescription: Empowering field medical professionals in life science with the
   most effective content management and presentation platform
-heroVideo: /static/img/video_720.mp4
+heroVideo: /public/static/video_720.mp4
 featuresHeading: Helping field medical representatives serve as trusted advisors
   to healthcare professionals across the industry
 featureOne: Addressing the unique needs of Medical Science Liaisons (MSLs) and
