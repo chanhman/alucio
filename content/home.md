@@ -2,6 +2,7 @@
 heroHeading: Supercharging Scientific Exchange
 heroDescription: Empowering field medical professionals in life science with the
   most effective content management and presentation platform
+hero_video: /static/img/brussels-griffon-dog-poses-for-the-camera.jpg
 featuresHeading: Helping field medical representatives serve as trusted advisors
   to healthcare professionals across the industry
 featureOne: Addressing the unique needs of Medical Science Liaisons (MSLs) and
