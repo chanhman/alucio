@@ -8,8 +8,8 @@ columnOne__links:
     url: /partners
   - label: Perspectives
     url: /perspectives
-  - label: Product
-    url: /product
+  - label: Beacon
+    url: /beacon
 columnTwo__links:
   - label: Contact Us
     url: /contact-us
@@ -22,17 +22,17 @@ columnTwo__links:
   - label: Site Map
     url: /site-map
 socialMediaLinks:
-  - label:  LinkedIn
-    icon: ''
-    url: '#'
+  - label: LinkedIn
+    icon: ""
+    url: "#"
   - label: Instagram
-    icon: ''
-    url: '#'
+    icon: ""
+    url: "#"
   - label: Twitter
-    icon: ''
-    url: '#'
+    icon: ""
+    url: "#"
   - label: Facebook
-    icon: ''
-    url: '#'
+    icon: ""
+    url: "#"
 copyrightText: © 2020 alucio. All rights reserved.
 ---
