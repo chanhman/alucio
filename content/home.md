@@ -18,14 +18,14 @@ beaconDescription: Beacon supports MSLs in their efforts to become valued
 beaconCtaLabel: Learn more
 beaconCtaUrl: /beacon
 beaconInfoGraphicLbl1: HCPs
-beaconInfoGraphicLbl2: Internal company stakeholders
 beaconInfoGraphicLbl3: KOLs
 beaconInfoGraphicLbl4: Payers
 beaconInfoGraphicLbl5: Product investigators
-ctaLbl: Request a demo
-date: 2019-03-17T19:31:20.591Z
 beaconInfoGraphicLbl6: Clinical trial managers
 ctaHeading: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+ctaLbl: Request a demo
+date: 2019-03-17T19:31:20.591Z
+beaconInfoGraphicLbl2: Internal company stakeholders
 title: Home
 ctaUrl: "#"
 ---
