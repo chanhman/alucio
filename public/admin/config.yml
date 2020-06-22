@@ -18,6 +18,12 @@ collections:
         fields:
           - { label: 'Hero heading', name: 'heroHeading', widget: 'string' }
           - { label: 'Hero description', name: 'heroDescription', widget: 'text' }
+          - label: "Hero video"
+            name: "hero_video"
+            widget: "file"
+            media_library:
+              config:
+                multiple: false
           - { label: 'Features heading', name: 'featuresHeading', widget: 'string' }
           - { label: 'Feature one', name: 'featureOne', widget: 'string' }
           - { label: 'Feature two', name: 'featureTwo', widget: 'string' }
