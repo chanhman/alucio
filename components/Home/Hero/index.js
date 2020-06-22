@@ -5,6 +5,7 @@ const Hero = () => (
   <section className={styles.container}>
     <h1 className={styles.heading}>{attributes.heroHeading}</h1>
     <h2 className={styles.subheading}>{attributes.heroDescription}</h2>
+    {attributes.heroVideo}
   </section>
 )
 
