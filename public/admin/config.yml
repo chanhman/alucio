@@ -19,7 +19,7 @@ collections:
           - { label: 'Hero heading', name: 'heroHeading', widget: 'string' }
           - { label: 'Hero description', name: 'heroDescription', widget: 'text' }
           - label: "Hero video"
-            name: "hero_video"
+            name: "heroVideo"
             widget: "file"
             media_library:
               config:
@@ -41,9 +41,9 @@ collections:
           - { label: 'CTA heading', name: 'ctaHeading', widget: 'string' }
           - { label: 'CTA label', name: 'ctaLbl', widget: 'string' }
           - { label: 'CTA URL', name: 'ctaUrl', widget: 'string' }
-      - label: 'Product'
+      - label: 'Beacon'
         name: 'name'
-        file: 'content/product.md'
+        file: 'content/beacon.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Hero heading', name: 'hero__heading', widget: 'string' }
