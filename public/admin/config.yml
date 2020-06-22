@@ -19,7 +19,7 @@ collections:
           - { label: 'Hero heading', name: 'heroHeading', widget: 'string' }
           - { label: 'Hero description', name: 'heroDescription', widget: 'text' }
           - label: "Hero video"
-            name: "hero_video"
+            name: "heroVideo"
             widget: "file"
             media_library:
               config:
