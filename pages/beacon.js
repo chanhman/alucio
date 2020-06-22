@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import { attributes } from '../content/product.md'
+import { attributes } from '../content/beacon.md'
 
 const Product = () => (
   <Layout>
