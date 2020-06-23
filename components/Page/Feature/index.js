@@ -1,7 +1,9 @@
+import styles from './Feature.module.scss'
+
 const Feature = ({icon, heading, description}) => (
   <section>
     <img src={icon} alt=""/>
-    <h3>{heading}</h3>
+    <h3 className={styles.heading}>{heading}</h3>
     <p>{description}</p>
   </section>
 )
