@@ -7,11 +7,11 @@ featuresHeading: Helping field medical representatives serve as trusted advisors
   to healthcare professionals across the industry
 featureOne: Addressing the unique needs of Medical Science Liaisons (MSLs) and
   the medical affairs function
-featureOneIcon: null
+featureOneIcon: /static/accurate_version_control.svg
 featureTwo: Streamlining content discovery, delivery and presentation management
-featureTwoIcon: null
+featureTwoIcon: /static/accurate_version_control.svg
 featureThree: Powering both virtual and in-person engagements
-featureThreeIcon: null
+featureThreeIcon: /static/accurate_version_control.svg
 beaconHeading: Our initial product, Beacon, enhances the scientific exchange
   between your MSLs and other field-based medical professionals, and key
   industry stakeholders.
@@ -20,15 +20,15 @@ beaconDescription: Beacon supports MSLs in their efforts to become valued
   patient outcomes.
 beaconCtaLabel: Learn more
 beaconCtaUrl: /beacon
-beaconInfoGraphicLbl1: HCPs
+beaconInfoGraphicLbl2: Internal company stakeholders
 beaconInfoGraphicLbl3: KOLs
 beaconInfoGraphicLbl4: Payers
 beaconInfoGraphicLbl5: Product investigators
-beaconInfoGraphicLbl6: Clinical trial managers
-ctaHeading: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ctaLbl: Request a demo
 date: 2019-03-17T19:31:20.591Z
-beaconInfoGraphicLbl2: Internal company stakeholders
+beaconInfoGraphicLbl1: HCPs
+beaconInfoGraphicLbl6: Clinical trial managers
+ctaHeading: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 title: Home
 ctaUrl: "#"
 ---
