@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Beacon" transform="translate(-136.000000, -276.000000)">
+            <g id="Group-4" transform="translate(136.000000, 276.000000)">
+                <g id="Group-3">
+                    <path d="M16,13.6459963 L16,37.3540037 C16,37.9062884 16.4477153,38.3540037 17,38.3540037 C17.1604051,38.3540037 17.3184564,38.3154169 17.4608153,38.2414998 L40.2907483,26.3874961 C40.7808988,26.1329948 40.9719303,25.5293353 40.7174291,25.0391847 C40.6225299,24.8564159 40.4735171,24.7074031 40.2907483,24.6125039 L17.4608153,12.7585002 C16.9706647,12.503999 16.3670052,12.6950305 16.1125039,13.185181 C16.0385868,13.3275399 16,13.4855913 16,13.6459963 Z" id="Path-2" fill="#FFFFFF"></path>
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="2" cx="25" cy="25" r="24"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

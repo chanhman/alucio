@@ -66,9 +66,7 @@ collections:
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Hero heading', name: 'hero__heading', widget: 'string' }
-          - { label: 'Hero description', name: 'hero__description', widget: 'text' }
-          - { label: 'Product overview heading', name: 'productOverview__heading', widget: 'string' }
-          - { label: 'Product overview CTA', name: 'productOverview__cta', widget: 'string' }
+          - { label: 'Hero tagline', name: 'hero__tagline', widget: 'text' }
           - { label: 'Key features heading', name: 'keyFeatures__heading', widget: 'string' }
           - { label: 'Key features description', name: 'keyFeatures__description', widget: 'text' }
           - { label: 'Key features subheading', name: 'keyFeatures__subheading', widget: 'string' }
@@ -78,17 +76,17 @@ collections:
             fields:
               - { label: Feature name, name: featureName, widget: string }
               - { label: Feature description, name: featureDescription, widget: text }
+              - label: "Feature icon "
+                name: "featureIcon"
+                widget: "file"
+                media_library:
+                  config:
+                    multiple: false
           - { label: 'Integrated video conferencing heading', name: 'integratedVideoConferencing__heading', widget: 'string' }
           - { label: 'Integrated video conferencing description', name: 'integratedVideoConferencing__description', widget: 'text' }
           - { label: 'Integrated video conferencing cta label', name: 'integratedVideoConferencing__ctaLabel', widget: 'string' }
           - { label: 'Platform flexibility heading', name: 'platformFlexibility__heading', widget: 'string' }
           - { label: 'Platform flexibility description', name: 'platformFlexibility__description', widget: 'text' }
-          - label: 'Logo'
-            name: 'logo'
-            widget: 'list'
-            fields:
-              - { label: file, name: file, widget: image, required: false }
-              - { label: name, name: name, widget: string }
       - label: 'Company'
         name: 'company'
         file: 'content/company.md'

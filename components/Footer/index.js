@@ -22,7 +22,7 @@ const selectIcon = (iconName) => {
 }
 
 const Nav = () => {
-  let { columnOne__links, columnTwo__links, socialMediaLinks, copyrightText } = attributes;
+  let { columnOne__links, columnTwo__links, socialMediaLinks, copyrightText } = attributes
 
   return (
     <footer className={styles.footer}>
