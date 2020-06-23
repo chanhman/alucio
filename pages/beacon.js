@@ -18,13 +18,11 @@ const Product = () => (
     <Highlight
       heading={attributes.integratedVideoConferencing__heading}
       description={attributes.integratedVideoConferencing__description}
-      media='yas'
     />
 
     <Highlight
       heading={attributes.platformFlexibility__heading}
       description={attributes.platformFlexibility__description}
-      media='yas'
     />
   </Layout>
 )
