@@ -11,7 +11,6 @@ const Product = () => (
       tagline={attributes.hero__tagline}
       subheading={attributes.keyFeatures__heading}
       description={attributes.keyFeatures__description}
-      media='yas'
     />
 
     <Features data={attributes}/>
