@@ -7,11 +7,11 @@ featuresHeading: Helping field medical representatives serve as trusted advisors
   to healthcare professionals across the industry
 featureOne: Addressing the unique needs of Medical Science Liaisons (MSLs) and
   the medical affairs function
-featureOneIcon: /static/accurate_version_control.svg
+featureOneIcon: /static/rapid_document_delivery.svg
 featureTwo: Streamlining content discovery, delivery and presentation management
 featureTwoIcon: /static/accurate_version_control.svg
 featureThree: Powering both virtual and in-person engagements
-featureThreeIcon: /static/accurate_version_control.svg
+featureThreeIcon: /static/virtual_in-person_engagement_1.svg
 beaconHeading: Our initial product, Beacon, enhances the scientific exchange
   between your MSLs and other field-based medical professionals, and key
   industry stakeholders.
