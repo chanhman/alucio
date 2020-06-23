@@ -27,8 +27,26 @@ collections:
                 multiple: false
           - { label: 'Features heading', name: 'featuresHeading', widget: 'string' }
           - { label: 'Feature one', name: 'featureOne', widget: 'string' }
+          - label: "Feature one icon "
+            name: "featureOneIcon"
+            widget: "file"
+            media_library:
+              config:
+                multiple: false
           - { label: 'Feature two', name: 'featureTwo', widget: 'string' }
+          - label: "Feature two icon "
+            name: "featureTwoIcon"
+            widget: "file"
+            media_library:
+              config:
+                multiple: false
           - { label: 'Feature three', name: 'featureThree', widget: 'string' }
+          - label: "Feature three icon "
+            name: "featureThreeIcon"
+            widget: "file"
+            media_library:
+              config:
+                multiple: false
           - { label: 'Beacon heading', name: 'beaconHeading', widget: 'string' }
           - { label: 'Beacon description', name: 'beaconDescription', widget: 'text' }
           - { label: 'Beacon CTA label', name: 'beaconCtaLabel', widget: 'string' }
