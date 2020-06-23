@@ -8,13 +8,13 @@ const Features = () => (
 
     <div className={styles.features}>
       <div>
-        <Feature description={attributes.featureOne}></Feature>
+        <Feature icon={attributes.featureOneIcon} description={attributes.featureOne}></Feature>
       </div>
       <div>
-        <Feature description={attributes.featureTwo}></Feature>
+        <Feature icon={attributes.featureTwoIcon} description={attributes.featureTwo}></Feature>
       </div>
       <div>
-        <Feature description={attributes.featureThree}></Feature>
+        <Feature icon={attributes.featureThreeIcon} description={attributes.featureThree}></Feature>
       </div>
     </div>
   </section>
