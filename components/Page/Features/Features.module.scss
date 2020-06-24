@@ -1,8 +1,8 @@
 .container {
   display: grid;
   grid-template-columns:  repeat( auto-fit, minmax(25rem, 1fr) );
-  grid-gap: 7.813vw;
-  padding: 7.813vw;
+  grid-gap: (7.813vw / 2) 7.813vw;
+  padding: (7.813vw / 2) 7.813vw;
 
   background-color: #f8f6f8;
 }
