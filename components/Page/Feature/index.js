@@ -4,7 +4,7 @@ const Feature = ({icon, heading, description}) => (
   <section>
     <img src={icon} alt=""/>
     <h3 className={styles.heading}>{heading}</h3>
-    <p>{description}</p>
+    <p className={styles.description}>{description}</p>
   </section>
 )
 
