@@ -4,6 +4,8 @@ hero__heading: Introducing Beacon…
 hero__tagline: The innovative cloud-based content delivery and presentation
   platform designed exclusively to meet the unique needs of your MSLs and the
   medical affairs function
+hero__video: /static/video_720.mp4
+hero__videoThumb: null
 keyFeatures__heading: Key Features
 keyFeatures__description: "The Beacon platform is optimized to enhance the
   medical and scientific dialogue between field medical professionals and
