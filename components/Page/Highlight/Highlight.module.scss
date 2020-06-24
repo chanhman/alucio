@@ -2,7 +2,7 @@
   display: grid;
   grid-gap: 2.5rem;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  padding: 7.813vw;
+  padding: (7.813vw / 2) 7.813vw;
 }
 
 .text {
@@ -40,5 +40,31 @@
     padding-top: (3 / 4) * 100%;
 
     background-color: var(--light-blue);
+  }
+}
+
+.flip {
+  .text {
+    order: 1;
+  }
+}
+
+.invert {
+  color: #fff;
+
+  background-color: var(--blue);
+
+  .heading {
+    color: #fff;
+
+    &::after {
+      background-color: #fff;
+    }
+  }
+
+  .imageWrapper {
+    &::before {
+      background-color: #fff;
+    }
   }
 }

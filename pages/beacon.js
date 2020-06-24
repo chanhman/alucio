@@ -23,6 +23,8 @@ const Product = () => (
     <Highlight
       heading={attributes.platformFlexibility__heading}
       description={attributes.platformFlexibility__description}
+      invert
+      flip
     />
   </Layout>
 )
