@@ -1,33 +1,34 @@
 import Layout from '../components/Layout'
 import { attributes } from '../content/company.md'
+import Hero from '../components/Company/Hero'
 import SectionIntro from '../components/Page/SectionIntro'
 
 const Company = () => (
   <Layout>
-    <div>{ attributes.title }</div>
-    <div>{ attributes.hero__heading }</div>
-    <div>{ attributes.hero__description }</div>
+    <Hero heading={ attributes.hero__heading } description={ attributes.hero__description }/>
+
     <SectionIntro heading={attributes.team__heading} description={attributes.team__description}/>
+    {/* Loop teamMembers */}
+
     <SectionIntro heading={attributes.productAdvisoryBoard__heading} description={attributes.productAdvisoryBoard__description}/>
+    {/* Loop productAdvisoryBoardMembers */}
+
     <SectionIntro heading={attributes.workingAtAlucio__heading} description={attributes.workingAtAlucio__description}/>
-    <div>{ attributes.whatWeValue__heading }</div>
-    <div>{ attributes.whatWeValue__listItem1 }</div>
-    <div>{ attributes.whatWeValue__listItem2 }</div>
-    <div>{ attributes.whatWeValue__listItem3 }</div>
-    <div>{ attributes.whatWeValue__listItem4 }</div>
-    <div>{ attributes.whatWeValue__listItem5 }</div>
-    <div>{ attributes.whatWeValue__listItem6 }</div>
-    <div>{ attributes.whatWeValue__linkedinLabel }</div>
-    <div>{ attributes.whatWeValue__linkedinHref }</div>
-    <div>{ attributes.whatWeValue__glassdoorLabel }</div>
-    <div>{ attributes.whatWeValue__glassdoorHref }</div>
-    <div>{ attributes.joinUs__heading }</div>
-    <div>{ attributes.joinUs__description }</div>
-    <div>{ attributes.press__heading }</div>
-    <div>{ attributes.press__description }</div>
-    <div>{ attributes.pledgeOnePercentage__heading }</div>
-    <div>{ attributes.pledgeOnePercentage__description }</div>
-    <div>{ attributes.pledgeOnePercentage__CtaLabel }</div>
+
+    <section>
+      <h2>{attributes.whatWeValue__heading}</h2>
+      {/* Loop values */}
+    </section>
+
+    <SectionIntro heading={attributes.joinUs__heading} description={attributes.joinUs__description}/>
+
+    <SectionIntro heading={attributes.press__heading} description={attributes.press__description}/>
+
+    <section>
+      <h2>{attributes.pledgeOnePercentage__heading}</h2>
+      <p>{attributes.pledgeOnePercentage__description}</p>
+      <a href="#">{attributes.pledgeOnePercentage__CtaLabel}</a>
+    </section>
   </Layout>
 )
 

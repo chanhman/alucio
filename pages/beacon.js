@@ -1,6 +1,6 @@
 import Layout from '../components/Layout';
 import { attributes } from '../content/beacon.md'
-import Hero from '../components/Page/Hero'
+import Hero from '../components/Product/Hero'
 import Features from '../components/Page/Features'
 import Highlight from '../components/Page/Highlight'
 
