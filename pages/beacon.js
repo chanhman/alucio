@@ -1,8 +1,8 @@
 import Layout from '../components/Layout';
 import { attributes } from '../content/beacon.md'
 import Hero from '../components/Product/Hero'
-import Features from '../components/Page/Features'
-import Highlight from '../components/Page/Highlight'
+import Features from '../components/Product/Features'
+import Highlight from '../components/Product/Highlight'
 
 const Product = () => (
   <Layout>
