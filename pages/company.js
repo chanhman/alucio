@@ -3,6 +3,7 @@ import { attributes } from '../content/company.md'
 import Hero from '../components/Company/Hero'
 import SectionIntro from '../components/Company/SectionIntro'
 import PledgeOnePercent from '../components/Company/PledgeOnePerccent'
+import Profiles from '../components/Company/Profiles'
 
 const Company = () => (
   <Layout>
@@ -16,7 +17,7 @@ const Company = () => (
       description={attributes.team__description}
     >
       {/* Loop teamMembers */}
-      Oh?
+      <Profiles></Profiles>
     </SectionIntro>
 
 
