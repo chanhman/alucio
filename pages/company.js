@@ -5,6 +5,8 @@ import SectionIntro from '../components/Company/SectionIntro'
 import PledgeOnePercent from '../components/Company/PledgeOnePerccent'
 import Profiles from '../components/Company/Profiles'
 import Profile from '../components/Company/Profile'
+import Features from '../components/Features'
+import Feature from '../components/Feature'
 
 const Company = () => {
   let {teamMembers} = attributes
@@ -32,11 +34,10 @@ const Company = () => {
         </Profiles>
       </SectionIntro>
 
-
       <SectionIntro
         heading={attributes.productAdvisoryBoard__heading}
         description={attributes.productAdvisoryBoard__description}
-      />
+      >
         <Profiles>
           {teamMembers.map(teamMember => (
             <Profile
@@ -47,10 +48,20 @@ const Company = () => {
             </Profile>
           ))}
         </Profiles>
+      </SectionIntro>
+
       <SectionIntro
         heading={attributes.workingAtAlucio__heading}
         description={attributes.workingAtAlucio__description}
-      />
+      >
+        <Features>
+          <Feature
+            heading='Test'
+            description='Test'
+            icon='Test'
+          />
+        </Features>
+      </SectionIntro>
 
       <section>
         <h2>{attributes.whatWeValue__heading}</h2>
