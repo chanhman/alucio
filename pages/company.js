@@ -9,7 +9,7 @@ import Features from '../components/Features'
 import Feature from '../components/Feature'
 
 const Company = () => {
-  let {teamMembers} = attributes
+  let {teamMembers, values} = attributes
 
   return (
     <Layout>
@@ -55,11 +55,12 @@ const Company = () => {
         description={attributes.workingAtAlucio__description}
       >
         <Features>
-          <Feature
-            heading='Test'
-            description='Test'
-            icon='Test'
-          />
+          {values.map(value => (
+            <Feature
+              heading={value.heading}
+              description={value.description}
+            />
+          ))}
         </Features>
       </SectionIntro>
 

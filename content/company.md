@@ -54,8 +54,10 @@ workingAtAlucio__description: We are building great technology products to serve
   values.
 whatWeValue__heading: What We Value
 values:
-  - valueHeading:
-  - value:
+  - heading: Heading
+    description: Description
+  - heading: Heading 2
+    description: Description 2
 whatWeValue__linkedinLabel: LinkedIn
 whatWeValue__linkedinHref: LinkedIn URL
 whatWeValue__glassdoorLabel: Glassdoor
