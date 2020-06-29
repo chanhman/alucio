@@ -11,10 +11,21 @@ team__description: Alucio is led by a dedicated and experienced management team
   the life science space.  Cumulatively, the Alucio executive team possesses
   over 75 years of relevant life science industry experience.
 teamMembers:
-  - picture: null
-    name: Full Name
-    title: Title
-    description: Description
+  - picture: https://placekitten.com/200/286
+    name: Dave Gulezian
+    title: Co-Founder and CEO
+  - picture: https://placekitten.com/200/286
+    name: Dave Gulezian
+    title: Co-Founder and CEO
+  - picture: https://placekitten.com/200/286
+    name: Dave Gulezian
+    title: Co-Founder and CEO
+  - picture: https://placekitten.com/200/286
+    name: Dave Gulezian
+    title: Co-Founder and CEO
+  - picture: https://placekitten.com/200/286
+    name: Dave Gulezian
+    title: Co-Founder and CEO
 productAdvisoryBoard__heading: Product Advisory Board
 productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
   made up of a cross-section of experienced life science professionals with

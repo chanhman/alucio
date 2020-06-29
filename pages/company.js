@@ -16,8 +16,7 @@ const Company = () => (
       heading={attributes.team__heading}
       description={attributes.team__description}
     >
-      {/* Loop teamMembers */}
-      <Profiles></Profiles>
+      <Profiles data={attributes}></Profiles>
     </SectionIntro>
 
 

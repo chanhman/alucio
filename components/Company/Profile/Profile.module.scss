@@ -1,7 +1,7 @@
 .container {
   position: relative;
 
-  background-color: #f0f9fb;
+  background-size: cover;
 
   &::before {
     display: block;
@@ -9,12 +9,28 @@
     width: 100%;
     padding-top: (4 / 3) * 100%;
   }
+}
 
-  > .inner {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
+.inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+
+  color: #ffffff;
+
+  background-color: #00000050;
+}
+
+.name {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  line-height: 1.4;
 }
