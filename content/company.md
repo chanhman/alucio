@@ -26,6 +26,9 @@ teamMembers:
   - picture: https://placekitten.com/200/286
     name: Dave Gulezian
     title: Co-Founder and CEO
+  - picture: https://placekitten.com/200/286
+    name: Dave Gulezian
+    title: Co-Founder and CEO
 productAdvisoryBoard__heading: Product Advisory Board
 productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
   made up of a cross-section of experienced life science professionals with
