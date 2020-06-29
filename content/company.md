@@ -11,10 +11,10 @@ team__description: Alucio is led by a dedicated and experienced management team
   the life science space.  Cumulatively, the Alucio executive team possesses
   over 75 years of relevant life science industry experience.
 teamMembers:
-  - picture:
-    name:
-    title:
-    description:
+  - picture: null
+    name: Full Name
+    title: Title
+    description: Description
 productAdvisoryBoard__heading: Product Advisory Board
 productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
   made up of a cross-section of experienced life science professionals with
@@ -24,10 +24,11 @@ productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
   and marketing strategy. We are very fortunate to have this talented group of
   industry professionals supporting our efforts.
 productAdvisoryBoardMembers:
-  - name:
-    title:
-    company:
-    linkedIn:
+  - picture: null
+    name: Full Name
+    title: Title
+    company: Company
+    linkedIn: LinkedIn
 workingAtAlucio__heading: Working at Alucio
 workingAtAlucio__description: We are building great technology products to serve
   the life science industry and are looking for more Alucio “A Team” members to
@@ -39,6 +40,7 @@ workingAtAlucio__description: We are building great technology products to serve
   values.
 whatWeValue__heading: What We Value
 values:
+  - valueHeading:
   - value:
 whatWeValue__linkedinLabel: LinkedIn
 whatWeValue__linkedinHref: LinkedIn URL

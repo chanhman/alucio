@@ -14,8 +14,11 @@ const Company = () => (
     <SectionIntro
       heading={attributes.team__heading}
       description={attributes.team__description}
-    />
-    {/* Loop teamMembers */}
+    >
+      {/* Loop teamMembers */}
+      Oh?
+    </SectionIntro>
+
 
     <SectionIntro
       heading={attributes.productAdvisoryBoard__heading}
