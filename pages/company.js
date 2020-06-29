@@ -54,7 +54,7 @@ const Company = () => {
         heading={attributes.workingAtAlucio__heading}
         description={attributes.workingAtAlucio__description}
       >
-        <Features>
+        <Features heading={attributes.whatWeValue__heading}>
           {values.map(value => (
             <Feature
               heading={value.heading}
@@ -63,11 +63,6 @@ const Company = () => {
           ))}
         </Features>
       </SectionIntro>
-
-      <section>
-        <h2>{attributes.whatWeValue__heading}</h2>
-        {/* Loop values */}
-      </section>
 
       <SectionIntro
         heading={attributes.joinUs__heading}

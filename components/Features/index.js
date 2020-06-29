@@ -1,10 +1,13 @@
 import styles from './Features.module.scss'
 
-const Features = ({children}) => {
-
+const Features = ({heading, children}) => {
   return (
     <section className={styles.container}>
-      {children}
+      {heading && <h2 className={styles.heading}>{heading}</h2>}
+
+      <div className={styles.inner}>
+        {children}
+      </div>
     </section>
   )
 }

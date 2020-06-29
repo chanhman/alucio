@@ -21,15 +21,13 @@ const Profiles = ({children}) => {
   }
 
   return (
-    <div className={styles.container}>
-      <Carousel
-        breakPoints={breakPoints}
-        pagination={false}
-        renderArrow={myArrow}
-      >
-        {children}
-      </Carousel>
-    </div>
+    <Carousel
+      breakPoints={breakPoints}
+      pagination={false}
+      renderArrow={myArrow}
+    >
+      {children}
+    </Carousel>
   )
 }
 
