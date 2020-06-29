@@ -1,11 +1,8 @@
 import styles from './Profiles.module.scss'
-import Profile from '../Profile'
 import Carousel, {consts} from "react-elastic-carousel";
 
 
-const Profiles = ({data}) => {
-  let {teamMembers} = data
-
+const Profiles = ({children}) => {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
@@ -30,14 +27,7 @@ const Profiles = ({data}) => {
         pagination={false}
         renderArrow={myArrow}
       >
-        {teamMembers.map(teamMember => (
-          <Profile
-            picture={teamMember.picture}
-            name={teamMember.name}
-          >
-            {teamMember.title}
-          </Profile>
-        ))}
+        {children}
       </Carousel>
     </div>
   )
