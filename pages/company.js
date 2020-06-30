@@ -11,7 +11,7 @@ import Highlight from '../components/Highlight'
 import Contact from '../components/Company/Contact'
 
 const Company = () => {
-  let {teamMembers, values} = attributes
+  let {teamMembers, advisoryBoardMembers, values} = attributes
 
   return (
     <Layout>
@@ -29,9 +29,8 @@ const Company = () => {
             <Profile
               picture={teamMember.picture}
               name={teamMember.name}
-            >
-              {teamMember.title}
-            </Profile>
+              title={teamMember.title}
+            />
           ))}
         </Profiles>
       </SectionIntro>
@@ -41,12 +40,14 @@ const Company = () => {
         description={attributes.productAdvisoryBoard__description}
       >
         <Profiles>
-          {teamMembers.map(teamMember => (
+          {advisoryBoardMembers.map(advisoryBoardMember => (
             <Profile
-              picture={teamMember.picture}
-              name={teamMember.name}
+              picture={advisoryBoardMember.picture}
+              name={advisoryBoardMember.name}
+              title={advisoryBoardMember.title}
             >
-              {teamMember.title}
+              <p>{advisoryBoardMember.company}</p>
+              <p><a href="{advisoryBoardMember.linkedIn}">LinkedIn</a></p>
             </Profile>
           ))}
         </Profiles>

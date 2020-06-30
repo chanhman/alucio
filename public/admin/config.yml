@@ -120,7 +120,7 @@ collections:
           - { label: 'Product advisory board description', name: 'productAdvisoryBoard__description', widget: 'text' }
           - { label: 'Working at alucio heading', name: 'workingAtAlucio__heading', widget: 'string' }
           - label: 'Product advisory board members'
-            name: 'productAdvisoryBoardMembers'
+            name: 'advisoryBoardMembers'
             widget: 'list'
             fields:
               - { label: Name, name: name, widget: string }

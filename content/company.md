@@ -37,8 +37,13 @@ productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
   expertise and actively consults with Alucio leadership on product direction
   and marketing strategy. We are very fortunate to have this talented group of
   industry professionals supporting our efforts.
-productAdvisoryBoardMembers:
-  - picture: null
+advisoryBoardMembers:
+  - picture: https://placekitten.com/200/286
+    name: Full Name
+    title: Title
+    company: Company
+    linkedIn: LinkedIn
+  - picture: https://placekitten.com/200/286
     name: Full Name
     title: Title
     company: Company
