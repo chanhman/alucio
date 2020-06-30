@@ -77,7 +77,7 @@ contact__heading: Contact
 contact__colOneSubheading: Customer Inquiries
 contact__colOneContent: |-
   415.XXX.XXXX \
-  sales@alucio.io \
+  [sales@alucio.io ](sales@alucio.io)\
   Request a Demo
 contact__colTwoSubheading: Media Relations
 contact__colTwoContent: |-
