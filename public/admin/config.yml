@@ -109,12 +109,12 @@ collections:
           - { label: 'Team heading', name: 'team__heading', widget: 'string' }
           - { label: 'Team description', name: 'team__description', widget: 'string' }
           - label: 'Team members'
-              name: 'teamMembers'
-              widget: 'list'
-              fields:
-                - { label: Picture, name: picture, widget: image, required: false }
-                - { label: Name, name: name, widget: string }
-                - { label: Title, name: title, widget: string }
+            name: 'teamMembers'
+            widget: 'list'
+            fields:
+              - { label: Picture, name: picture, widget: image, required: false }
+              - { label: Name, name: name, widget: string }
+              - { label: Title, name: title, widget: string }
           - { label: 'Product advisory board heading', name: 'productAdvisoryBoard__heading', widget: 'string' }
           - { label: 'Product advisory board description', name: 'productAdvisoryBoard__description', widget: 'text' }
           - label: 'Product advisory board members'
@@ -138,20 +138,20 @@ collections:
           - { label: 'Join us heading', name: 'joinUs__heading', widget: 'string' }
           - { label: 'Join us description', name: 'joinUs__description', widget: 'text' }
           - label: 'Job openings'
-              name: 'jobOpenings'
-              widget: 'list'
-              fields:
-                - { label: Title, name: title, widget: string }
-                - { label: Link, name: link, widget: string }
+            name: 'jobOpenings'
+            widget: 'list'
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Link, name: link, widget: string }
           - { label: 'Press heading', name: 'press__heading', widget: 'string' }
           - { label: 'Press description', name: 'press__description', widget: 'text' }
           - label: 'Press releases'
-              name: 'pressReleases'
-              widget: 'list'
-              fields:
-                - { label: Date, name: date, widget: string }
-                - { label: Title, name: title, widget: string }
-                - { label: Link, name: link, widget: string }
+            name: 'pressReleases'
+            widget: 'list'
+            fields:
+              - { label: Date, name: date, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Link, name: link, widget: string }
           - { label: 'Pledge one percentage heading', name: 'pledgeOnePercentage__heading', widget: 'string' }
           - { label: 'Pledge one percentage description', name: 'pledgeOnePercentage__description', widget: 'text' }
           - { label: 'Pledge one percentage cta label', name: 'pledgeOnePercentage__ctaLabel', widget: 'string' }
