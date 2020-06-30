@@ -54,7 +54,7 @@ pressReleases:
   - date: Date
     title: Release title
     link: Link
-pledgeOnePercentage__heading: "Pledge 1%"
+pledgeOnePercentage__heading: Pledge 1%
 pledgeOnePercentage__description: While pursuing company growth and business
   success, we also recognize our responsibility to the broader community and
   world around us. As such, Alucio has committed to be part of Pledge
@@ -68,11 +68,20 @@ pledgeOnePercentage__description: While pursuing company growth and business
 pledgeOnePercentage__ctaLabel: Click below to learn more about Pledge 1%
 pledgeOnePercentage__ctaLink: /
 diversity__heading: Diversity at Alucio
-diversity__description: We value diversity within the company and strive to create an open, inclusive environment with people from many backgrounds who share our vision. Alucio is also a certified Minority Business Enterprise (MBE) company. This certification was completed by the WRMSDC.
+diversity__description: We value diversity within the company and strive to
+  create an open, inclusive environment with people from many backgrounds who
+  share our vision. Alucio is also a certified Minority Business Enterprise
+  (MBE) company. This certification was completed by the WRMSDC.
 diversity__image: https://burst.shopifycdn.com/photos/friends-look-on-laptop_1_.jpg
 contact__heading: Contact
 contact__colOneSubheading: Customer Inquiries
-contact__colOneContent: 415.XXX.XXXX sales@alucio.io Request a Demo
+contact__colOneContent: |-
+  415.XXX.XXXX \
+  sales@alucio.io \
+  Request a Demo
 contact__colTwoSubheading: Media Relations
-contact__colTwoContent: Lisa Amin Gulezian 925-788-3533 lgulezian@alucio.io
+contact__colTwoContent: |-
+  Lisa Amin Gulezian \
+  925-788-3533 \
+  lgulezian@alucio.io
 ---
