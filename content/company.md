@@ -68,6 +68,13 @@ joinUs__description: If you are excited to be part of building something great,
 press__heading: Press
 press__description: Please see below for the latest press and news on Alucio.
   Please contact press@alucio.io for any press or public relations inquiries.
+pressReleases:
+  - date: Date
+    title: Release Title
+    link: Link
+  - date: Date
+    title: Release Title
+    link: Link
 pledgeOnePercentage__heading: "Pledge 1%:"
 pledgeOnePercentage__description: While pursuing company growth and business
   success, we also recognize our responsibility to the broader community and

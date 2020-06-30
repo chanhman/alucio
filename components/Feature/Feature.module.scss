@@ -1,5 +1,7 @@
 .heading {
   margin-top: 0;
+  margin-bottom: 0.5rem;
+
   color: var(--purple);
 }
 
@@ -8,5 +10,6 @@ img + .heading {
 }
 
 .description {
+  margin-top: 0;
   margin-bottom: 0;
 }

@@ -1,10 +1,14 @@
 import styles from './PledgeOnePercent.module.scss'
+import Button from '../../Button'
 
 const PledgeOnePercent = ({heading, description, ctaLbl}) => (
-  <section>
-    <h2>{heading}</h2>
-    <p>{description}</p>
-    <a href="#">{ctaLbl}</a>
+  <section className={styles.container}>
+    <div className={styles.inner}>
+      <h2 className={styles.heading}>{heading}</h2>
+      <p className={styles.description}>{description}</p>
+      <Button label={ctaLbl} url='#' outline/>
+    </div>
+    <div className={styles.bgText}>{heading}</div>
   </section>
 )
 

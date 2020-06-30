@@ -3,7 +3,7 @@ import IconFacebook from './icon-facebook.svg'
 import IconInstagram from './icon-instagram.svg'
 import IconLinkedIn from './icon-linkedIn.svg'
 import IconTwitter from './icon-twitter.svg'
-import styles from './index.module.scss'
+import styles from './Footer.module.scss'
 import { attributes } from '../../content/footer.md'
 
 const selectIcon = (iconName) => {

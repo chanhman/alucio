@@ -31,5 +31,11 @@
 }
 
 .description {
+  margin-right: auto;
   margin-bottom: 2.7345vw;
+  margin-left: auto;
+
+  @media (min-width: 48rem) {
+    width: 50vw;
+  }
 }
