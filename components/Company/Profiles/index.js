@@ -1,5 +1,5 @@
 import styles from './Profiles.module.scss'
-import Carousel, {consts} from "react-elastic-carousel";
+import Carousel, {consts} from 'react-elastic-carousel'
 
 
 const Profiles = ({children}) => {

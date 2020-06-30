@@ -2,15 +2,9 @@
   position: relative;
 
   width: 99%;
+  height: 25rem;
 
   background-size: cover;
-
-  &::before {
-    display: block;
-    content: "";
-    width: 100%;
-    padding-top: (4 / 3) * 100%;
-  }
 }
 
 .inner {
