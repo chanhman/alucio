@@ -76,7 +76,8 @@ const Company = () => {
       <PledgeOnePercent
         heading={attributes.pledgeOnePercentage__heading}
         description={attributes.pledgeOnePercentage__description}
-        ctaLbl={attributes.pledgeOnePercentage__CtaLabel}
+        ctaLbl={attributes.pledgeOnePercentage__ctaLabel}
+        ctaLink={attributes.pledgeOnePercentage__ctaLink}
       />
 
       <Highlight

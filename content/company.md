@@ -11,22 +11,22 @@ team__description: Alucio is led by a dedicated and experienced management team
   the life science space.  Cumulatively, the Alucio executive team possesses
   over 75 years of relevant life science industry experience.
 teamMembers:
-  - picture: https://placekitten.com/200/286
+  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
     name: Dave Gulezian
     title: Co-Founder and CEO
-  - picture: https://placekitten.com/200/286
+  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
     name: Dave Gulezian
     title: Co-Founder and CEO
-  - picture: https://placekitten.com/200/286
+  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
     name: Dave Gulezian
     title: Co-Founder and CEO
-  - picture: https://placekitten.com/200/286
+  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
     name: Dave Gulezian
     title: Co-Founder and CEO
-  - picture: https://placekitten.com/200/286
+  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
     name: Dave Gulezian
     title: Co-Founder and CEO
-  - picture: https://placekitten.com/200/286
+  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
     name: Dave Gulezian
     title: Co-Founder and CEO
 productAdvisoryBoard__heading: Product Advisory Board
@@ -38,12 +38,12 @@ productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
   and marketing strategy. We are very fortunate to have this talented group of
   industry professionals supporting our efforts.
 advisoryBoardMembers:
-  - picture: https://placekitten.com/200/286
+  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
     name: Full Name
     title: Title
     company: Company
     linkedIn: LinkedIn
-  - picture: https://placekitten.com/200/286
+  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
     name: Full Name
     title: Title
     company: Company
@@ -92,7 +92,13 @@ pledgeOnePercentage__description: While pursuing company growth and business
   network of founders and CEOs from 11,000 companies in 100+ countries -
   including Twilio, Box, Yelp, DocuSign, Atlassian, Optimizely, Salesforce,
   TechStars and many more - who are all committed to giving back.
-pledgeOnePercentage__CtaLabel: Click below to learn more about Pledge 1%
+pledgeOnePercentage__ctaLabel: Click below to learn more about Pledge 1%
+pledgeOnePercentage__ctaLink: /
 diversity__heading: Diversity at Alucio
 diversity__description: We value diversity within the company and strive to create an open, inclusive environment with people from many backgrounds who share our vision. Alucio is also a certified Minority Business Enterprise (MBE) company. This certification was completed by the WRMSDC.
+contact__heading: Contact
+contact__colOneSubheading: Customer Inquiries
+contact__colOneContent: 415.XXX.XXXX sales@alucio.io Request a Demo
+contact__colTwoSubheading: Media Relations
+contact__colTwoContent: Lisa Amin Gulezian 925-788-3533 lgulezian@alucio.io
 ---
