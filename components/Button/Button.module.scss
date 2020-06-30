@@ -1,5 +1,5 @@
 .container {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   height: var(--btn-height);
@@ -11,8 +11,18 @@
   text-decoration: none;
 
   background-color: var(--purple);
+  transition: all 0.15s ease-out;
 
   &:hover {
     background-color: var(--neon-purple);
+  }
+
+  &.outline {
+    background-color: transparent;
+    border: var(--btn-border-width) solid var(--neon-purple);
+
+    &:hover {
+      background-color: var(--neon-purple);
+    }
   }
 }

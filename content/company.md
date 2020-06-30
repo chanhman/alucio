@@ -11,10 +11,9 @@ team__description: Alucio is led by a dedicated and experienced management team
   the life science space.  Cumulatively, the Alucio executive team possesses
   over 75 years of relevant life science industry experience.
 teamMembers:
-  - picture:
-    name:
-    title:
-    description:
+  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
+    name: Dave Gulezian
+    title: Co-Founder and CEO
 productAdvisoryBoard__heading: Product Advisory Board
 productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
   made up of a cross-section of experienced life science professionals with
@@ -23,11 +22,12 @@ productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
   expertise and actively consults with Alucio leadership on product direction
   and marketing strategy. We are very fortunate to have this talented group of
   industry professionals supporting our efforts.
-productAdvisoryBoardMembers:
-  - name:
-    title:
-    company:
-    linkedIn:
+advisoryBoardMembers:
+  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
+    name: Full Name
+    title: Title
+    company: Company
+    linkedIn: LinkedIn
 workingAtAlucio__heading: Working at Alucio
 workingAtAlucio__description: We are building great technology products to serve
   the life science industry and are looking for more Alucio “A Team” members to
@@ -39,18 +39,22 @@ workingAtAlucio__description: We are building great technology products to serve
   values.
 whatWeValue__heading: What We Value
 values:
-  - value:
-whatWeValue__linkedinLabel: LinkedIn
-whatWeValue__linkedinHref: LinkedIn URL
-whatWeValue__glassdoorLabel: Glassdoor
-whatWeValue__glassdoorHref: Glassdoor URL
+  - heading: Heading
+    description: Description
 joinUs__heading: Join Us
 joinUs__description: If you are excited to be part of building something great,
   we would love to hear from you!
+jobOpenings:
+  - title: title
+    link: Link
 press__heading: Press
 press__description: Please see below for the latest press and news on Alucio.
   Please contact press@alucio.io for any press or public relations inquiries.
-pledgeOnePercentage__heading: "Pledge 1%:"
+pressReleases:
+  - date: Date
+    title: Release title
+    link: Link
+pledgeOnePercentage__heading: "Pledge 1%"
 pledgeOnePercentage__description: While pursuing company growth and business
   success, we also recognize our responsibility to the broader community and
   world around us. As such, Alucio has committed to be part of Pledge
@@ -61,5 +65,14 @@ pledgeOnePercentage__description: While pursuing company growth and business
   network of founders and CEOs from 11,000 companies in 100+ countries -
   including Twilio, Box, Yelp, DocuSign, Atlassian, Optimizely, Salesforce,
   TechStars and many more - who are all committed to giving back.
-pledgeOnePercentage__CtaLabel: Click below to learn more about Pledge 1%
+pledgeOnePercentage__ctaLabel: Click below to learn more about Pledge 1%
+pledgeOnePercentage__ctaLink: /
+diversity__heading: Diversity at Alucio
+diversity__description: We value diversity within the company and strive to create an open, inclusive environment with people from many backgrounds who share our vision. Alucio is also a certified Minority Business Enterprise (MBE) company. This certification was completed by the WRMSDC.
+diversity__image: https://burst.shopifycdn.com/photos/friends-look-on-laptop_1_.jpg
+contact__heading: Contact
+contact__colOneSubheading: Customer Inquiries
+contact__colOneContent: 415.XXX.XXXX sales@alucio.io Request a Demo
+contact__colTwoSubheading: Media Relations
+contact__colTwoContent: Lisa Amin Gulezian 925-788-3533 lgulezian@alucio.io
 ---

@@ -14,7 +14,9 @@
     "next": "latest",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "sass": "^1.26.8"
+    "react-elastic-carousel": "^0.6.4",
+    "sass": "^1.26.8",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "frontmatter-markdown-loader": "^2.0.0"

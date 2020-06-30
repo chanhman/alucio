@@ -1,7 +1,7 @@
 import styles from './Highlight.module.scss'
 import classes from 'classnames'
 
-const Highlight = ({heading, description, media, invert, flip}) => (
+const Highlight = ({heading, description, image, invert, flip}) => (
   <section className={classes(styles.container, invert && styles.invert, flip && styles.flip)}>
     <div className={styles.text}>
       <h2 className={styles.heading}>{heading}</h2>
@@ -9,7 +9,7 @@ const Highlight = ({heading, description, media, invert, flip}) => (
     </div>
     <div>
       <div className={styles.imageWrapper}>
-        {media}
+        <img src={image} alt=""/>
       </div>
     </div>
   </section>

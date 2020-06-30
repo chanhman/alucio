@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+
+  width: 99%;
+  height: 25rem;
+
+  background-size: cover;
+}
+
+.inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+
+  color: #ffffff;
+
+  background-color: #00000050;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    line-height: normal;
+  }
+
+  a {
+    color: #fff;
+  }
+}
+
+.name {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  line-height: 1.4;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+}

@@ -1,0 +1,43 @@
+.container {
+  padding-top: 5.469vw;
+}
+
+.intro {
+  text-align: center;
+}
+
+.heading {
+  position: relative;
+
+  margin-bottom: 1rem;
+  margin-top: 0;
+  padding-bottom: 1.25rem;
+
+  color: var(--purple);
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    height: 0.25rem;
+    width: 4.5rem;
+    margin-left: calc(-4.5rem / 2);
+
+    background-color: var(--light-blue);
+  }
+}
+
+.description {
+  margin-right: auto;
+  margin-bottom: 2.7345vw;
+  margin-left: auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+
+  @media (min-width: 48rem) {
+    width: 50vw;
+  }
+}

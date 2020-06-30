@@ -1,0 +1,21 @@
+.container {
+  padding: (7.813vw / 2) 7.813vw;
+
+  background-color: #f8f6f8;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns:  repeat( auto-fit, minmax(16rem, 1fr) );
+  grid-gap: (7.813vw / 2) 7.813vw;
+}
+
+.heading {
+  margin-top: 0;
+  margin-bottom: 1.125rem;
+
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+}

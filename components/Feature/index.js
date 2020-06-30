@@ -1,11 +1,11 @@
 import styles from './Feature.module.scss'
 
 const Feature = ({icon, heading, description}) => (
-  <section>
-    <img src={icon} alt=""/>
+  <div>
+    {icon !== null || '' && <img src={icon} alt=""/>}
     <h3 className={styles.heading}>{heading}</h3>
     <p className={styles.description}>{description}</p>
-  </section>
+  </div>
 )
 
 export default Feature
