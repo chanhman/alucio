@@ -1,0 +1,39 @@
+.container {
+  padding-right: var(--site-side-padding);
+  padding-bottom: 10vw;
+  padding-left: var(--site-side-padding);
+}
+
+.heading {
+  position: relative;
+
+  margin-top: 0;
+  padding-bottom: 1.5rem;
+
+  color: var(--purple);
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    height: 0.25rem;
+    width: 8.875rem;
+
+    background-color: var(--light-blue);
+  }
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.subheading {}

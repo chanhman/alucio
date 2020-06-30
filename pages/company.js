@@ -8,6 +8,7 @@ import Profile from '../components/Company/Profile'
 import Features from '../components/Features'
 import Feature from '../components/Feature'
 import Highlight from '../components/Highlight'
+import Contact from '../components/Company/Contact'
 
 const Company = () => {
   let {teamMembers, values} = attributes
@@ -81,33 +82,13 @@ const Company = () => {
         ctaLbl={attributes.pledgeOnePercentage__CtaLabel}
       />
 
-      <Highlight heading={attributes.diversity__heading} description={attributes.diversity__description}></Highlight>
+      <Highlight
+        heading={attributes.diversity__heading}
+        description={attributes.diversity__description}
+        flip
+      />
 
-      <section>
-        <h2>Contact</h2>
-        <div>
-          <h3>Customer Inquiries</h3>
-          <p>
-            <a href="#">415.XXX.XXXX</a>
-          </p>
-          <p>
-            <a href="mailto:sales@alucio.io">sales@alucio.io</a>
-          </p>
-          <p>
-            <a href="#">Request a Demo</a>
-          </p>
-        </div>
-        <div>
-          <h3>Media Relations</h3>
-          <p>Lisa Amin Gulezian</p>
-          <p>
-            <a href="tel:925-788-3533">925-788-3533</a>
-          </p>
-          <p>
-            <a href="mailto:lgulezian@alucio.io">lgulezian@alucio.io</a>
-          </p>
-        </div>
-      </section>
+      <Contact data={attributes}/>
     </Layout>
   )
 }
