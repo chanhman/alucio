@@ -9,9 +9,10 @@ import Features from '../components/Features'
 import Feature from '../components/Feature'
 import Highlight from '../components/Highlight'
 import Contact from '../components/Company/Contact'
+import Jobs from '../components/Company/Jobs'
 
 const Company = () => {
-  let {teamMembers, advisoryBoardMembers, values} = attributes
+  let {teamMembers, advisoryBoardMembers, values, jobOpenings} = attributes
 
   return (
     <Layout>
@@ -67,10 +68,7 @@ const Company = () => {
         </Features>
       </SectionIntro>
 
-      <SectionIntro
-        heading={attributes.joinUs__heading}
-        description={attributes.joinUs__description}
-      />
+      <Jobs data={attributes}/>
 
       <SectionIntro
         heading={attributes.press__heading}
