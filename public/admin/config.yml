@@ -103,14 +103,22 @@ collections:
         name: 'company'
         file: 'content/company.md'
         fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Hero heading', name: 'hero__heading', widget: 'string' }
+          - { label: 'Hero description', name: 'hero__description', widget: 'text' }
+          - { label: 'Team heading', name: 'team__heading', widget: 'string' }
+          - { label: 'Team description', name: 'team__description', widget: 'string' }
           - label: 'Team members'
-            name: 'testimonials'
-            widget: 'list'
-            fields:
-              - { label: Picture, name: picture, widget: image, required: false }
-              - { label: Name, name: name, widget: string }
-              - { label: Title, name: title, widget: string }
-              - { label: Description, name: description, widget: text }
+              name: 'testimonials'
+              widget: 'list'
+              fields:
+                - { label: Picture, name: picture, widget: image, required: false }
+                - { label: Name, name: name, widget: string }
+                - { label: Title, name: title, widget: string }
+                - { label: Description, name: description, widget: text }
+          - { label: 'Product advisory board heading', name: 'productAdvisoryBoard__heading', widget: 'string' }
+          - { label: 'Product advisory board description', name: 'productAdvisoryBoard__description', widget: 'text' }
+          - { label: 'Working at alucio heading', name: 'workingAtAlucio__heading', widget: 'string' }
           - label: 'Product advisory board members'
             name: 'productAdvisoryBoardMembers'
             widget: 'list'
@@ -119,25 +127,13 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Company, name: company, widget: string }
               - { label: LinkedIn, name: linkedIn, widget: string }
+          - { label: 'Working at alucio description', name: 'workingAtAlucio__description', widget: 'text' }
+          - { label: 'What we value heading', name: 'whatWeValue__heading', widget: 'string' }
           - label: 'Values'
             name: 'values'
             widget: 'list'
             fields:
               - { label: Value, name: value, widget: string }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Hero heading', name: 'hero__heading', widget: 'string' }
-          - { label: 'Hero description', name: 'hero__description', widget: 'text' }
-          - { label: 'Team heading', name: 'team__heading', widget: 'string' }
-          - { label: 'Team description', name: 'team__description', widget: 'string' }
-          - { label: 'Product advisory board heading', name: 'productAdvisoryBoard__heading', widget: 'string' }
-          - { label: 'Product advisory board description', name: 'productAdvisoryBoard__description', widget: 'text' }
-          - { label: 'Working at alucio heading', name: 'workingAtAlucio__heading', widget: 'string' }
-          - { label: 'Working at alucio description', name: 'workingAtAlucio__description', widget: 'text' }
-          - { label: 'What we value heading', name: 'whatWeValue__heading', widget: 'string' }
-          - { label: 'What we value linkedin label', name: 'whatWeValue__linkedinLabel', widget: 'string' }
-          - { label: 'What we value linkedin href', name: 'whatWeValue__linkedinHref', widget: 'string' }
-          - { label: 'What we value glassdoor label', name: 'whatWeValue__glassdoorLabel', widget: 'string' }
-          - { label: 'What we value glassdoor href', name: 'whatWeValue__glassdoorHref', widget: 'string' }
           - { label: 'Join us heading', name: 'joinUs__heading', widget: 'string' }
           - { label: 'Join us description', name: 'joinUs__description', widget: 'text' }
           - { label: 'Press heading', name: 'press__heading', widget: 'string' }

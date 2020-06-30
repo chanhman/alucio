@@ -58,22 +58,23 @@ values:
     description: Description
   - heading: Heading 2
     description: Description 2
-whatWeValue__linkedinLabel: LinkedIn
-whatWeValue__linkedinHref: LinkedIn URL
-whatWeValue__glassdoorLabel: Glassdoor
-whatWeValue__glassdoorHref: Glassdoor URL
 joinUs__heading: Join Us
 joinUs__description: If you are excited to be part of building something great,
   we would love to hear from you!
+jobOpenings:
+  - heading: heading
+    link: Link
+  - heading: heading
+    link: Link
 press__heading: Press
 press__description: Please see below for the latest press and news on Alucio.
   Please contact press@alucio.io for any press or public relations inquiries.
 pressReleases:
   - date: Date
-    title: Release Title
+    heading: Release heading
     link: Link
   - date: Date
-    title: Release Title
+    heading: Release heading
     link: Link
 pledgeOnePercentage__heading: "Pledge 1%"
 pledgeOnePercentage__description: While pursuing company growth and business
