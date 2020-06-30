@@ -83,6 +83,7 @@ const Company = () => {
       <Highlight
         heading={attributes.diversity__heading}
         description={attributes.diversity__description}
+        image={attributes.diversity__image}
         flip
       />
 

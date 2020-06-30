@@ -158,6 +158,12 @@ collections:
           - { label: 'Pledge one percentage cta link', name: 'pledgeOnePercentage__ctaLink', widget: 'string' }
           - { label: 'Diversity heading', name: 'diversity__heading', widget: 'string' }
           - { label: 'Diversity description', name: 'diversity__description', widget: 'markdown' }
+          - label: "Diversity image"
+            name: "diversity__image"
+            widget: "file"
+            media_library:
+              config:
+                multiple: false
           - { label: 'Contact heading', name: 'contact__heading', widget: 'string' }
           - { label: 'Contact column one heading', name: 'contact__colOneSubheading', widget: 'string' }
           - { label: 'Contact column one content', name: 'contact__colOneContent', widget: 'markdown' }

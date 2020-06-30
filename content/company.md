@@ -96,6 +96,7 @@ pledgeOnePercentage__ctaLabel: Click below to learn more about Pledge 1%
 pledgeOnePercentage__ctaLink: /
 diversity__heading: Diversity at Alucio
 diversity__description: We value diversity within the company and strive to create an open, inclusive environment with people from many backgrounds who share our vision. Alucio is also a certified Minority Business Enterprise (MBE) company. This certification was completed by the WRMSDC.
+diversity__image: https://burst.shopifycdn.com/photos/friends-look-on-laptop_1_.jpg
 contact__heading: Contact
 contact__colOneSubheading: Customer Inquiries
 contact__colOneContent: 415.XXX.XXXX sales@alucio.io Request a Demo
