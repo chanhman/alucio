@@ -75,7 +75,7 @@ pressReleases:
   - date: Date
     title: Release Title
     link: Link
-pledgeOnePercentage__heading: "Pledge 1%:"
+pledgeOnePercentage__heading: "Pledge 1%"
 pledgeOnePercentage__description: While pursuing company growth and business
   success, we also recognize our responsibility to the broader community and
   world around us. As such, Alucio has committed to be part of Pledge
@@ -87,4 +87,6 @@ pledgeOnePercentage__description: While pursuing company growth and business
   including Twilio, Box, Yelp, DocuSign, Atlassian, Optimizely, Salesforce,
   TechStars and many more - who are all committed to giving back.
 pledgeOnePercentage__CtaLabel: Click below to learn more about Pledge 1%
+diversity__heading: Diversity at Alucio
+diversity__description: We value diversity within the company and strive to create an open, inclusive environment with people from many backgrounds who share our vision. Alucio is also a certified Minority Business Enterprise (MBE) company. This certification was completed by the WRMSDC.
 ---

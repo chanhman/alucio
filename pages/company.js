@@ -79,6 +79,11 @@ const Company = () => {
         description={attributes.pledgeOnePercentage__description}
         ctaLbl={attributes.pledgeOnePercentage__CtaLabel}
       />
+
+      <section>
+        {attributes.diversity__heading}
+        {attributes.diversity__description}
+      </section>
     </Layout>
   )
 }
