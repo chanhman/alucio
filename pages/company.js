@@ -10,9 +10,10 @@ import Feature from '../components/Feature'
 import Highlight from '../components/Highlight'
 import Contact from '../components/Company/Contact'
 import Jobs from '../components/Company/Jobs'
+import Press from'../components/Company/Press'
 
 const Company = () => {
-  let {teamMembers, advisoryBoardMembers, values, jobOpenings} = attributes
+  let {teamMembers, advisoryBoardMembers, values} = attributes
 
   return (
     <Layout>
@@ -70,10 +71,7 @@ const Company = () => {
 
       <Jobs data={attributes}/>
 
-      <SectionIntro
-        heading={attributes.press__heading}
-        description={attributes.press__description}
-      />
+      <Press data={attributes}/>
 
       <PledgeOnePercent
         heading={attributes.pledgeOnePercentage__heading}
