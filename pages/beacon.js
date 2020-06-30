@@ -3,7 +3,7 @@ import { attributes } from '../content/beacon.md'
 import Hero from '../components/Product/Hero'
 import Features from '../components/Features'
 import Feature from '../components/Feature'
-import Highlight from '../components/Product/Highlight'
+import Highlight from '../components/Highlight'
 
 const Product = () => {
   let {keyFeatures} = attributes
