@@ -14,21 +14,6 @@ teamMembers:
   - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
     name: Dave Gulezian
     title: Co-Founder and CEO
-  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
-    name: Dave Gulezian
-    title: Co-Founder and CEO
-  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
-    name: Dave Gulezian
-    title: Co-Founder and CEO
-  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
-    name: Dave Gulezian
-    title: Co-Founder and CEO
-  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
-    name: Dave Gulezian
-    title: Co-Founder and CEO
-  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
-    name: Dave Gulezian
-    title: Co-Founder and CEO
 productAdvisoryBoard__heading: Product Advisory Board
 productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
   made up of a cross-section of experienced life science professionals with
@@ -38,11 +23,6 @@ productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
   and marketing strategy. We are very fortunate to have this talented group of
   industry professionals supporting our efforts.
 advisoryBoardMembers:
-  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
-    name: Full Name
-    title: Title
-    company: Company
-    linkedIn: LinkedIn
   - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
     name: Full Name
     title: Title
@@ -61,23 +41,16 @@ whatWeValue__heading: What We Value
 values:
   - heading: Heading
     description: Description
-  - heading: Heading 2
-    description: Description 2
 joinUs__heading: Join Us
 joinUs__description: If you are excited to be part of building something great,
   we would love to hear from you!
 jobOpenings:
   - title: title
     link: Link
-  - title: title
-    link: Link
 press__heading: Press
 press__description: Please see below for the latest press and news on Alucio.
   Please contact press@alucio.io for any press or public relations inquiries.
 pressReleases:
-  - date: Date
-    title: Release title
-    link: Link
   - date: Date
     title: Release title
     link: Link
