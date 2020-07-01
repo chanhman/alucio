@@ -81,7 +81,9 @@ contact__colOneContent: |-
   Request a Demo
 contact__colTwoSubheading: Media Relations
 contact__colTwoContent: |-
-  Lisa Amin Gulezian \
-  925-788-3533 \
+  Lisa Amin Gulezian 
+
+  925-788-3533 
+
   [lgulezian@alucio.io](lgulezian@alucio.io)
 ---
