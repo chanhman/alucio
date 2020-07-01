@@ -1,3 +1,4 @@
+import ReactMarkdown from 'react-markdown'
 import styles from './Contact.module.scss'
 
 const Contact = ({data}) => (
@@ -10,7 +11,7 @@ const Contact = ({data}) => (
       </div>
       <div>
         <h3 className={styles.subheading}>{data.contact__colTwoSubheading}</h3>
-        {data.contact__colTwoContent}
+        <ReactMarkdown source={data.contact__colTwoContent}/>
       </div>
     </div>
   </section>

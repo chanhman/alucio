@@ -52,4 +52,8 @@
   @media (min-width: 48rem) {
     column-count: 2;
   }
+
+  p:first-child {
+    margin-top: 0;
+  }
 }
