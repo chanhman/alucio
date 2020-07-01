@@ -1,3 +1,5 @@
+@import '../../../scss/mixins.scss';
+
 .container {
   position: relative;
 
@@ -53,7 +55,7 @@
 }
 
 .heading {
-  position: relative;
+  @include header-underline--left;
 
   margin-top: 0;
   margin-bottom: 2.75rem;
@@ -69,19 +71,6 @@
 
   @media (min-width: 80rem) {
     font-size: 1.75rem;
-  }
-
-  &::after {
-    content: '';
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-    height: 0.25rem;
-    width: 8.875rem;
-
-    background-color: var(--light-blue);
   }
 }
 
