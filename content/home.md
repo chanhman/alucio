@@ -11,7 +11,7 @@ featureOneIcon: /static/accurate_version_control.svg
 featureTwo: Streamlining content discovery, delivery and presentation management
 featureTwoIcon: /static/rapid_document_delivery.svg
 featureThree: Powering both virtual and in-person engagements
-featureThreeIcon: /static/virtual_in-person_engagement_1.svg
+featureThreeIcon: /static/virtual_in_person.svg
 beaconHeading: Our initial product, Beacon, enhances the scientific exchange
   between your MSLs and other field-based medical professionals, and key
   industry stakeholders.
