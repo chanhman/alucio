@@ -1,9 +1,10 @@
 import Layout from '../components/Layout'
+import Hero from '../components/Hero'
 import { attributes, html } from '../content/partners.md'
 
 const Partners = () => (
   <Layout>
-    <h1>Partners</h1>
+    <Hero heading='Partners' />
   </Layout>
 )
 

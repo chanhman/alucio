@@ -8,6 +8,6 @@ articles:
     date:
 research:
   - title:
-    arthor:
+    author:
     date:
 ---

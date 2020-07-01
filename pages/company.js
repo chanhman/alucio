@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 import { attributes } from '../content/company.md'
-import Hero from '../components/Company/Hero'
+import Hero from '../components/Hero'
 import SectionIntro from '../components/Company/SectionIntro'
 import PledgeOnePercent from '../components/Company/PledgeOnePerccent'
 import Profiles from '../components/Company/Profiles'
