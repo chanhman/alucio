@@ -3,7 +3,6 @@ import classes from 'classnames'
 import styles from './Hero.module.scss'
 import IconPlay from './iconPlay.svg'
 import IconPause from './iconPause.svg'
-import { attributes } from '../../../content/beacon.md'
 
 const hero = ({heading, tagline, media, subheading, description}) => {
   const video = useRef(null)
@@ -29,7 +28,7 @@ const hero = ({heading, tagline, media, subheading, description}) => {
           <IconPause className={classes(styles.iconPause, !pause && styles.pause)}/>
           <span>Watch This Video To Learn More</span>
         </button>
-        <video ref={video} src={attributes.hero__video}></video>
+        <video ref={video} src={media}></video>
       </div>
       <div className={styles.subheadingContainer}>
         <h2 className={styles.subheading}>{subheading}</h2>

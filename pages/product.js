@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import { attributes } from '../content/beacon.md'
+import { attributes } from '../content/product.md'
 import Hero from '../components/Product/Hero'
 import Features from '../components/Features'
 import Feature from '../components/Feature'
@@ -15,6 +15,7 @@ const Product = () => {
         tagline={attributes.hero__tagline}
         subheading={attributes.keyFeatures__heading}
         description={attributes.keyFeatures__description}
+        media={attributes.hero__video}
       />
 
       <Features>
