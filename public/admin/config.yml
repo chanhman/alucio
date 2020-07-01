@@ -17,6 +17,7 @@ collections:
         name: 'home'
         file: 'content/home.md'
         fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Hero heading', name: 'heroHeading', widget: 'string' }
           - {
               label: 'Hero description',
@@ -400,6 +401,7 @@ collections:
         name: 'perspectives'
         file: 'content/perspectives.md'
         fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Hero heading', name: 'hero__heading', widget: 'string' }
           - {
               label: 'Hero description',
