@@ -1,9 +1,10 @@
 import Layout from '../components/Layout'
+import Hero from '../components/Hero'
 import { attributes, html } from '../content/experience.md'
 
 const Experience = () => (
   <Layout>
-    <h1>Experience</h1>
+    <Hero heading='Experience' />
   </Layout>
 )
 
