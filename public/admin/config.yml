@@ -372,12 +372,17 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - {
               label: 'Hero heading',
-              name: 'partners__heading',
+              name: 'hero__heading',
               widget: 'string',
             }
           - {
               label: 'Hero description',
-              name: 'partners__description',
+              name: 'hero__description',
+              widget: 'text',
+            }
+          - {
+              label: 'Intro',
+              name: 'intro',
               widget: 'text',
             }
           - label: 'Partner logos'
@@ -394,7 +399,7 @@ collections:
           - {
               label: 'Partnering description',
               name: 'partnering__description',
-              widget: 'text',
+              widget: 'markdown',
             }
       - label: 'Perspectives'
         name: 'perspectives'
@@ -406,11 +411,17 @@ collections:
               name: 'hero__description',
               widget: 'text',
             }
+          - {
+              label: 'Intro',
+              name: 'intro',
+              widget: 'text',
+            }
           - label: 'Articles'
             name: 'articles'
             widget: 'list'
             fields:
               - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Link', name: 'link', widget: 'string' }
               - { label: 'Publication', name: 'publication', widget: 'string' }
               - { label: 'Date', name: 'date', widget: 'string' }
           - label: 'Research'
@@ -418,6 +429,7 @@ collections:
             widget: 'list'
             fields:
               - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Link', name: 'link', widget: 'string' }
               - { label: 'Author', name: 'author', widget: 'string' }
               - { label: 'Date', name: 'date', widget: 'string' }
   - label: 'Blog'
