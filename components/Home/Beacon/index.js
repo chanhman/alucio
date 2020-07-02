@@ -1,42 +1,41 @@
 import styles from './Beacon.module.scss'
 import Dashes from './dashes.svg'
-import { attributes } from '../../../content/home.md'
 
-const Beacon = () => (
+const Beacon = ({data}) => (
   <section className={styles.container}>
     <div>
-      <h2 className={styles.heading}>{attributes.beaconHeading}</h2>
-      <p className={styles.description}>{attributes.beaconDescription}</p>
-      <a className={styles.cta} href={attributes.beaconCtaUrl}>{attributes.beaconCtaLabel}</a>
+      <h2 className={styles.heading}>{data.beaconHeading}</h2>
+      <p className={styles.description}>{data.beaconDescription}</p>
+      <a className={styles.cta} href={data.beaconCtaUrl}>{data.beaconCtaLabel}</a>
     </div>
     <div>
       <div className={styles.infoGraphic}>
         <div className={styles.infoGraphic__cell}>
-          <div className={styles.inner}>{attributes.beaconInfoGraphicLbl1}</div>
+          <div className={styles.inner}>{data.beaconInfoGraphicLbl1}</div>
         </div>
         <div className={styles.dashes}><Dashes className={styles.rotate}></Dashes></div>
         <div className={styles.infoGraphic__cell}>
-          <div className={styles.inner}>{attributes.beaconInfoGraphicLbl2}</div>
+          <div className={styles.inner}>{data.beaconInfoGraphicLbl2}</div>
         </div>
         <div className={styles.dashes}><Dashes></Dashes></div>
         <div></div>
         <div className={styles.dashes}><Dashes></Dashes></div>
         <div className={styles.infoGraphic__cell}>
-          <div className={styles.inner}>{attributes.beaconInfoGraphicLbl3}</div>
+          <div className={styles.inner}>{data.beaconInfoGraphicLbl3}</div>
         </div>
         <div className={styles.dashes}><Dashes className={styles.rotate}></Dashes></div>
         <div className={styles.infoGraphic__cell}>
-          <div className={styles.inner}>{attributes.beaconInfoGraphicLbl4}</div>
+          <div className={styles.inner}>{data.beaconInfoGraphicLbl4}</div>
         </div>
         <div className={styles.dashes}><Dashes></Dashes></div>
         <div></div>
         <div className={styles.dashes}><Dashes></Dashes></div>
         <div className={styles.infoGraphic__cell}>
-          <div className={styles.inner}>{attributes.beaconInfoGraphicLbl5}</div>
+          <div className={styles.inner}>{data.beaconInfoGraphicLbl5}</div>
         </div>
         <div className={styles.dashes}><Dashes className={styles.rotate}></Dashes></div>
         <div className={styles.infoGraphic__cell}>
-          <div className={styles.inner}>{attributes.beaconInfoGraphicLbl6}</div>
+          <div className={styles.inner}>{data.beaconInfoGraphicLbl6}</div>
         </div>
       </div>
     </div>

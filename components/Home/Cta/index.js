@@ -1,14 +1,13 @@
 import styles from './Cta.module.scss'
-import { attributes } from '../../../content/home.md'
 
-const Cta = () => (
+const Cta = ({data}) => (
   <div className={styles.container}>
     <div></div>
     <div></div>
     <div></div>
     <div>
-      <h2 className={styles.heading}>{attributes.ctaHeading}</h2>
-      <a className={styles.cta} href={attributes.ctaUrl}>{attributes.ctaLbl}</a>
+      <h2 className={styles.heading}>{data.ctaHeading}</h2>
+      <a className={styles.cta} href={data.ctaUrl}>{data.ctaLbl}</a>
     </div>
   </div>
 )
