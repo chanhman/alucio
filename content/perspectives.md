@@ -1,5 +1,5 @@
 ---
-title:
+title: Perspectives
 hero__heading:
 hero__description:
 articles:
