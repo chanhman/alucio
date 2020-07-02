@@ -1,9 +1,13 @@
 import styles from './PartnerLogos.module.scss'
 
-const PartnerLogos = ({data}) => {
+const PartnerLogos = ({logos}) => {
   return (
     <section className={styles.container}>
-      {/* Loop through logos */}
+      {logos.map(logo => (
+        <div>
+          <img className={styles.logo} src={logo.src} alt=""/>
+        </div>
+      ))}
     </section>
   )
 }

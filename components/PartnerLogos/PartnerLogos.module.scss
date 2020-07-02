@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 5.469vw;
+  padding-right: 7.813vw;
+  padding-left: 7.813vw;
+}
+
+.logo {
+  margin: 1rem;
+
+  @media (min-width: 48rem) {
+    margin: 1.5rem;
+  }
+}

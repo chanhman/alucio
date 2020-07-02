@@ -2,6 +2,10 @@
 
 .container {
   padding-top: 5.469vw;
+
+  &:last-child {
+    padding-bottom: 5.469vw;
+  }
 }
 
 .intro {
