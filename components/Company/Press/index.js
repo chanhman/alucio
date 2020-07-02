@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from './Press.module.scss'
-import SectionIntro from '../SectionIntro'
+import SectionIntro from '../../SectionIntro'
 
 const Press = ({data}) => {
   let {pressReleases} = data

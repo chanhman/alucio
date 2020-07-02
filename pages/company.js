@@ -1,7 +1,7 @@
 import Layout from '../components/Layout'
 import { attributes } from '../content/company.md'
 import Hero from '../components/Hero'
-import SectionIntro from '../components/Company/SectionIntro'
+import SectionIntro from '../components/SectionIntro'
 import PledgeOnePercent from '../components/Company/PledgeOnePerccent'
 import Profiles from '../components/Company/Profiles'
 import Profile from '../components/Company/Profile'
