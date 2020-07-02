@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import SectionIntro from '../SectionIntro'
+import SectionIntro from '../../SectionIntro'
 import styles from './Jobs.module.scss'
 
 const Jobs = ({data}) => {
