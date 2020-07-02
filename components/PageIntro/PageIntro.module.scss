@@ -1,0 +1,17 @@
+.container {
+  padding: 5.469vw 7.813vw;
+
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.6;
+
+  background-color: var(--light-blue);
+
+  @media (min-width: 48rem) {
+    column-count: 2;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+}
