@@ -1,5 +1,5 @@
 ---
-title:
+title: Partners
 hero__heading:
 hero__description:
 logos:

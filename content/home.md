@@ -1,5 +1,5 @@
 ---
-title:
+title: Alucio
 heroHeading: Supercharging Scientific Exchange
 heroDescription: Empowering field medical professionals in life science with the
   most effective content management and presentation platform

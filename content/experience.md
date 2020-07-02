@@ -1,5 +1,5 @@
 ---
-title:
+title: Experience
 hero__heading:
 hero__description:
 intro:
