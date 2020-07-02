@@ -1,11 +1,19 @@
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
-import { attributes, html } from '../content/partners.md'
+import PageIntro from '../components/PageIntro'
+import PartnerLogos from '../components/PartnerLogos'
+import { attributes } from '../content/partners.md'
 
-const Partners = () => (
-  <Layout>
-    <Hero heading='Partners' />
-  </Layout>
-)
+const Partners = () => {
+  let {hero__heading, intro, logos} = attributes
+
+  return (
+    <Layout>
+      <Hero heading={hero__heading} />
+      <PageIntro description={intro}/>
+      <PartnerLogos logos={logos}/>
+    </Layout>
+  )
+}
 
 export default Partners

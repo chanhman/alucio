@@ -6,6 +6,8 @@ intro: Alucio is proud to work with a number of key partners in developing our t
 logos:
   - logo: null
     title: title
+  - logo: null
+    title: title
 partnering__heading: Partnering with Alucio
 partnering__description: >-
   We are very interested in collaborating with other leading companies and agencies serving the life science industry.
