@@ -3,9 +3,9 @@ import styles from './PartnerLogos.module.scss'
 const PartnerLogos = ({logos}) => {
   return (
     <section className={styles.container}>
-      {logos.map(() => (
+      {logos.map(logo => (
         <div>
-          yay
+          <img className={styles.logo} src={logo.src} alt=""/>
         </div>
       ))}
     </section>
