@@ -27,4 +27,7 @@ beaconInfoGraphicLbl3: KOLs
 beaconInfoGraphicLbl4: Payers
 beaconInfoGraphicLbl5: Product investigators
 beaconInfoGraphicLbl6: Clinical trial managers
+ctaHeading: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+ctaLbl: Request a demo
+ctaUrl: "#"
 ---

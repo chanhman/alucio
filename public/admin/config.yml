@@ -98,6 +98,9 @@ collections:
               name: 'beaconInfoGraphicLbl6',
               widget: 'string',
             }
+          - { label: 'CTA heading', name: 'ctaHeading', widget: 'string' }
+          - { label: 'CTA label', name: 'ctaLbl', widget: 'string' }
+          - { label: 'CTA URL', name: 'ctaUrl', widget: 'string' }
       - label: 'Product'
         name: 'name'
         file: 'content/product.md'

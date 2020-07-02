@@ -23,4 +23,10 @@ userFeedback__description: >-
 quotes:
   - quote: “Alucio is creating an innovative solution to the medical content challenges and inefficiencies that pharma field medical teams face today.”
   - quote: “With previous systems, it was sometimes hard to find the material I want. I was also not always confident that everything was up to date.”
+  - quote: “As a medical scientist, I have first-hand experience with pain points related to scientific exchange software. What Alucio is aiming to accomplish with Beacon will address issues with existing software and improve scientific exchange for the benefit of the medical scientist, the company, the KOL, and, ultimately, the patient.”
+  - quote:  “I need tools like Beacon that make my job easier not harder.”
+  - quote:  '“The best thing about using Beacon is the level of confidence it brings to each presentation: confidence in knowing you’ve got the right content, that your customers are viewing exactly what you wish them to see, and that virtual meetings are secure. You’re able to spend more attention on the discussion, with less worry on the tool.”'
+  - quote:  “Beacon seems very user friendly.”
+  - quote:  “Beacon provides everything I need to prepare for and conduct my KOL meetings effectively and efficiently, with a clean, logical, and well-organized layout.”
+  - quote:  “This platform allows for automatic company updates and enables the field to organize workload efficiently in a user-friendly fashion.”
 ---
