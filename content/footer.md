@@ -1,7 +1,7 @@
 ---
 columnOne__links:
-  - label: Beacon
-    url: /beacon
+  - label: Product
+    url: /product
   - label: Company
     url: /company
   - label: Experience
