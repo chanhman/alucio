@@ -29,10 +29,3 @@ ctaLbl: Request a demo
 date: 2019-03-17T19:31:20.591Z
 beaconInfoGraphicLbl1: HCPs
 beaconInfoGraphicLbl6: Clinical trial managers
-ctaHeading: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-title: Home
-ctaUrl: "#"
----
-## Welcome to the Home Page!
-
-If you want to know more about Next.js + Netlifycms go to the official tutorial [here](https://www.netlifycms.org/docs/nextjs/).
