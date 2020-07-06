@@ -1,0 +1,36 @@
+.container {
+  margin: 2rem;
+  padding: 5.469vw 7.813vw;
+  border: 0.25rem solid var(--purple);
+}
+
+.heading {
+  display: none;
+
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cell {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+
+  @media (min-width: 48rem) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.heading,
+.row {
+  @media (min-width: 48rem) {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+  }
+}
+
+.row + .row {
+  @media (max-width: 48rem) {
+    margin-top: 1rem;
+  }
+}
