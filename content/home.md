@@ -2,7 +2,7 @@
 title: Alucio
 heroHeading: Supercharging Scientific Exchange
 heroDescription: Empowering field medical professionals in life science with the
-  most effective content management and presentation platform
+  content management and presentation platform built for them
 heroVideo: /static/video_720.mp4
 featuresHeading: Helping field medical representatives serve as trusted advisors
   to healthcare professionals across the industry
@@ -27,7 +27,7 @@ beaconInfoGraphicLbl3: KOLs
 beaconInfoGraphicLbl4: Payers
 beaconInfoGraphicLbl5: Product investigators
 beaconInfoGraphicLbl6: Clinical trial managers
-ctaHeading: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+ctaHeading: Beacon supercharges your scientific exchange
 ctaLbl: Request a demo
 ctaUrl: "#"
 ---
