@@ -27,7 +27,7 @@ beaconInfoGraphicLbl3: KOLs
 beaconInfoGraphicLbl4: Payers
 beaconInfoGraphicLbl5: Product investigators
 beaconInfoGraphicLbl6: Clinical trial managers
-ctaHeading: Beacon supercharges your scientific exchange
+ctaHeading: Beacon supercharges scientific exchange
 ctaLbl: Request a demo
 ctaUrl: "#"
 ---
