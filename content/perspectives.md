@@ -9,11 +9,11 @@ intro: >-
 articles:
   - title: 'MSLs: We are the Connectors'
     link: 'https://www.mmm-online.com/home/channel/corporate/msls-we-are-the-connectors/'
-    publication: MM&M
+    source: MM&M
     date: June 2018
 research:
   - title: MSL Activities During the COVID-19 Pandemic
-    link: null
-    author: MSL Society
+    link: /
+    source: MSL Society
     date: April 2020
 ---
