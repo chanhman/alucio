@@ -6,11 +6,19 @@ intro: >-
   We continually work to stay abreast of the latest developments and market trends that may impact field medical and medical affairs activities within life sciences.
 
   These resources and insights help inform our perspectives on how we best serve the evolving needs of our customers from a technology standpoint.
+articleTable__headings:
+  - heading: Title
+  - heading: Publication
+  - heading: Date
 articles:
   - title: 'MSLs: We are the Connectors'
     link: 'https://www.mmm-online.com/home/channel/corporate/msls-we-are-the-connectors/'
     source: MM&M
     date: June 2018
+researchTable_headings:
+  - heading: Title
+  - heading: Author
+  - heading: Date
 research:
   - title: MSL Activities During the COVID-19 Pandemic
     link: /

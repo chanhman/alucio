@@ -8,7 +8,9 @@ const Perspectives = () => {
   let {
     hero__heading,
     intro,
+    articleTable__headings,
     articles,
+    researchTable_headings,
     research
   } = attributes
 
@@ -16,8 +18,8 @@ const Perspectives = () => {
     <Layout>
       <Hero heading={hero__heading} />
       <PageIntro description={intro}/>
-      <Table data={articles}/>
-      <Table data={research}/>
+      <Table headings={articleTable__headings} rows={articles}/>
+      <Table headings={researchTable_headings} rows={research}/>
     </Layout>
   )
 }

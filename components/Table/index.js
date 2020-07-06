@@ -1,22 +1,25 @@
-import Link from 'next/link'
 import styles from './Table.module.scss'
 
-// Grab object to get key value pairs
-// Loop to get headers
-// Loop to get rows
-
-const Table = ({data, articles, research}) => {
+const Table = ({headings, rows}) => {
   return (
     <section className={styles.container}>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div className={styles.heading}>
+        {headings.map(heading => (
+          <div className={styles.cell}>{heading.heading}</div>
+        ))}
       </div>
-      {data.map(row => (
-        <div>
-          <a href={row.link}>{row.title}</a>
-          {row.date}
+
+      {rows.map(row => (
+        <div className={styles.row}>
+          <div className={styles.cell}>
+            <a href={row.link}>{row.title}</a>
+          </div>
+          <div className={styles.cell}>
+            {row.source}
+          </div>
+          <div className={styles.cell}>
+            {row.date}
+          </div>
         </div>
       ))}
     </section>
