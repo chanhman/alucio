@@ -455,7 +455,7 @@ collections:
     slug: '{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Content', name: 'content', widget: 'markdown' }
   - label: 'Settings'
     name: 'settings'
     editor:
