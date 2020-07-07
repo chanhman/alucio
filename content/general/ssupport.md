@@ -1,4 +1,4 @@
 ---
-title: Ssupport
+title: Support
 ---
 Test
