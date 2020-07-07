@@ -1,4 +1,4 @@
 ---
 title: Support
-content: Content
+content: Content!
 ---
