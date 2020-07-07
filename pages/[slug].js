@@ -7,13 +7,13 @@ import Body from '../components/GeneralPages/Body'
 const Post = ({ general }) => {
   if (!general) return <div>not found</div>
 
-  const { title, body } = general.attributes
+  const { title, content } = general.attributes
 
   return (
     <Layout>
       <article>
         <Hero heading={title}/>
-        <Body data={body}/>
+        <Body data={content}/>
       </article>
     </Layout>
   )
