@@ -1,0 +1,57 @@
+.container {
+  margin: 5.469vw auto;
+  max-width: 48rem;
+  padding: 8vw;
+
+  border: 0.25rem solid var(--purple);
+
+  @media (max-width: 48rem) {
+    margin: 5.469vw;
+  }
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+
+  font-weight: 700;
+}
+
+.input,
+.textarea {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.input {
+  height: var(--input-height);
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.textarea {
+  height: 15rem;
+  padding: 1rem;
+}
+
+.submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--btn-height);
+  padding-right: var(--btn-padding-x);
+  padding-left: var(--btn-padding-x);
+
+  color: #fff;
+  font-weight: var(--btn-font-weight);
+  text-decoration: none;
+
+  background-color: var(--purple);
+  border: 0;
+  cursor: pointer;
+  transition: all 0.15s ease-out;
+
+  &:hover {
+    background-color: var(--neon-purple);
+  }
+}

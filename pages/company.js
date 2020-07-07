@@ -1,5 +1,4 @@
 import Layout from '../components/Layout'
-import { attributes } from '../content/company.md'
 import Hero from '../components/Hero'
 import SectionIntro from '../components/SectionIntro'
 import PledgeOnePercent from '../components/Company/PledgeOnePerccent'
@@ -11,6 +10,7 @@ import Highlight from '../components/Highlight'
 import Contact from '../components/Company/Contact'
 import Jobs from '../components/Company/Jobs'
 import Press from'../components/Company/Press'
+import { attributes } from '../content/company.md'
 
 const Company = () => {
   let {teamMembers, advisoryBoardMembers, values} = attributes

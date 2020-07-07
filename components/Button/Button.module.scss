@@ -11,9 +11,13 @@
   text-decoration: none;
 
   background-color: var(--purple);
+  border: 0;
+  cursor: pointer;
   transition: all 0.15s ease-out;
 
   &:hover {
+    text-decoration: none;
+
     background-color: var(--neon-purple);
   }
 
