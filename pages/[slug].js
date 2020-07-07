@@ -1,20 +1,19 @@
 import fs from 'fs'
 import path from 'path'
-import ReactMarkdown from 'react-markdown'
 import Layout from '../components/Layout'
+import Hero from '../components/Hero'
+import Body from '../components/GeneralPages/Body'
 
 const Post = ({ general }) => {
   if (!general) return <div>not found</div>
 
-  const { attributes } = general
+  const { title, body } = general.attributes
 
   return (
     <Layout>
       <article>
-        <h1>{attributes.title}</h1>
-        <ReactMarkdown
-          source={attributes.body}
-        />
+        <Hero heading={title}/>
+        <Body data={body}/>
       </article>
     </Layout>
   )
