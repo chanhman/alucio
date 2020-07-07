@@ -1,17 +1,20 @@
 import fs from 'fs'
 import path from 'path'
+import ReactMarkdown from 'react-markdown'
 import Layout from '../components/Layout'
 
-const Post = ({ test }) => {
-  if (!test) return <div>not found</div>
+const Post = ({ general }) => {
+  if (!general) return <div>not found</div>
 
-  const { attributes } = test
+  const { attributes } = general
 
   return (
     <Layout>
       <article>
         <h1>{attributes.title}</h1>
-        <img src={attributes.thumbnail} />
+        <ReactMarkdown
+          source={attributes.body}
+        />
       </article>
     </Layout>
   )
@@ -36,13 +39,13 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { slug } = params
 
-  const test = await import(`../content/generic/${slug}.md`).catch(
+  const general = await import(`../content/generic/${slug}.md`).catch(
     () => null
   )
 
   return {
     props: {
-      test: test.default,
+      general: general.default,
     },
   }
 }
