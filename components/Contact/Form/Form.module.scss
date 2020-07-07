@@ -1,4 +1,38 @@
 .container {
+  margin: 5.469vw auto;
+  max-width: 48rem;
+  padding: 8vw;
+
+  border: 0.25rem solid var(--purple);
+
+  @media (max-width: 48rem) {
+    margin: 5.469vw;
+  }
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input,
+.textarea {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.input {
+  height: var(--input-height);
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.textarea {
+  height: 15rem;
+  padding: 1rem;
+}
+
+.submit {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -16,17 +50,6 @@
   transition: all 0.15s ease-out;
 
   &:hover {
-    text-decoration: none;
-
     background-color: var(--neon-purple);
-  }
-
-  &.outline {
-    background-color: transparent;
-    border: var(--btn-border-width) solid var(--neon-purple);
-
-    &:hover {
-      background-color: var(--neon-purple);
-    }
   }
 }
