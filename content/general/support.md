@@ -1,4 +1,7 @@
 ---
 title: Support
-content: Content!
+content: |-
+  # Heading
+
+  Content!
 ---
