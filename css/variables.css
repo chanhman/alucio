@@ -12,5 +12,7 @@
   --btn-font-weight: 700;
   --btn-border-width: 0.125rem;
 
+  --input-height: var(--btn-height);
+
   --site-side-padding: 7.813vw;
 }
