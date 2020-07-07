@@ -21,7 +21,7 @@ const Post = ({ general }) => {
 
 export async function getStaticPaths() {
   const paths = fs
-    .readdirSync(path.join(process.cwd(), 'content/generic'))
+    .readdirSync(path.join(process.cwd(), 'content/general'))
     .map((pageName) => {
       const trimmedName = pageName.substring(0, pageName.length - 3)
       return {
@@ -38,7 +38,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { slug } = params
 
-  const general = await import(`../content/generic/${slug}.md`).catch(
+  const general = await import(`../content/general/${slug}.md`).catch(
     () => null
   )
 
