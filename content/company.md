@@ -45,8 +45,9 @@ workingAtAlucio__description: We are building great technology products to serve
   values.
 whatWeValue__heading: What We Value
 values:
-  - heading: Heading
-    description: Description
+  - heading: We value diversity
+    description: This shapes our hiring practices, our product development approach
+      and the way in which we engage our stakeholders
 joinUs__heading: Join Us
 joinUs__description: If you are excited to be part of building something great,
   we would love to hear from you!
