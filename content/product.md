@@ -53,8 +53,8 @@ integratedVideoConferencing__description: >-
 
 
   Our video conferencing solution also utilizes comprehensive security features to ensure that your virtual meetings stay private. Moreover, it does not require your meeting attendees to download any software.
-integratedVideoConferencing__image: null
 integratedVideoConferencing__ctaLabel: Click below to request a review of our video conferencing technology
+integratedVideoConferencing__image: /static/video_conf_still_2.jpg
 platformFlexibility__heading: Platform Flexibility
 platformFlexibility__description: >-
   The Beacon platform is designed in a flexible way to connect and integrate
@@ -63,5 +63,5 @@ platformFlexibility__description: >-
 
 
   Beacon can be implemented independently or can effectively complement the existing tools and platforms you have in place including in-house systems.
-platformFlexibility__image: null
+platformFlexibility__image: /static/video_conf_still_2.jpg
 ---
