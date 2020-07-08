@@ -6,12 +6,11 @@ const Profile = ({name, title, picture, children}) => {
   }
 
   return (
-    <div className={styles.container} style={bgi}>
-      <div className={styles.inner}>
-        <h3 className={styles.name}>{name}</h3>
-        <h4 className={styles.title}>{title}</h4>
-        {children}
-      </div>
+    <div className={styles.container}>
+      <div className={styles.inner} style={bgi}></div>
+      <h3 className={styles.name}>{name}</h3>
+      <h4 className={styles.title}>{title}</h4>
+      {children}
     </div>
   )
 }

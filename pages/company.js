@@ -32,7 +32,9 @@ const Company = () => {
               picture={teamMember.picture}
               name={teamMember.name}
               title={teamMember.title}
-            />
+            >
+              <p>{teamMember.title2}</p>
+            </Profile>
           ))}
         </Profiles>
       </SectionIntro>
@@ -47,6 +49,7 @@ const Company = () => {
               picture={advisoryBoardMember.picture}
               name={advisoryBoardMember.name}
               title={advisoryBoardMember.title}
+              title2={advisoryBoardMember.title2}
             >
               <p>{advisoryBoardMember.company}</p>
               <p><a href="{advisoryBoardMember.linkedIn}">LinkedIn</a></p>
