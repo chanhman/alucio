@@ -7,6 +7,7 @@ import { attributes } from '../content/perspectives.md'
 const Perspectives = () => {
   let {
     hero__heading,
+    hero__description,
     intro,
     articleTable__headings,
     articles,
@@ -16,7 +17,7 @@ const Perspectives = () => {
 
   return (
     <Layout>
-      <Hero heading={hero__heading} />
+      <Hero heading={hero__heading} description={hero__description}/>
       <PageIntro description={intro}/>
       <Table headings={articleTable__headings} rows={articles}/>
       <Table headings={researchTable_headings} rows={research}/>

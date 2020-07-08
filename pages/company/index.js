@@ -69,7 +69,7 @@ const Company = ({teamMembers}) => {
               title2={advisoryBoardMember.title2}
             >
               <p>{advisoryBoardMember.company}</p>
-              <p><a href="{advisoryBoardMember.linkedIn}">LinkedIn</a></p>
+              <p><a href={advisoryBoardMember.linkedIn}>LinkedIn</a></p>
             </Profile>
           ))}
         </Profiles>
