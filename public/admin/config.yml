@@ -20,14 +20,18 @@ collections:
           - label: Title
             name: title
             widget: string
+            required: false
           - label: Hero heading
             name: heroHeading
             widget: string
+            required: false
           - label: Hero description
             name: heroDescription
             widget: text
+            required: false
           - label: Hero video
             name: heroVideo
+            required: false
             widget: file
             media_library:
               config:
@@ -35,9 +39,11 @@ collections:
           - label: Features heading
             name: featuresHeading
             widget: string
+            required: false
           - label: Feature one
             name: featureOne
             widget: string
+            required: false
           - label: 'Feature one icon '
             name: featureOneIcon
             required: false
@@ -48,6 +54,7 @@ collections:
           - label: Feature two
             name: featureTwo
             widget: string
+            required: false
           - label: 'Feature two icon '
             name: featureTwoIcon
             required: false
@@ -58,6 +65,7 @@ collections:
           - label: Feature three
             name: featureThree
             widget: string
+            required: false
           - label: 'Feature three icon '
             name: featureThreeIcon
             required: false
@@ -68,15 +76,19 @@ collections:
           - label: Beacon heading
             name: beaconHeading
             widget: string
+            required: false
           - label: Beacon description
             name: beaconDescription
             widget: text
+            required: false
           - label: Beacon CTA label
             name: beaconCtaLabel
             widget: string
+            required: false
           - label: Beacon CTA URL
             name: beaconCtaUrl
             widget: string
+            required: false
           - label: Beacon info graphic icon 1
             name: beaconInfoGraphicIcon1
             required: false
@@ -87,6 +99,7 @@ collections:
           - label: Beacon info graphic lbl1
             name: beaconInfoGraphicLbl1
             widget: string
+            required: false
           - label: Beacon info graphic icon 2
             name: beaconInfoGraphicIcon2
             required: false
@@ -97,6 +110,7 @@ collections:
           - label: Beacon info graphic lbl2
             name: beaconInfoGraphicLbl2
             widget: string
+            required: false
           - label: Beacon info graphic icon 3
             name: beaconInfoGraphicIcon3
             required: false
@@ -107,6 +121,7 @@ collections:
           - label: Beacon info graphic lbl3
             name: beaconInfoGraphicLbl3
             widget: string
+            required: false
           - label: Beacon info graphic icon 4
             name: beaconInfoGraphicIcon4
             required: false
@@ -117,6 +132,7 @@ collections:
           - label: Beacon info graphic lbl4
             name: beaconInfoGraphicLbl4
             widget: string
+            required: false
           - label: Beacon info graphic icon 5
             name: beaconInfoGraphicIcon5
             required: false
@@ -127,6 +143,7 @@ collections:
           - label: Beacon info graphic lbl5
             name: beaconInfoGraphicLbl5
             widget: string
+            required: false
           - label: Beacon info graphic icon 6
             name: beaconInfoGraphicIcon6
             required: false
@@ -137,15 +154,19 @@ collections:
           - label: Beacon info graphic lbl6
             name: beaconInfoGraphicLbl6
             widget: string
+            required: false
           - label: CTA heading
             name: ctaHeading
             widget: string
+            required: false
           - label: CTA label
             name: ctaLbl
             widget: string
+            required: false
           - label: CTA URL
             name: ctaUrl
             widget: string
+            required: false
       - label: Product
         name: name
         file: content/product.md
@@ -153,12 +174,15 @@ collections:
           - label: Title
             name: title
             widget: string
+            required: false
           - label: Hero heading
             name: hero__heading
             widget: string
+            required: false
           - label: Hero tagline
             name: hero__tagline
             widget: text
+            required: false
           - label: Hero video
             name: hero__video
             required: false
@@ -176,38 +200,48 @@ collections:
           - label: Key features heading
             name: keyFeatures__heading
             widget: string
+            required: false
           - label: Key features description
             name: keyFeatures__description
             widget: text
+            required: false
           - label: Key features subheading
             name: keyFeatures__subheading
             widget: string
+            required: false
           - label: Key features
             name: keyFeatures
             widget: list
+            required: false
             fields:
               - label: Feature name
                 name: featureName
                 widget: string
+                required: false
               - label: Feature description
                 name: featureDescription
                 widget: text
+                required: false
               - label: 'Feature icon '
                 name: featureIcon
                 required: false
                 widget: file
+                required: false
                 media_library:
                   config:
                     multiple: false
           - label: Integrated video conferencing heading
             name: integratedVideoConferencing__heading
             widget: string
+            required: false
           - label: Integrated video conferencing description
             name: integratedVideoConferencing__description
             widget: text
+            required: false
           - label: Integrated video conferencing cta label
             name: integratedVideoConferencing__ctaLabel
             widget: string
+            required: false
           - label: 'Image'
             name: integratedVideoConferencing__image
             required: false
@@ -218,9 +252,11 @@ collections:
           - label: Platform flexibility heading
             name: platformFlexibility__heading
             widget: string
+            required: false
           - label: Platform flexibility description
             name: platformFlexibility__description
             widget: text
+            required: false
           - label: 'Image'
             name: platformFlexibility__image
             required: false
@@ -235,21 +271,27 @@ collections:
           - label: Title
             name: title
             widget: string
+            required: false
           - label: Hero heading
             name: hero__heading
             widget: string
+            required: false
           - label: Hero description
             name: hero__description
             widget: text
+            required: false
           - label: Team heading
             name: team__heading
             widget: string
+            required: false
           - label: Team description
             name: team__description
             widget: string
+            required: false
           - label: Team members
             name: teamMembers
             widget: list
+            required: false
             fields:
               - label: Picture
                 name: picture
@@ -258,21 +300,27 @@ collections:
               - label: Name
                 name: name
                 widget: string
+                required: false
               - label: Title
                 name: title
                 widget: string
+                required: false
               - label: Title 2
                 name: title2
                 widget: string
+                required: false
           - label: Product advisory board heading
             name: productAdvisoryBoard__heading
             widget: string
+            required: false
           - label: Product advisory board description
             name: productAdvisoryBoard__description
             widget: text
+            required: false
           - label: Product advisory board members
             name: advisoryBoardMembers
             widget: list
+            required: false
             fields:
               - label: Picture
                 name: picture
@@ -281,108 +329,141 @@ collections:
               - label: Name
                 name: name
                 widget: string
+                required: false
               - label: Title
                 name: title
                 widget: string
+                required: false
               - label: Company
                 name: company
                 widget: string
+                required: false
               - label: LinkedIn
                 name: linkedIn
                 widget: string
+                required: false
           - label: Working at alucio heading
             name: workingAtAlucio__heading
             widget: string
+            required: false
           - label: Working at alucio description
             name: workingAtAlucio__description
             widget: text
+            required: false
           - label: What we value heading
             name: whatWeValue__heading
             widget: string
+            required: false
           - label: Values
             name: values
             widget: list
+            required: false
             fields:
               - label: Heading
                 name: heading
                 widget: string
+                required: false
               - label: Description
                 name: description
                 widget: string
+                required: false
           - label: Join us heading
             name: joinUs__heading
             widget: string
+            required: false
           - label: Join us description
             name: joinUs__description
             widget: text
+            required: false
           - label: Job openings
             name: jobOpenings
             widget: list
+            required: false
             fields:
               - label: Title
                 name: title
                 widget: string
+                required: false
               - label: Link
                 name: link
                 widget: string
+                required: false
           - label: Press heading
             name: press__heading
             widget: string
+            required: false
           - label: Press description
             name: press__description
             widget: text
+            required: false
           - label: Press releases
             name: pressReleases
             widget: list
+            required: false
             fields:
               - label: Date
                 name: date
                 widget: string
+                required: false
               - label: Title
                 name: title
                 widget: string
+                required: false
               - label: Link
                 name: link
                 widget: string
+                required: false
           - label: Pledge one percentage heading
             name: pledgeOnePercentage__heading
             widget: string
+            required: false
           - label: Pledge one percentage description
             name: pledgeOnePercentage__description
             widget: text
+            required: false
           - label: Pledge one percentage cta label
             name: pledgeOnePercentage__ctaLabel
             widget: string
+            required: false
           - label: Pledge one percentage cta link
             name: pledgeOnePercentage__ctaLink
             widget: string
+            required: false
           - label: Diversity heading
             name: diversity__heading
             widget: string
+            required: false
           - label: Diversity description
             name: diversity__description
             widget: markdown
+            required: false
           - label: Diversity image
             name: diversity__image
             widget: file
+            required: false
             media_library:
               config:
                 multiple: false
           - label: Contact heading
             name: contact__heading
             widget: string
+            required: false
           - label: Contact column one heading
             name: contact__colOneSubheading
             widget: string
+            required: false
           - label: Contact column one content
             name: contact__colOneContent
             widget: markdown
+            required: false
           - label: Contact column two heading
             name: contact__colTwoSubheading
             widget: string
+            required: false
           - label: Contact column two content
             name: contact__colTwoContent
             widget: markdown
+            required: false
       - label: Experience
         name: experience
         file: content/experience.md
@@ -390,25 +471,32 @@ collections:
           - label: Title
             name: title
             widget: string
+            required: false
           - label: Hero heading
             name: hero__heading
             widget: string
+            required: false
           - label: Hero description
             name: hero__description
             widget: text
+            required: false
           - label: User feedback heading
             name: userFeedback__heading
             widget: string
+            required: false
           - label: User feedback description
             name: userFeedback__description
             widget: text
+            required: false
           - label: Quotes
             name: quotes
             widget: list
+            required: false
             fields:
               - label: Quote
                 name: quote
                 widget: string
+                required: false
       - label: Partners
         name: partners
         file: content/partners.md
@@ -416,22 +504,28 @@ collections:
           - label: Title
             name: title
             widget: string
+            required: false
           - label: Hero heading
             name: hero__heading
             widget: string
+            required: false
           - label: Hero description
             name: hero__description
             widget: text
+            required: false
           - label: Intro
             name: intro
             widget: text
+            required: false
           - label: Partner logos
             name: logos
             widget: list
+            required: false
             fields:
               - label: Name
                 name: name
                 widget: string
+                required: false
               - label: File
                 name: src
                 widget: image
@@ -439,9 +533,11 @@ collections:
           - label: Partnering heading
             name: partnering__heading
             widget: string
+            required: false
           - label: Partnering description
             name: partnering__description
             widget: markdown
+            required: false
       - label: Perspectives
         name: perspectives
         file: content/perspectives.md
@@ -449,47 +545,61 @@ collections:
           - label: Title
             name: title
             widget: string
+            required: false
           - label: Hero heading
             name: hero__heading
             widget: string
+            required: false
           - label: Hero description
             name: hero__description
             widget: text
+            required: false
           - label: Intro
             name: intro
             widget: text
+            required: false
           - label: Articles
             name: articles
             widget: list
+            required: false
             fields:
               - label: Title
                 name: title
                 widget: string
+                required: false
               - label: Link
                 name: link
                 widget: string
+                required: false
               - label: Publication
                 name: publication
                 widget: string
+                required: false
               - label: Date
                 name: date
                 widget: string
+                required: false
           - label: Research
             name: research
             widget: list
+            required: false
             fields:
               - label: Title
                 name: title
                 widget: string
+                required: false
               - label: Link
                 name: link
                 widget: string
+                required: false
               - label: Author
                 name: author
                 widget: string
+                required: false
               - label: Date
                 name: date
                 widget: string
+                required: false
   - label: Blog
     name: blog
     editor:
@@ -521,9 +631,11 @@ collections:
       - label: Title
         name: title
         widget: string
+        required: false
       - label: Content
         name: content
         widget: markdown
+        required: false
   - label: Settings
     name: settings
     editor:
@@ -536,13 +648,16 @@ collections:
           - label: Links
             name: links
             widget: list
+            required: false
             fields:
               - label: Label
                 name: label
                 widget: string
+                required: false
               - label: URL
                 name: url
                 widget: string
+                required: false
       - label: Footer
         name: footer
         file: content/footer.md
@@ -550,33 +665,43 @@ collections:
           - label: Column one links
             name: columnOne__links
             widget: list
+            required: false
             fields:
               - label: Label
                 name: label
                 widget: string
+                required: false
               - label: URL
                 name: url
                 widget: string
+                required: false
           - label: Column two links
             name: columnTwo__links
             widget: list
+            required: false
             fields:
               - label: Label
                 name: label
                 widget: string
+                required: false
               - label: URL
                 name: url
                 widget: string
+                required: false
           - label: Social media links
             name: socialMediaLinks
             widget: list
+            required: false
             fields:
               - label: Label
                 name: label
                 widget: string
+                required: false
               - label: URL
                 name: url
                 widget: string
+                required: false
           - label: Copyright text
             name: copyrightText
             widget: string
+            required: false
