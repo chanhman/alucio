@@ -51,6 +51,9 @@ values:
   - heading: We value the success of our team
     description: This keeps us striving to create an enjoyable work environment
       where all team members feel heard, appreciated and respected
+  - heading: We value customer dependence
+    description: We are committed to being a partner that our customers not only
+      want but refuse to work without
 joinUs__heading: Join Us
 joinUs__description: If you are excited to be part of building something great,
   we would love to hear from you!
