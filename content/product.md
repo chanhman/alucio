@@ -5,7 +5,7 @@ hero__tagline: The innovative cloud-based content delivery and presentation
   platform designed exclusively to meet the unique needs of your MSLs and the
   medical affairs function
 hero__video: /static/video_720.mp4
-hero__videoThumb: null
+hero__videoThumb: /static/video_720.mp4
 keyFeatures__heading: Key Features
 keyFeatures__description: "The Beacon platform is optimized to enhance the
   medical and scientific dialogue between field medical professionals and
@@ -18,37 +18,39 @@ keyFeatures:
   - featureName: Rapid Document Delivery
     featureDescription: Provides fast synching of your content via the cloud to
       various devices including both tablets and laptops
-    featureIcon: null
+    featureIcon: /static/feature-rapid_document_delivery.svg
   - featureName: Flexible File Management
     featureDescription: Allows effective processing and management of PPT, PDF, XLS,
       MOV, AVI and other file types
-    featureIcon: null
+    featureIcon: /static/feature-flexible_file_management.svg
   - featureName: Streamlined Content Discovery
     featureDescription: Powerful search and filtering capabilities to locate the
       content you need quickly and effectively
-    featureIcon: null
+    featureIcon: /static/feature-streamlined_content_discovery.svg
   - featureName: Accurate Version Control
     featureDescription: Provides confidence in your use of the latest document version
+    featureIcon: /static/feature-accurate_version_control.svg
   - featureName: Reliable Compliance
     featureDescription: Ensures adherence to company and FDA compliance guidelines
-    featureIcon: null
+    featureIcon: /static/feature-reliable_compliance.svg
   - featureName: Virtual and In-Person Engagement
     featureDescription: Supports and enhances both live and virtual meeting
       engagements with integrated and secure video conferencing
-    featureIcon: null
+    featureIcon: /static/feature-virtual_and_in_person.svg
   - featureName: Seamless Content Publishing and Platform Administration
     featureDescription: Provides efficient document publishing and user-friendly
       platform management capability
-    featureIcon: null
+    featureIcon: /static/feature-seamless_content_publishing_platform_administration.svg
   - featureName: Robust Analytics and Reporting
     featureDescription: Offers detailed tracking and reporting of key platform usage
       metrics and other data
-    featureIcon: null
+    featureIcon: /static/feature-robust_analytics_reporting.svg
 integratedVideoConferencing__heading: Integrated Video Conferencing
 integratedVideoConferencing__description: >-
   The Beacon platform seamlessly integrates the latest in video conferencing
   technology! This capability is completely embedded within the platform and is
   just one-click away for users.
+
 
   Our video conferencing solution also utilizes comprehensive security features to ensure that your virtual meetings stay private. Moreover, it does not require your meeting attendees to download any software.
 integratedVideoConferencing__ctaLabel: Click below to request a review of our video conferencing technology
@@ -57,6 +59,7 @@ platformFlexibility__description: >-
   The Beacon platform is designed in a flexible way to connect and integrate
   easily with many of the key systems and technology products in use within the
   life science industry.
+
 
   Beacon can be implemented independently or can effectively complement the existing tools and platforms you have in place including in-house systems.
 ---
