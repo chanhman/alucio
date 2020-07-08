@@ -3,7 +3,8 @@
 
   color: #fff;
 
-  background-color: var(--blue);
+  background: var(--blue) url(./background.svg) center center no-repeat;
+  background-size: cover;
 }
 
 .heading {
