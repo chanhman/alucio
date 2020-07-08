@@ -14,6 +14,7 @@ teamMembers:
   - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
     name: Dave Gulezian
     title: Co-Founder and CEO
+    title2: Title 2
 productAdvisoryBoard__heading: Product Advisory Board
 productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
   made up of a cross-section of experienced life science professionals with

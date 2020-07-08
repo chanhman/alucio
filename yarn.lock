@@ -4857,13 +4857,6 @@ react-dom@^16.9.0:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-elastic-carousel@^0.6.4:
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/react-elastic-carousel/-/react-elastic-carousel-0.6.4.tgz#2856235b7427a4dc93a657d77c32b20a4284fbe4"
-  integrity sha512-tygNLU9f8LBOFTASTD3p6dPxC180vyJ/UcpQmrt+TUdl00X9jECg6J3NywPIqjsmz39NnY1CzM9tz86C+/05qg==
-  dependencies:
-    react-swipeable "^5.5.1"
-
 react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -4887,13 +4880,6 @@ react-refresh@0.8.2:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.2.tgz#24bb0858eac92b0d7b0dd561747f0c9fd6c60327"
   integrity sha512-n8GXxo3DwM2KtFEL69DAVhGc4A1THn2qjmfvSo3nze0NLCoPbywazeJPqdp0RdSGLmyhQzeyA+XPXOobbYlkzg==
-
-react-swipeable@^5.5.1:
-  version "5.5.1"
-  resolved "https://registry.yarnpkg.com/react-swipeable/-/react-swipeable-5.5.1.tgz#48ae6182deaf62f21d4b87469b60281dbd7c4a76"
-  integrity sha512-EQObuU3Qg3JdX3WxOn5reZvOSCpU4fwpUAs+NlXSN3y+qtsO2r8VGkVnOQzmByt3BSYj9EWYdUOUfi7vaMdZZw==
-  dependencies:
-    prop-types "^15.6.2"
 
 react@^16.9.0:
   version "16.13.1"

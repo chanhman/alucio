@@ -1,27 +1,67 @@
 .container {
   position: relative;
 
-  width: 99%;
-  height: 25rem;
+  width: calc(50% - 96px);
+  margin: 24px 48px;
+
+  text-align: center;
 
   background-size: cover;
-}
 
-.inner {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  @media (min-width: 1024px) {
+    width: 20%;
+  }
 
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 1rem;
+  &:nth-child(2n) {
+    .inner::after {
+      bottom: 0.25rem;
+      left: 0.5rem;
 
-  color: #ffffff;
+      height: 100%;
+      width: 100%;
+    }
+  }
 
-  background-color: #00000050;
+  &:nth-child(3n) {
+    .inner::after {
+      bottom: 0;
+      left: -1rem;
+
+      height: 105%;
+      width: 105%;
+    }
+  }
+
+  &:nth-child(4n) {
+    .inner::after {
+      bottom: 0.5rem;
+      left: 50%;
+
+      height: 107%;
+      width: 107%;
+      margin-left: -(107% / 2);
+    }
+  }
+
+  &:nth-child(5n) {
+    .inner::after {
+      bottom: 0;
+      left: 0;
+
+      height: 105%;
+      width: 105%;
+    }
+  }
+
+  &:nth-child(6n) {
+    .inner::after {
+      bottom: 0;
+      left: 0.5rem;
+
+      height: 100%;
+      width: 100%;
+    }
+  }
 
   p {
     margin-top: 0;
@@ -29,9 +69,30 @@
 
     line-height: normal;
   }
+}
 
-  a {
-    color: #fff;
+.inner {
+  position: relative;
+
+  margin-bottom: 1rem;
+  padding-top: 100%;
+
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 0.5rem;
+
+    height: 105%;
+    width: 105%;
+
+    border: 1px solid var(--purple);
+    border-radius: 50%;
   }
 }
 
@@ -45,4 +106,5 @@
 .title {
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: 400;
 }
