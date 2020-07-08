@@ -102,7 +102,8 @@ diversity__heading: Diversity at Alucio
 diversity__description: We value diversity within the company and strive to
   create an open, inclusive environment with people from many backgrounds who
   share our vision. Alucio is also a certified Minority Business Enterprise
-  (MBE) company. This certification was completed by the WRMSDC.
+  (MBE) company. This certification was completed by the
+  [WRMSDC](http://wrmsdc.org/).
 diversity__image: https://burst.shopifycdn.com/photos/friends-look-on-laptop_1_.jpg
 contact__heading: Contact
 contact__colOneSubheading: Customer Inquiries
