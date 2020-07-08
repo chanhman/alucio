@@ -31,11 +31,13 @@ const Product = () => {
       <Highlight
         heading={attributes.integratedVideoConferencing__heading}
         description={attributes.integratedVideoConferencing__description}
+        image={attributes.integratedVideoConferencing__image}
       />
 
       <Highlight
         heading={attributes.platformFlexibility__heading}
         description={attributes.platformFlexibility__description}
+        image={attributes.platformFlexibility__image}
         invert
         flip
       />
