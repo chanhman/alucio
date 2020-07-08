@@ -2,7 +2,8 @@ import styles from './Form.module.scss'
 import { ServerStyleSheet } from 'styled-components'
 
 const Form = () => (
-  <form className={styles.container} name="contact" method="POST" data-netlify="true" action="/success">
+  <form className={styles.container} name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/success">
+    <input type="hidden" name="bot-field"/>
     <div>
       <label className={styles.label} htmlFor="fullName">Full Name</label>
       <input className={styles.input} type="text" name="fullName" id="fullName" required/>
