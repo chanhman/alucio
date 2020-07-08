@@ -79,16 +79,16 @@ pressReleases:
     title: Release title
     link: Link
 pledgeOnePercentage__heading: Pledge 1%
-pledgeOnePercentage__description: While pursuing company growth and business
-  success, we also recognize our responsibility to the broader community and
-  world around us. As such, Alucio has committed to be part of Pledge
-  1%.  Pledge 1% is a global movement that’s creating a new normal for companies
-  of all sizes and stages to integrate giving back into their culture and
-  values. Member companies pledge to give 1% of either their time, product,
-  profit, or equity to whatever charity they choose.  Pledge 1% has an amazing
-  network of founders and CEOs from 11,000 companies in 100+ countries -
-  including Twilio, Box, Yelp, DocuSign, Atlassian, Optimizely, Salesforce,
-  TechStars and many more - who are all committed to giving back.
+pledgeOnePercentage__description: >-
+  While pursuing company growth and business success, we also recognize our
+  responsibility to the broader community and world around us. As such, Alucio
+  has committed to be part of Pledge 1%.
+
+
+  Pledge 1% is a global movement that’s creating a new normal for companies of all sizes and stages to integrate giving back into their culture and values. Member companies pledge to give 1% of either their time, product, profit, or equity to whatever charity they choose.
+
+
+  Pledge 1% has an amazing network of founders and CEOs from 11,000 companies in 100+ countries - including Twilio, Box, Yelp, DocuSign, Atlassian, Optimizely, Salesforce, TechStars and many more - who are all committed to giving back.
 pledgeOnePercentage__ctaLabel: Learn more about Pledge 1%
 pledgeOnePercentage__ctaLink: /
 diversity__heading: Diversity at Alucio
