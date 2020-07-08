@@ -12,8 +12,23 @@ import Jobs from '../../components/Company/Jobs'
 import Press from'../../components/Company/Press'
 import { attributes } from '../../content/company.md'
 
-const Company = () => {
-  let {teamMembers, advisoryBoardMembers, values} = attributes
+const importTeamMembers = async () => {
+  // https://webpack.js.org/guides/dependency-management/#requirecontext
+  const markdownFiles = require
+    .context('../../content/teamMembers', false, /\.md$/)
+    .keys()
+    .map((relativePath) => relativePath.substring(2))
+
+  return Promise.all(
+    markdownFiles.map(async (path) => {
+      const markdown = await import(`../../content/teamMembers/${path}`)
+      return { ...markdown, slug: path.substring(0, path.length - 3) }
+    })
+  )
+}
+
+const Company = ({teamMembers}) => {
+  let {advisoryBoardMembers, values} = attributes
 
   return (
     <Layout>
@@ -29,11 +44,13 @@ const Company = () => {
         <Profiles>
           {teamMembers.map(teamMember => (
             <Profile
-              picture={teamMember.picture}
-              name={teamMember.name}
-              title={teamMember.title}
+              picture={teamMember.attributes.picture}
+              name={teamMember.attributes.title}
+              title={teamMember.attributes.jobTitle}
+              href="/company/[bio]"
+              as={`/company/${teamMember.slug}`}
             >
-              <p>{teamMember.title2}</p>
+              <p>{teamMember.attributes.jobTitle2}</p>
             </Profile>
           ))}
         </Profiles>
@@ -93,6 +110,16 @@ const Company = () => {
       <Contact data={attributes}/>
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  const teamMembers = await importTeamMembers()
+
+  return {
+    props: {
+      teamMembers,
+    }, // will be passed to the page component as props
+  }
 }
 
 export default Company

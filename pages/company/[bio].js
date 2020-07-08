@@ -5,10 +5,10 @@ import Layout from '../../components/Layout'
 import Hero from '../../components/Hero'
 import Bio from '../../components/Company/Bio'
 
-const TeamMemberBio = ({ teamMember }) => {
-  if (!teamMember) return <div>not found</div>
+const TeamMemberBios = ({ teamMembers }) => {
+  if (!teamMembers) return <div>not found</div>
 
-  const { title, jobTitle, jobTitle2, picture, bio } = teamMember.attributes
+  const { title, jobTitle, jobTitle2, picture, bio } = teamMembers.attributes
 
   return (
     <Layout>
@@ -26,7 +26,7 @@ const TeamMemberBio = ({ teamMember }) => {
 
 export async function getStaticPaths() {
   const paths = fs
-    .readdirSync(path.join(process.cwd(), 'content/teamMember'))
+    .readdirSync(path.join(process.cwd(), 'content/teamMembers'))
     .map((pageName) => {
       const trimmedName = pageName.substring(0, pageName.length - 3)
       return {
@@ -43,15 +43,15 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const { bio } = params
 
-  const teamMember = await import(`../../content/teamMember/${bio}.md`).catch(
+  const teamMembers = await import(`../../content/teamMembers/${bio}.md`).catch(
     () => null
   )
 
   return {
     props: {
-      teamMember: teamMember.default,
+      teamMembers: teamMembers.default,
     },
   }
 }
 
-export default TeamMemberBio
+export default TeamMemberBios
