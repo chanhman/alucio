@@ -89,7 +89,7 @@ pledgeOnePercentage__description: While pursuing company growth and business
   network of founders and CEOs from 11,000 companies in 100+ countries -
   including Twilio, Box, Yelp, DocuSign, Atlassian, Optimizely, Salesforce,
   TechStars and many more - who are all committed to giving back.
-pledgeOnePercentage__ctaLabel: Click below to learn more about Pledge 1%
+pledgeOnePercentage__ctaLabel: Learn more about Pledge 1%
 pledgeOnePercentage__ctaLink: /
 diversity__heading: Diversity at Alucio
 diversity__description: We value diversity within the company and strive to
