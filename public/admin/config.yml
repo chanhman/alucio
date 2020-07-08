@@ -202,12 +202,24 @@ collections:
           - label: Integrated video conferencing cta label
             name: integratedVideoConferencing__ctaLabel
             widget: string
+          - label: 'Image'
+              name: integratedVideoConferencing__image
+              widget: file
+              media_library:
+                config:
+                  multiple: false
           - label: Platform flexibility heading
             name: platformFlexibility__heading
             widget: string
           - label: Platform flexibility description
             name: platformFlexibility__description
             widget: text
+          - label: 'Image'
+              name: platformFlexibility__image
+              widget: file
+              media_library:
+                config:
+                  multiple: false
       - label: Company
         name: company
         file: content/company.md
