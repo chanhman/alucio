@@ -1,7 +1,7 @@
 ---
 title: Company
 hero__heading: Our Vision
-hero__description: Alucio™ is working to transform scientific exchange in life
+hero__description: Alucio is working to transform scientific exchange in life
   sciences. Through the creative use of technology, we aim to help our customers
   introduce new medical therapies that result in better patient outcomes and
   improve lives..
