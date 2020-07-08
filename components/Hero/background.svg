@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="400px" viewBox="0 0 1600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>header-background</title>
+    <defs>
+        <circle id="path-1" cx="726.000031" cy="726.000031" r="726.000031"></circle>
+    </defs>
+    <g id="header-background" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-726.000000, -326.000000)">
+            <g id="Oval">
+                <circle stroke="#92D2ED" stroke-width="1040.60005" fill="#51296D" fill-rule="evenodd" cx="726.000031" cy="726.000031" r="1246.30005"></circle>
+                <circle stroke="#69A9D9" stroke-width="641.300028" cx="726.000031" cy="726.000031" r="1046.65005"></circle>
+            </g>
+            <circle id="Oval" stroke="#FFFFFF" opacity="0.496791295" cx="726.000031" cy="726.000031" r="580.800025"></circle>
+            <circle id="Oval" stroke="#FFFFFF" fill="#51296D" opacity="0.496791295" cx="726.000031" cy="726.000031" r="348.480015"></circle>
+            <circle id="Oval" stroke="#FFFFFF" fill="#51296D" opacity="0.496791295" cx="725.395031" cy="725.395031" r="243.815011"></circle>
+        </g>
+    </g>
+</svg>
