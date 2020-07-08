@@ -35,14 +35,12 @@ advisoryBoardMembers:
     company: Jazz Pharma
     linkedIn: LinkedIn
 workingAtAlucio__heading: Working at Alucio
-workingAtAlucio__description: We are building great technology products to serve
-  the life science industry and are looking for more Alucio “A Team” members to
-  help achieve our goals!    Working at Alucio means you will be part of a team
-  who is all-in on product and service level excellence. We are committed to
-  building an environment that values diversity, fosters collaboration, and
-  instills empathy across every interaction. We have ambitious goals in front of
-  us and we are always looking for entrepreneurial A Teamers who embody our core
-  values.
+workingAtAlucio__description: >-
+  We are building great technology products to serve the life science industry
+  and are looking for more Alucio “A Team” members to help achieve our goals!
+
+
+  Working at Alucio means you will be part of a team who is all-in on product and service level excellence. We are committed to building an environment that values diversity, fosters collaboration, and instills empathy across every interaction. We have ambitious goals in front of us and we are always looking for entrepreneurial A Teamers who embody our core values.
 whatWeValue__heading: What We Value
 values:
   - heading: We value diversity
