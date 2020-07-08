@@ -603,7 +603,7 @@ collections:
         widget: string
         required: false
       - label: Bio
-        name: Bio
+        name: bio
         widget: markdown
         required: false
   - label: General pages
