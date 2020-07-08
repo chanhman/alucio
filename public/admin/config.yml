@@ -226,7 +226,6 @@ collections:
                 name: featureIcon
                 required: false
                 widget: file
-                required: false
                 media_library:
                   config:
                     multiple: false
