@@ -57,6 +57,8 @@ values:
   - heading: We value trust
     description: We conduct ourselves with honesty, integrity and empathy in all of
       our interactions
+  - heading: We value excellence
+    description: We work toward a balance of creativity, energy, and humility
 joinUs__heading: Join Us
 joinUs__description: If you are excited to be part of building something great,
   we would love to hear from you!
