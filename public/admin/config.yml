@@ -209,12 +209,12 @@ collections:
             name: integratedVideoConferencing__ctaLabel
             widget: string
           - label: 'Image'
-              name: integratedVideoConferencing__image
-              required: false
-              widget: file
-              media_library:
-                config:
-                  multiple: false
+            name: integratedVideoConferencing__image
+            required: false
+            widget: file
+            media_library:
+              config:
+                multiple: false
           - label: Platform flexibility heading
             name: platformFlexibility__heading
             widget: string
@@ -222,12 +222,12 @@ collections:
             name: platformFlexibility__description
             widget: text
           - label: 'Image'
-              name: platformFlexibility__image
-              required: false
-              widget: file
-              media_library:
-                config:
-                  multiple: false
+            name: platformFlexibility__image
+            required: false
+            widget: file
+            media_library:
+              config:
+                multiple: false
       - label: Company
         name: company
         file: content/company.md
