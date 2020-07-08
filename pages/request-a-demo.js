@@ -2,11 +2,11 @@ import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import Form from '../components/Contact/Form'
 
-const Contact = () => (
+const RequestDemo = () => (
   <Layout>
-    <Hero heading="Contact Us"/>
-    <Form contact/>
+    <Hero heading="Request a demo"/>
+    <Form/>
   </Layout>
 )
 
-export default Contact
+export default RequestDemo
