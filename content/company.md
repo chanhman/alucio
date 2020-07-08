@@ -67,6 +67,8 @@ jobOpenings:
     link: "[link to job posting]"
   - title: "[job title]"
     link: "[link to job posting]"
+  - title: "[job title]"
+    link: "[link to job posting]"
 press__heading: Press
 press__description: Please see below for the latest press and news on Alucio.
   Please contact press@alucio.io for any press or public relations inquiries.
