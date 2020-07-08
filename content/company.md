@@ -24,10 +24,10 @@ productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
   and marketing strategy. We are very fortunate to have this talented group of
   industry professionals supporting our efforts.
 advisoryBoardMembers:
-  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
-    name: Full Name
-    title: Title
-    company: Company
+  - picture: /static/ginny.jpeg
+    name: Ginny Spadoni, Pharm.D.
+    title: Sr. Dir. Scientific Communications, Publications and Medical Affairs
+    company: Agios
     linkedIn: LinkedIn
 workingAtAlucio__heading: Working at Alucio
 workingAtAlucio__description: We are building great technology products to serve
