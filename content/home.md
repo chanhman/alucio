@@ -22,11 +22,17 @@ beaconDescription: Beacon supports MSLs in their efforts to become valued
   patient outcomes.
 beaconCtaLabel: Learn more
 beaconCtaUrl: /beacon
+beaconInfoGraphicIcon1: null
 beaconInfoGraphicLbl1: HCPs
+beaconInfoGraphicIcon2: null
 beaconInfoGraphicLbl2: Internal company stakeholders
+beaconInfoGraphicIcon3: null
 beaconInfoGraphicLbl3: KOLs
+beaconInfoGraphicIcon4: null
 beaconInfoGraphicLbl4: Payers
+beaconInfoGraphicIcon5: null
 beaconInfoGraphicLbl5: Product investigators
+beaconInfoGraphicIcon6: null
 beaconInfoGraphicLbl6: Clinical trial managers
 ctaHeading: Beacon supercharges scientific exchange
 ctaLbl: Request a demo
