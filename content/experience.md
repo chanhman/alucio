@@ -24,6 +24,7 @@ productAdvisoryBoard__description: >-
 
   The PAB provides Alucio leadership with an industry viewpoint and end-user perspective on the company’s product (Beacon), its feature set and future roadmap. This guidance also includes actively communicating user needs, describing workflows and highlighting current market gaps that exist.
 
+
   We are very fortunate to have this talented team of engaged industry professionals supporting our efforts.
 userFeedback__heading: User Feedback
 userFeedback__description: >-
