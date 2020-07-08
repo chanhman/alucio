@@ -204,6 +204,7 @@ collections:
             widget: string
           - label: 'Image'
               name: integratedVideoConferencing__image
+              required: false
               widget: file
               media_library:
                 config:
@@ -216,6 +217,7 @@ collections:
             widget: text
           - label: 'Image'
               name: platformFlexibility__image
+              required: false
               widget: file
               media_library:
                 config:
