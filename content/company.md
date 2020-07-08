@@ -42,6 +42,7 @@ advisoryBoardMembers:
     company: Major Pharma, Biotech
   - name: Selina Tam, Pharm.D.
     title: Sr. Medical Science Director
+    company: Genentech
 workingAtAlucio__heading: Working at Alucio
 workingAtAlucio__description: >-
   We are building great technology products to serve the life science industry
