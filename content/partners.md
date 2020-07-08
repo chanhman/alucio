@@ -1,8 +1,14 @@
 ---
 title: Partners
 hero__heading: Strategic Technology Partners
-hero__description:
-intro: Alucio is proud to work with a number of key partners in developing our technology products. Our Beacon platform is designed in a flexible way to effectively integrate with many of the essential systems and technologies in use within the life science industry.
+hero__description: Alucio is proud to work with a number of key partners in
+  developing our technology products. Our Beacon platform is designed in a
+  flexible way to effectively integrate with many of the essential systems and
+  technologies in use within the life science industry.
+intro: Alucio is proud to work with a number of key partners in developing our
+  technology products. Our Beacon platform is designed in a flexible way to
+  effectively integrate with many of the essential systems and technologies in
+  use within the life science industry.
 logos:
   - title: Salesforce
     src: /static/logo-salesforce.svg
@@ -22,7 +28,8 @@ logos:
     src: /static/logo-zendesk.svg
 partnering__heading: Partnering with Alucio
 partnering__description: >-
-  We are very interested in collaborating with other leading companies and agencies serving the life science industry.
+  We are very interested in collaborating with other leading companies and
+  agencies serving the life science industry.
 
   If you are a medical education firm, healthcare communications agency, digital agency or technology provider that’s interested in working with us, and learning more about our Beacon platform and how it might help your clients, we would love to hear from you!
 
