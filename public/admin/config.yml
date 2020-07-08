@@ -8,10 +8,10 @@ slug:
   clean_accents: true
   sanitize_replacement: _
 collections:
-  - name: pages
+  - label: Pages
+    name: pages
     editor:
       preview: false
-    label: Pages
     files:
       - label: Home
         name: home
@@ -287,27 +287,6 @@ collections:
             name: team__description
             widget: string
             required: false
-          - label: Team members
-            name: teamMembers
-            widget: list
-            required: false
-            fields:
-              - label: Picture
-                name: picture
-                widget: image
-                required: false
-              - label: Name
-                name: name
-                widget: string
-                required: false
-              - label: Title
-                name: title
-                widget: string
-                required: false
-              - label: Title 2
-                name: title2
-                widget: string
-                required: false
           - label: Product advisory board heading
             name: productAdvisoryBoard__heading
             widget: string
@@ -599,26 +578,34 @@ collections:
                 name: date
                 widget: string
                 required: false
-  - label: Blog
-    name: blog
+  - label: Team
+    name: team
     editor:
       preview: false
-    folder: content/blogPosts
+    folder: content/teamMembers
     create: true
-    slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
+    slug: '{{slug}}'
     fields:
-      - label: Title
+      - label: Name
         name: title
         widget: string
-      - label: Publish Date
-        name: date
-        widget: datetime
-      - label: Featured Image
-        name: thumbnail
+        required: false
+      - label: Picture
+        name: picture
         widget: image
-      - label: Body
-        name: body
+        required: false
+      - label: Title
+        name: jobTitle
+        widget: string
+        required: false
+      - label: Title 2
+        name: jobTitle2
+        widget: string
+        required: false
+      - label: Bio
+        name: Bio
         widget: markdown
+        required: false
   - label: General pages
     name: generalPages
     editor:
