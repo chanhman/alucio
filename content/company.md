@@ -37,6 +37,7 @@ advisoryBoardMembers:
   - name: Jane Varian, RN MSN FNP
     title: Sr. Field Medical Director
     company: BeiGene
+  - name: Christine Wilson, PhD
 workingAtAlucio__heading: Working at Alucio
 workingAtAlucio__description: >-
   We are building great technology products to serve the life science industry
