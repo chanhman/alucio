@@ -34,6 +34,7 @@ advisoryBoardMembers:
     title: Sr. Dir. Market Access
     company: Jazz Pharma
     linkedIn: LinkedIn
+  - name: Jane Varian, RN MSN FNP
 workingAtAlucio__heading: Working at Alucio
 workingAtAlucio__description: >-
   We are building great technology products to serve the life science industry
