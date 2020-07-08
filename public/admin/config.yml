@@ -300,10 +300,6 @@ collections:
             widget: list
             required: false
             fields:
-              - label: Picture
-                name: picture
-                widget: image
-                required: false
               - label: Name
                 name: name
                 widget: string
@@ -319,6 +315,10 @@ collections:
               - label: LinkedIn
                 name: linkedIn
                 widget: string
+                required: false
+              - label: Picture
+                name: picture
+                widget: image
                 required: false
           - label: Working at alucio heading
             name: workingAtAlucio__heading
