@@ -24,10 +24,7 @@ columnTwo__links:
 socialMediaLinks:
   - label: LinkedIn
     icon: ""
-    url: "#"
-  - label: Instagram
-    icon: ""
-    url: "#"
+    url: https://www.linkedin.com/company/alucio-io
   - label: Twitter
     icon: ""
     url: "#"
