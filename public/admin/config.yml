@@ -90,9 +90,9 @@ collections:
             name: 'beaconInfoGraphicLbl2',
             widget: 'string',
           }
-          - label: 'Beacon info graphic icon 3',
-            name: 'beaconInfoGraphicIcon3',
-            widget: 'file',
+          - label: 'Beacon info graphic icon 3'
+            name: 'beaconInfoGraphicIcon3'
+            widget: 'file'
             media_library:
               config:
                 multiple: false
@@ -101,9 +101,9 @@ collections:
             name: 'beaconInfoGraphicLbl3',
             widget: 'string',
           }
-          - label: 'Beacon info graphic icon 4',
-            name: 'beaconInfoGraphicIcon4',
-            widget: 'file',
+          - label: 'Beacon info graphic icon 4'
+            name: 'beaconInfoGraphicIcon4'
+            widget: 'file'
             media_library:
               config:
                 multiple: false
@@ -112,9 +112,9 @@ collections:
             name: 'beaconInfoGraphicLbl4',
             widget: 'string',
           }
-          - label: 'Beacon info graphic icon 5',
-            name: 'beaconInfoGraphicIcon5',
-            widget: 'file',
+          - label: 'Beacon info graphic icon 5'
+            name: 'beaconInfoGraphicIcon5'
+            widget: 'file'
             media_library:
               config:
                 multiple: false
@@ -123,9 +123,9 @@ collections:
             name: 'beaconInfoGraphicLbl5',
             widget: 'string',
           }
-          - label: 'Beacon info graphic icon 6',
-            name: 'beaconInfoGraphicIcon6',
-            widget: 'file',
+          - label: 'Beacon info graphic icon 6'
+            name: 'beaconInfoGraphicIcon6'
+            widget: 'file'
             media_library:
               config:
                 multiple: false
