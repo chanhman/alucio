@@ -33,5 +33,5 @@ partnering__description: >-
 
   If you are a medical education firm, healthcare communications agency, digital agency or technology provider that’s interested in working with us, and learning more about our Beacon platform and how it might help your clients, we would love to hear from you!
 
-  Please contact us at partners@alucio.io for any partnership-related inquiries.
+  Please contact us at [partners@alucio.io](partners@alucio.io) for any partnership-related inquiries.
 ---
