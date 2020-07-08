@@ -28,7 +28,7 @@ advisoryBoardMembers:
     name: Nika Sajed, Pharm.D.
     title: Principal Medical Scientist, HIV Medical Affairs
     company: Gilead
-    linkedIn: LinkedIn
+    linkedIn: LinkedIn Link
   - picture: /static/shan_photo.jpg
     name: Shan Yen
     title: Sr. Dir. Market Access
