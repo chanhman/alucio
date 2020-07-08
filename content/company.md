@@ -10,11 +10,6 @@ team__description: Alucio is led by a dedicated and experienced management team
   that has successfully built and scaled other leading technology companies with
   the life science space.  Cumulatively, the Alucio executive team possesses
   over 75 years of relevant life science industry experience.
-teamMembers:
-  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
-    name: Dave Gulezian
-    title: Co-Founder and CEO
-    title2: Title 2
 productAdvisoryBoard__heading: Product Advisory Board
 productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
   made up of a cross-section of experienced life science professionals with
@@ -28,7 +23,7 @@ advisoryBoardMembers:
     name: Ginny Spadoni, Pharm.D.
     title: Sr. Dir. Scientific Communications, Publications and Medical Affairs
     company: Agios
-    linkedIn: LinkedIn
+    linkedIn: LinkedIn Link
   - picture: /static/nika.jpeg
     name: Nika Sajed, Pharm.D.
     title: Principal Medical Scientist, HIV Medical Affairs
@@ -99,4 +94,9 @@ contact__colTwoContent: |-
   925-788-3533 
 
   [lgulezian@alucio.io](lgulezian@alucio.io)
+teamMembers:
+  - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
+    name: Dave Gulezian
+    title: Co-Founder and CEO
+    title2: Title 2
 ---
