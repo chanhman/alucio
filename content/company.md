@@ -11,13 +11,13 @@ team__description: Alucio is led by a dedicated and experienced management team
   the life science space.  Cumulatively, the Alucio executive team possesses
   over 75 years of relevant life science industry experience.
 productAdvisoryBoard__heading: Product Advisory Board
-productAdvisoryBoard__description: The Alucio Product Advisory Board (PAB) is
-  made up of a cross-section of experienced life science professionals with
-  relevant backgrounds in medical affairs and field medical positions within
-  leading life science companies.  The PAB team provides subject matter
-  expertise and actively consults with Alucio leadership on product direction
-  and marketing strategy. We are very fortunate to have this talented group of
-  industry professionals supporting our efforts.
+productAdvisoryBoard__description: >-
+  The Alucio Product Advisory Board (PAB) is made up of a cross-section of
+  experienced life science professionals with relevant backgrounds in medical
+  affairs and field medical positions within leading life science companies.
+
+
+  The PAB team provides subject matter expertise and actively consults with Alucio leadership on product direction and marketing strategy. We are very fortunate to have this talented group of industry professionals supporting our efforts.
 advisoryBoardMembers:
   - picture: /static/ginny.jpeg
     name: Ginny Spadoni, Pharm.D.
