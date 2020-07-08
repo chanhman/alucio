@@ -9,7 +9,7 @@ featuresHeading: "Be more than a field medical representative:  be a trusted
   advisor. With Beacon you can..."
 featureOne: Address the unique needs of Medical Science Liaisons (MSLs) and the
   medical affairs function
-featureOneIcon: /static/accurate_version_control.svg
+featureOneIcon: /static/msls-4.svg
 featureTwo: Streamline content discovery, delivery and presentation management
 featureTwoIcon: /static/rapid_document_delivery.svg
 featureThree: Excel at both virtual and in-person engagements
