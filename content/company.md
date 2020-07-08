@@ -54,6 +54,9 @@ values:
   - heading: We value customer dependence
     description: We are committed to being a partner that our customers not only
       want but refuse to work without
+  - heading: We value trust
+    description: We conduct ourselves with honesty, integrity and empathy in all of
+      our interactions
 joinUs__heading: Join Us
 joinUs__description: If you are excited to be part of building something great,
   we would love to hear from you!
