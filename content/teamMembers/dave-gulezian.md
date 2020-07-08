@@ -1,6 +1,6 @@
 ---
 title: Dave Gulezian
-picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
+picture: /static/ginny.jpeg
 jobTitle: Co-Founder and CEO
 jobTitle2: Viscira Founder & Former CEO
 bio: >-
