@@ -1,10 +1,9 @@
 import styles from './Form.module.scss'
-import { ServerStyleSheet } from 'styled-components'
 
-const Form = () => (
+const Form = ({contact}) => (
   <form
     className={styles.container}
-    name="contact"
+    name={contact ? 'contact' : 'request-demo'}
     method="POST"
     netlify-honeypot="bot-field"
     data-netlify="true"

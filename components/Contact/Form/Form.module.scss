@@ -1,36 +1,36 @@
 .container {
-  margin: 5.469vw auto;
-  max-width: 48rem;
-  padding: 8vw;
+  margin: 2rem auto;
+  max-width: 40rem;
+  padding: 2rem;
 
   border: 0.25rem solid var(--purple);
 
-  @media (max-width: 48rem) {
+  @media (max-width: 40rem) {
     margin: 5.469vw;
   }
 }
 
 .label {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 
   font-weight: 700;
 }
 
 .input,
 .textarea {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   width: 100%;
 }
 
 .input {
-  height: var(--input-height);
+  height: 2.5rem;
   padding-right: 1rem;
   padding-left: 1rem;
 }
 
 .textarea {
-  height: 15rem;
+  height: 10rem;
   padding: 1rem;
 }
 
