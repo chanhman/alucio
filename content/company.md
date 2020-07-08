@@ -29,6 +29,16 @@ advisoryBoardMembers:
     title: Sr. Dir. Scientific Communications, Publications and Medical Affairs
     company: Agios
     linkedIn: LinkedIn
+  - picture: /static/nika.jpeg
+    name: Nika Sajed, Pharm.D.
+    title: Principal Medical Scientist, HIV Medical Affairs
+    company: Gilead
+    linkedIn: LinkedIn
+  - picture: /static/shan_photo.jpg
+    name: Shan Yen
+    title: Sr. Dir. Market Access
+    company: Jazz Pharma
+    linkedIn: LinkedIn
 workingAtAlucio__heading: Working at Alucio
 workingAtAlucio__description: We are building great technology products to serve
   the life science industry and are looking for more Alucio “A Team” members to
