@@ -39,6 +39,7 @@ advisoryBoardMembers:
     company: BeiGene
   - name: Christine Wilson, PhD
     title: Director of MSLs
+    company: Major Pharma, Biotech
 workingAtAlucio__heading: Working at Alucio
 workingAtAlucio__description: >-
   We are building great technology products to serve the life science industry
