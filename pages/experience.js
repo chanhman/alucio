@@ -7,7 +7,7 @@ import { attributes } from '../content/experience.md'
 
 const Experience = () => (
   <Layout>
-    <Hero heading='Experience'/>
+    <Hero heading={attributes.hero__heading} description={attributes.hero__description}/>
     <PageIntro description={attributes.intro}/>
     <SectionIntro
       heading={attributes.productAdvisoryBoard__heading}

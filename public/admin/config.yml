@@ -40,6 +40,7 @@ collections:
             widget: string
           - label: 'Feature one icon '
             name: featureOneIcon
+            required: false
             widget: file
             media_library:
               config:
@@ -49,6 +50,7 @@ collections:
             widget: string
           - label: 'Feature two icon '
             name: featureTwoIcon
+            required: false
             widget: file
             media_library:
               config:
@@ -58,6 +60,7 @@ collections:
             widget: string
           - label: 'Feature three icon '
             name: featureThreeIcon
+            required: false
             widget: file
             media_library:
               config:
@@ -158,12 +161,14 @@ collections:
             widget: text
           - label: Hero video
             name: hero__video
+            required: false
             widget: file
             media_library:
               config:
                 multiple: false
           - label: Hero video thumbnail
             name: hero__videoThumb
+            required: false
             widget: file
             media_library:
               config:
@@ -189,6 +194,7 @@ collections:
                 widget: text
               - label: 'Feature icon '
                 name: featureIcon
+                required: false
                 widget: file
                 media_library:
                   config:
@@ -202,12 +208,26 @@ collections:
           - label: Integrated video conferencing cta label
             name: integratedVideoConferencing__ctaLabel
             widget: string
+          - label: 'Image'
+              name: integratedVideoConferencing__image
+              required: false
+              widget: file
+              media_library:
+                config:
+                  multiple: false
           - label: Platform flexibility heading
             name: platformFlexibility__heading
             widget: string
           - label: Platform flexibility description
             name: platformFlexibility__description
             widget: text
+          - label: 'Image'
+              name: platformFlexibility__image
+              required: false
+              widget: file
+              media_library:
+                config:
+                  multiple: false
       - label: Company
         name: company
         file: content/company.md
