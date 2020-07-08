@@ -63,8 +63,8 @@ joinUs__heading: Join Us
 joinUs__description: If you are excited to be part of building something great,
   we would love to hear from you!
 jobOpenings:
-  - title: title
-    link: Link
+  - title: "[job title]"
+    link: "[link to job posting]"
 press__heading: Press
 press__description: Please see below for the latest press and news on Alucio.
   Please contact press@alucio.io for any press or public relations inquiries.
