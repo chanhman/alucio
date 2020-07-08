@@ -34,6 +34,8 @@ advisoryBoardMembers:
     title: Sr. Dir. Market Access
     company: Jazz Pharma
     linkedIn: LinkedIn
+  - name: Chanh Nguyen
+  - name: Chanh
 workingAtAlucio__heading: Working at Alucio
 workingAtAlucio__description: We are building great technology products to serve
   the life science industry and are looking for more Alucio “A Team” members to
