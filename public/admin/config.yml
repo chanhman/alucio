@@ -70,6 +70,7 @@ collections:
           - { label: 'Beacon CTA URL', name: 'beaconCtaUrl', widget: 'string' }
           - label: 'Beacon info graphic icon 1'
             name: 'beaconInfoGraphicIcon1'
+            required: false
             widget: 'file'
             media_library:
               config:
@@ -81,6 +82,7 @@ collections:
           }
           - label: 'Beacon info graphic icon 2'
             name: 'beaconInfoGraphicIcon2'
+            required: false
             widget: 'file'
             media_library:
               config:
@@ -92,6 +94,7 @@ collections:
           }
           - label: 'Beacon info graphic icon 3'
             name: 'beaconInfoGraphicIcon3'
+            required: false
             widget: 'file'
             media_library:
               config:
@@ -103,6 +106,7 @@ collections:
           }
           - label: 'Beacon info graphic icon 4'
             name: 'beaconInfoGraphicIcon4'
+            required: false
             widget: 'file'
             media_library:
               config:
@@ -114,6 +118,7 @@ collections:
           }
           - label: 'Beacon info graphic icon 5'
             name: 'beaconInfoGraphicIcon5'
+            required: false
             widget: 'file'
             media_library:
               config:
@@ -125,6 +130,7 @@ collections:
           }
           - label: 'Beacon info graphic icon 6'
             name: 'beaconInfoGraphicIcon6'
+            required: false
             widget: 'file'
             media_library:
               config:
