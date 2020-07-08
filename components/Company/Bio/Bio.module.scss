@@ -1,0 +1,50 @@
+.container {
+  display: grid;
+  grid-gap: 4rem;
+  margin: 5.469vw auto;
+  max-width: 64rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+
+  @media (min-width: 26.5625rem) {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.colOne {
+  text-align: center;
+}
+
+.image {
+  position: relative;
+
+  margin-bottom: 1rem;
+  padding-top: 100%;
+
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+
+  &::after {
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 0.5rem;
+
+    height: 105%;
+    width: 105%;
+
+    border: 1px solid var(--purple);
+    border-radius: 50%;
+  }
+}
+
+.name {
+  margin-bottom: 0.25rem;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
