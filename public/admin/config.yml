@@ -458,6 +458,18 @@ collections:
             name: hero__description
             widget: text
             required: false
+          - label: Intro
+            name: intro
+            widget: text
+            required: false
+          - label: Product Advisory Board heading
+            name: productAdvisoryBoard__heading
+            widget: string
+            required: false
+          - label: Product Advisory Board description
+            name: productAdvisoryBoard__description
+            widget: text
+            required: false
           - label: User feedback heading
             name: userFeedback__heading
             widget: string
