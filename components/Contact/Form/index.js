@@ -27,7 +27,7 @@ const Form = () => (
       <label className={styles.label} htmlFor="comments">Comments</label>
       <textarea className={styles.textarea} name="comments" id="comments" cols="" rows=""></textarea>
     </div>
-    <button type="submit">Send</button>
+    <button className={styles.submit} type="submit">Send</button>
   </form>
 )
 
