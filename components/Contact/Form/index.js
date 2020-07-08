@@ -1,5 +1,4 @@
 import styles from './Form.module.scss'
-import { ServerStyleSheet } from 'styled-components'
 
 const Form = () => (
   <form
