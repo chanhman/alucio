@@ -111,7 +111,7 @@ contact__colTwoContent: |-
 
   925-788-3533 
 
-  [lgulezian@alucio.io](lgulezian@alucio.io)
+  [lgulezian@alucio.io](mailto:lgulezian@alucio.io)
 teamMembers:
   - picture: https://burst.shopifycdn.com/photos/woman-meeting-whiteboard.jpg
     name: Dave Gulezian
