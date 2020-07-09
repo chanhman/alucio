@@ -1,6 +1,6 @@
 ---
 title: Eric Chen
-picture: ""
+picture: /static/Eric%20Chen.jpg
 jobTitle: VP - Engineering
 jobTitle2: Technology Leadership at ASCO
 bio: >-

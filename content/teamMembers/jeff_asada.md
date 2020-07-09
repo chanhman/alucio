@@ -1,5 +1,6 @@
 ---
 title: Jeff Asada
+picture: /static/Jeff%20Asada.jpg
 jobTitle: Co-Founder & CRO
 jobTitle2: Viscira 1st Employee & Former CRO
 bio: >-
