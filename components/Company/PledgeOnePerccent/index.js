@@ -10,7 +10,7 @@ const PledgeOnePercent = ({heading, description, ctaLbl, ctaLink}) => (
         source={description}
         className={styles.description}
       />
-      <Button label={ctaLbl} url={ctaLink} outline/>
+      <Button label={ctaLbl} url={ctaLink} outline external/>
     </div>
     <div className={styles.bgText}>{heading}</div>
   </section>
