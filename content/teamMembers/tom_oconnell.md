@@ -1,5 +1,6 @@
 ---
 title: Tom O'Connell
+picture: /static/Tom%20OConnell.jpg
 jobTitle: Co-Founder & COO
 jobTitle2: Endpoint Co-Founder & Former COO
 bio: >-

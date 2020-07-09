@@ -1,5 +1,6 @@
 ---
 title: Jessica Wong
+picture: /static/Jessica%20Wong.jpg
 jobTitle: VP - Product Management & Strategy
 jobTitle2: Global Marketing Leadership at Roche
 bio: >-

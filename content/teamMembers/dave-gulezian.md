@@ -1,6 +1,6 @@
 ---
-title: Dave Gulezian!
-picture: ""
+title: Dave Gulezian
+picture: /static/Dave%20Gulezian.jpg
 jobTitle: Co-Founder and CEO
 jobTitle2: Viscira Founder & Former CEO
 bio: >-
