@@ -21,7 +21,7 @@ const hero = ({heading, tagline, media, subheading, description}) => {
       </div>
       <div className={styles.mediaContainer}>
         <button
-          className={styles.playButton}
+          className={classes(styles.playButton, pause && styles.pause)}
           onClick={handlePlay}
         >
           <IconPlay className={classes(styles.iconPlay, pause && styles.pause)}/>
