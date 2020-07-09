@@ -241,7 +241,7 @@ collections:
             name: integratedVideoConferencing__ctaLabel
             widget: string
             required: false
-          - label: 'Image'
+          - label: Image
             name: integratedVideoConferencing__image
             required: false
             widget: file
@@ -256,7 +256,7 @@ collections:
             name: platformFlexibility__description
             widget: text
             required: false
-          - label: 'Image'
+          - label: Image
             name: platformFlexibility__image
             required: false
             widget: file
@@ -605,10 +605,10 @@ collections:
       - label: Picture
         name: picture
         widget: file
-          media_library:
-            config:
-              multiple: false
         required: false
+        media_library:
+          config:
+            multiple: false
       - label: Title
         name: jobTitle
         widget: string
