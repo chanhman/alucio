@@ -34,13 +34,16 @@ advisoryBoardMembers:
     title: Sr. Dir. Market Access
     company: Jazz Pharma
     linkedIn: LinkedIn
-  - name: Jane Varian, RN MSN FNP
+  - picture: /static/Jane.jpeg
+    name: Jane Varian, RN MSN FNP
     title: Sr. Field Medical Director
     company: BeiGene
-  - name: Christine Wilson, PhD
+  - picture: /static/Christine.jpg
+    name: Christine Wilson, PhD
     title: Director of MSLs
     company: Major Pharma, Biotech
-  - name: Selina Tam, Pharm.D.
+  - picture: /static/Selina.jpeg
+    name: Selina Tam, Pharm.D.
     title: Sr. Medical Science Director
     company: Genentech
 workingAtAlucio__heading: Working at Alucio
