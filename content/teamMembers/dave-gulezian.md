@@ -1,6 +1,6 @@
 ---
 title: Dave Gulezian
-picture: ""
+picture: /static/shan_photo.jpg
 jobTitle: Co-Founder and CEO
 jobTitle2: Viscira Founder & Former CEO
 bio: >-
