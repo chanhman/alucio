@@ -604,7 +604,10 @@ collections:
         required: false
       - label: Picture
         name: picture
-        widget: image
+        widget: file
+          media_library:
+            config:
+              multiple: false
         required: false
       - label: Title
         name: jobTitle
