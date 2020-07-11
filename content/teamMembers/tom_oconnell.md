@@ -2,7 +2,7 @@
 title: Tom O'Connell
 picture: /static/Tom%20OConnell.jpg
 jobTitle: Co-Founder & COO
-jobTitle2: Endpoint Co-Founder & Former COO
+jobTitle2: ""
 bio: >-
   Tom O’Connell has a proven track record of successfully building start-up
   businesses to profitability within the life science space. His background
