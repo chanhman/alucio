@@ -6,18 +6,10 @@ hero__description: Alucio is working to transform scientific exchange in life
   introduce new medical therapies that result in better patient outcomes and
   improve lives..
 team__heading: Team
-team__description: Alucio is led by a dedicated and experienced management team
+team__description: "Alucio is led by a dedicated and experienced management team
   that has successfully built and scaled other leading technology companies with
-  the life science space.  Cumulatively, the Alucio executive team possesses
-  over 75 years of relevant life science industry experience.
+  the life science space. "
 productAdvisoryBoard__heading: Product Advisory Board
-productAdvisoryBoard__description: >-
-  The Alucio Product Advisory Board (PAB) is made up of a cross-section of
-  experienced life science professionals with relevant backgrounds in medical
-  affairs and field medical positions within leading life science companies.
-
-
-  The PAB team provides subject matter expertise and actively consults with Alucio leadership on product direction and marketing strategy. We are very fortunate to have this talented group of industry professionals supporting our efforts.
 advisoryBoardMembers:
   - picture: /static/ginny.jpeg
     name: Ginny Spadoni, Pharm.D.
@@ -128,4 +120,11 @@ teamMembers:
     name: Dave Gulezian
     title: Co-Founder and CEO
     title2: Title 2
+productAdvisoryBoard__description: >-
+  The Alucio Product Advisory Board (PAB) is made up of a cross-section of
+  experienced life science professionals with relevant backgrounds in medical
+  affairs and field medical positions within leading life science companies.
+
+
+  The PAB team provides subject matter expertise and actively consults with Alucio leadership on product direction and marketing strategy. We are very fortunate to have this talented group of industry professionals supporting our efforts.
 ---
