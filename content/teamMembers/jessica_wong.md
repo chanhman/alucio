@@ -2,7 +2,7 @@
 title: Jessica Wong
 picture: /static/Jessica%20Wong.jpg
 jobTitle: VP - Product Management & Strategy
-jobTitle2: Global Marketing Leadership at Roche
+jobTitle2: ""
 bio: >-
   Jessica Wong is a seasoned marketer with >16 years of experience in the
   Biopharma industry across both US and global markets. She has held successive
