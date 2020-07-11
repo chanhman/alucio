@@ -2,7 +2,7 @@
 title: Dave Gulezian
 picture: /static/Dave%20Gulezian.jpg
 jobTitle: Co-Founder and CEO
-jobTitle2: Viscira Founder & Former CEO
+jobTitle2: ""
 bio: >-
   Dave is a successful entrepreneur with over 20 years of executive management
   experience in innovative, technology-based companies - including the last 15
