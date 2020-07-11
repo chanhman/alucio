@@ -2,7 +2,7 @@
 title: Eric Chen
 picture: /static/Eric%20Chen.jpg
 jobTitle: VP - Engineering
-jobTitle2: Technology Leadership at ASCO
+jobTitle2: ""
 bio: >-
   Eric Chen brings over 15 years of experience leading development teams and
   building data-intensive SaaS applications in the life sciences and healthcare
