@@ -1,9 +1,8 @@
 ---
 title: Alucio
 heroHeading: Supercharging Scientific Exchange
-heroDescription: Bring confidence to  your presentations with the most effective
-  content management platform built specifically for  field medical
-  professionals in life science
+heroDescription: Empowering field medical professionals in life science with the
+  content management and presentation platform built for them
 heroVideo: /static/video_720.mp4
 featuresHeading: "Be more than a field medical representative:  be a trusted
   advisor. With Beacon you can..."
