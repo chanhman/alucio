@@ -2,7 +2,7 @@
 title: Jeff Asada
 picture: /static/Jeff%20Asada.jpg
 jobTitle: Co-Founder & CRO
-jobTitle2: Viscira 1st Employee & Former CRO
+jobTitle2: ""
 bio: >-
   Jeff Asada brings a 15-year track record of consultative selling and executive
   leadership success within digital health. His digital expertise covers a broad
