@@ -4,14 +4,14 @@ heroHeading: Supercharging Scientific Exchange
 heroDescription: Empowering field medical professionals in life science with the
   content management and presentation platform built for them
 heroVideo: /static/video_720.mp4
-featuresHeading: "Be more than a field medical representative:  be a trusted
-  advisor. With Beacon you can..."
-featureOne: Address the unique needs of Medical Science Liaisons (MSLs) and the
-  medical affairs function
+featuresHeading: Helping field medical representatives serve as trusted advisors
+  to healthcare professionals across the industry
+featureOne: Addressing the unique needs of Medical Science Liaisons (MSLs) and
+  the medical affairs function
 featureOneIcon: /static/msls-4.svg
-featureTwo: Streamline content discovery, delivery and presentation management
+featureTwo: Streamlining content discovery, delivery and presentation management
 featureTwoIcon: /static/rapid_document_delivery.svg
-featureThree: Excel at both virtual and in-person engagements
+featureThree: Powering both virtual and in-person engagements
 featureThreeIcon: /static/virtual_in_person.svg
 beaconHeading: Our initial product, Beacon, enhances the scientific exchange
   between your MSLs and other field-based medical professionals, and key
@@ -33,7 +33,7 @@ beaconInfoGraphicIcon5: /static/beacon-product_investigator.svg
 beaconInfoGraphicLbl5: Product investigators
 beaconInfoGraphicIcon6: /static/beacon-clinical_trial.svg
 beaconInfoGraphicLbl6: Clinical trial managers
-ctaHeading: Beacon supercharges scientific exchange
+ctaHeading: "Beacon: designed for MSLs by MSLs"
 ctaLbl: Request a demo
 ctaUrl: "#"
 ---
