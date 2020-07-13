@@ -19,8 +19,6 @@ columnTwo__links:
     url: /support
   - label: Privacy
     url: /privacy
-  - label: Site Map
-    url: /site-map
 socialMediaLinks:
   - label: LinkedIn
     icon: ""
