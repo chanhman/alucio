@@ -21,18 +21,6 @@ beaconDescription: Beacon supports MSLs in their efforts to become valued
   patient outcomes.
 beaconCtaLabel: Learn more
 beaconCtaUrl: /product
-beaconInfoGraphicIcon1: /static/beacon-hcps.svg
-beaconInfoGraphicLbl1: HCPs
-beaconInfoGraphicIcon2: /static/beacon-internal_stakeholder.svg
-beaconInfoGraphicLbl2: Internal company stakeholders
-beaconInfoGraphicIcon3: /static/beacon-kols.svg
-beaconInfoGraphicLbl3: KOLs
-beaconInfoGraphicIcon4: /static/beacon-payer.svg
-beaconInfoGraphicLbl4: Payers
-beaconInfoGraphicIcon5: /static/beacon-product_investigator.svg
-beaconInfoGraphicLbl5: Product investigators
-beaconInfoGraphicIcon6: /static/beacon-clinical_trial.svg
-beaconInfoGraphicLbl6: Clinical trial managers
 ctaHeading: "Beacon: designed for MSLs by MSLs"
 ctaLbl: Request a demo
 ctaUrl: "#"
