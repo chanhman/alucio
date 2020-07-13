@@ -20,7 +20,7 @@ beaconDescription: Beacon supports MSLs in their efforts to become valued
   partners to all the various healthcare audiences they engage with to improve
   patient outcomes.
 beaconCtaLabel: Learn more
-beaconCtaUrl: /beacon
+beaconCtaUrl: /product
 beaconInfoGraphicIcon1: /static/beacon-hcps.svg
 beaconInfoGraphicLbl1: HCPs
 beaconInfoGraphicIcon2: /static/beacon-internal_stakeholder.svg
