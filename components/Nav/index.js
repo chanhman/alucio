@@ -13,14 +13,14 @@ const Nav = () => {
       <header className={styles.container}>
         <div>
           <Link href="/">
-            <Logo className={styles.logo}/>
+            <a><Logo className={styles.logo} /></a>
           </Link>
         </div>
 
         <nav className={styles.nav}>
           <ul className={styles.links}>
             {links.map(link => (
-              <li>
+              <li key={link.url}>
                 <Link href={link.url}>
                   <a>{link.label}</a>
                 </Link>

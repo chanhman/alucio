@@ -29,7 +29,7 @@ const Nav = () => {
       <div className={styles.container}>
         <ul className={styles.links}>
           {columnOne__links.map(link => (
-            <li>
+            <li key={link.url}>
               <a href={link.url}>{link.label}</a>
             </li>
           ))}
@@ -37,7 +37,7 @@ const Nav = () => {
 
         <ul className={styles.links}>
           {columnTwo__links.map(link => (
-            <li>
+            <li key={link.url}>
               <a href={link.url}>{link.label}</a>
             </li>
           ))}
@@ -45,7 +45,7 @@ const Nav = () => {
 
         <ul className={styles.socialMediaLinks}>
           {socialMediaLinks.map(link => (
-            <li>
+            <li key={link.url + link.label}>
               <a href={link.url} className={styles.socialMediaLink}>
                 {/* Used for a11y */}
                 <div className={styles.hideText}>

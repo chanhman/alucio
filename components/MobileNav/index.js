@@ -33,7 +33,7 @@ const MobileNav = () => {
           <nav className={styles.nav}>
             <ul className={styles.links}>
               {links.map(link => (
-                <li>
+                <li key={link.url}>
                   <Link href={link.url}>
                     <a>{link.label}</a>
                   </Link>
