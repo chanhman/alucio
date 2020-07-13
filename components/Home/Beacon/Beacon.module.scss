@@ -16,12 +16,11 @@
 
   @media (min-width: 48rem) {
     grid-template-columns: repeat(2, 1fr);
-    height: 50rem;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 
     background-image: url(./background.svg);
-    background-position: right center;
+    background-position: right -5rem center;
     background-size: auto;
   }
 }
@@ -33,16 +32,11 @@
   margin-bottom: 2.75rem;
   padding-bottom: 3rem;
 
-  @media (max-width: 80rem) {
-    font-size: 2.188vw;
-  }
-
-  @media (max-width: 48rem) {
-    font-size: 1.25rem;
-  }
+  font-size: 2rem;
+  text-shadow: 0 8px 40px black;
 
   @media (min-width: 80rem) {
-    font-size: 1.75rem;
+    font-size: 3rem;
   }
 }
 
